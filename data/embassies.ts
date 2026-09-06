@@ -1,0 +1,1 @@
+export { embassies } from './site';
