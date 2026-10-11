@@ -2,15 +2,14 @@
 
 import { MessageCircle } from 'lucide-react';
 import type { Locale } from '@/data/site';
-import { trackConversion, trackEvent } from '@/lib/gtag';
+import { trackWhatsAppConversion } from '@/lib/gtag';
 
 export function WhatsAppButton({ locale, whatsappNumber }: { locale: Locale; whatsappNumber?: string }) {
   const text = encodeURIComponent(locale === 'ar' ? 'مرحبا، أريد الاستفسار عن خدمات الترجمة' : 'Hello, I would like to ask about certified translation services');
   const number = (whatsappNumber || process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '201501591531').replace(/[^\d]/g, '');
 
   const handleClick = () => {
-    trackEvent('click_whatsapp', 'Contact', 'Floating WhatsApp Button');
-    trackConversion();
+    trackWhatsAppConversion();
   };
 
   return (

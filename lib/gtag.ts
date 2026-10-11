@@ -1,5 +1,12 @@
 export const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || 'AW-18478710783';
 
+// Official Google Ads Conversion Labels
+export const CONVERSION_LABELS = {
+  PHONE: 'AW-18478710783/b3dDCMfjp5kdEP__qutE',
+  WHATSAPP: 'AW-18478710783/eegLCMHAqZkdEP__qutE',
+  EMAIL: 'AW-18478710783/jFJyCMTAqZkdEP__qutE',
+};
+
 declare global {
   interface Window {
     dataLayer: any[];
@@ -19,13 +26,30 @@ export const trackEvent = (action: string, category: string, label?: string, val
 };
 
 // Track Google Ads conversion event
-export const trackConversion = (conversionLabel?: string, value?: number, currency = 'EGP') => {
+export const trackConversion = (sendTo = GOOGLE_ADS_ID, value = 1.0, currency = 'EGP') => {
   if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-    const sendTo = conversionLabel ? `${GOOGLE_ADS_ID}/${conversionLabel}` : GOOGLE_ADS_ID;
     window.gtag('event', 'conversion', {
       send_to: sendTo,
       value: value,
       currency: currency,
     });
   }
+};
+
+// 1. Phone Call Conversion (Phoe Calls)
+export const trackPhoneConversion = () => {
+  trackConversion(CONVERSION_LABELS.PHONE, 1.0, 'EGP');
+  trackEvent('phone_call', 'Contact', 'Direct Phone Call');
+};
+
+// 2. WhatsApp Click Conversion (Whatsapp Click)
+export const trackWhatsAppConversion = () => {
+  trackConversion(CONVERSION_LABELS.WHATSAPP, 1.0, 'EGP');
+  trackEvent('whatsapp_click', 'Contact', 'WhatsApp Click');
+};
+
+// 3. Email Click Conversion (Email Click)
+export const trackEmailConversion = () => {
+  trackConversion(CONVERSION_LABELS.EMAIL, 1.0, 'EGP');
+  trackEvent('email_click', 'Contact', 'Email Click');
 };
