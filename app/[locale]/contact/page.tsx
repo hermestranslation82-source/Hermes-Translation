@@ -117,6 +117,16 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   loading="lazy" 
                 />
               </div>
+              <div className="mt-3 text-left">
+                <a
+                  href="https://maps.google.com/?q=30.0131,31.2089"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg bg-brand-red/10 hover:bg-brand-red hover:text-white px-3 py-1.5 text-xs font-bold text-brand-red transition"
+                >
+                  <span>{isRtl ? '📍 فتح اتجاهات فرع الجيزة على الخريطة' : '📍 Get Giza Branch Directions'}</span>
+                </a>
+              </div>
             </div>
 
             {/* Heliopolis Branch Card */}

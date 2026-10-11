@@ -5,6 +5,7 @@ export const CONVERSION_LABELS = {
   PHONE: 'AW-18478710783/b3dDCMfjp5kdEP__qutE',
   WHATSAPP: 'AW-18478710783/eegLCMHAqZkdEP__qutE',
   EMAIL: 'AW-18478710783/jFJyCMTAqZkdEP__qutE',
+  DIRECTIONS: 'AW-18478710783/7siDCOT1qJkdEP__qutE',
 };
 
 declare global {
@@ -52,4 +53,10 @@ export const trackWhatsAppConversion = () => {
 export const trackEmailConversion = () => {
   trackConversion(CONVERSION_LABELS.EMAIL, 1.0, 'EGP');
   trackEvent('email_click', 'Contact', 'Email Click');
+};
+
+// 4. Get Directions Conversion (Branch Directions)
+export const trackDirectionsConversion = () => {
+  trackConversion(CONVERSION_LABELS.DIRECTIONS, 1.0, 'EGP');
+  trackEvent('get_directions', 'Location', 'Branch Directions Click');
 };

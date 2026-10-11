@@ -79,6 +79,14 @@ export function Footer({ locale, settings }: { locale: Locale; settings?: any })
               loading="lazy" 
             />
           </div>
+            <a 
+              href="https://maps.google.com/?q=30.0131,31.2089" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="mt-2 inline-flex items-center gap-1.5 text-xs text-brand-gold hover:text-white transition font-bold" 
+            >
+              <span>{locale === 'ar' ? '📍 فتح الاتجاهات على خرائط Google' : '📍 Get Directions on Google Maps'}</span>
+            </a>
         </div>
       </div>
       <div className="border-t border-white/15 py-5 text-center text-xs text-white/70">

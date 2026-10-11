@@ -3,7 +3,12 @@
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { trackPageViewAction } from '@/lib/actions';
-import { trackWhatsAppConversion, trackPhoneConversion, trackEmailConversion } from '@/lib/gtag';
+import { 
+  trackWhatsAppConversion, 
+  trackPhoneConversion, 
+  trackEmailConversion,
+  trackDirectionsConversion
+} from '@/lib/gtag';
 
 export default function AnalyticsTracker() {
   const pathname = usePathname();
@@ -31,6 +36,8 @@ export default function AnalyticsTracker() {
         trackPhoneConversion();
       } else if (href.startsWith('mailto:')) {
         trackEmailConversion();
+      } else if (href.includes('maps.google') || href.includes('goo.gl/maps') || href.includes('google.com/maps')) {
+        trackDirectionsConversion();
       }
     };
 
