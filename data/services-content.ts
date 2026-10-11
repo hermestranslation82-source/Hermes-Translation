@@ -277,1073 +277,1104 @@ export const servicesContent: Record<string, ServiceContent> = {
     },
     relatedServices: ['legal-translation', 'personal-documents', 'commercial-translation', 'academic-documents']
   },
-  'legal-translation': {
+    'legal-translation': {
     slug: 'legal-translation',
     metaTitle: {
-      ar: 'ترجمة قانونية معتمدة في القاهرة والجيزة | هيرميس',
-      en: 'Certified Legal Translation in Cairo & Giza | Hermes'
+      ar: 'ترجمة قانونية معتمدة في مصر | عقود، أحكام، وتوكيلات | هيرمس',
+      en: 'Certified Legal Translation Cairo & Giza | Contracts & Court Rulings | Hermes'
     },
     metaDesc: {
-      ar: 'ترجمة قانونية معتمدة للعقود والأحكام والتوكيلات ومستندات المحاكم بصياغة قانونية دقيقة. مترجمون معتمدون من وزارة العدل. تسليم سريع — اطلب عرض سعر.',
-      en: 'Certified legal translation of contracts, court rulings, POAs, and litigation documents with precise legal drafting. Ministry of Justice certified translators. Get a quote.'
+      ar: 'مكتب ترجمة قانونية معتمد للمحامين والشركات. ترجمة العقود، الأحكام القضائية، التوكيلات، ومستندات التحكيم بدقة تشريعية متناهية. فرعا مصر الجديدة والجيزة.',
+      en: 'Accredited legal translation bureau in Egypt for law firms & corporations. Verbatim accuracy for contracts, court judgments, POAs & arbitration dossiers.'
     },
     h1: {
-      ar: 'ترجمة قانونية معتمدة في مصر',
-      en: 'Certified Legal Translation in Egypt'
+      ar: 'الترجمة القانونية المعتمدة في مصر | صياغة العقود والتوكيلات والأحكام القضائية',
+      en: 'Certified Legal Translation Services in Egypt | Contracts, POAs & Court Rulings'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة تقدم ترجمة قانونية معتمدة للعقود والأحكام القضائية والتوكيلات ومستندات المحاكم، بصياغة قانونية دقيقة ينفذها مترجمون قانونيون معتمدون من وزارة العدل المصرية. ترجماتنا مقبولة أمام المحاكم والجهات الرسمية في مصر والخارج، مع مراجعة مصطلحية متخصصة وسرية كاملة.',
-      en: 'Hermes Certified Translations provides certified legal translation of contracts, court rulings, powers of attorney, and litigation documents, drafted with legal precision by legal translators certified by the Egyptian Ministry of Justice. Our translations are accepted by courts and official authorities in Egypt and abroad, with specialist terminology review and full confidentiality.'
+      ar: 'تمثل الترجمة القانونية الركيزة الأساسية لحماية الحقوق والمصالح التعاقدية والتجارية للأفراد والمؤسسات والشركات متعددة الجنسيات. في مكتب هيرمس للترجمة المعتمدة، ندرك أن الكلمة الواحدة في النص القانوني قد تغير التكييف القضائي للالتزام، أو تحسم نزاعاً تحكيمياً بملايين الجنيهات. لذلك، نوفر فريقاً نخبوياً من المترجمين القانونيين ذوي الخلفية التشريعية المتخصصة، لترجمة ومراجعة العقود، الأحكام القضائية، توكيلات الشهر العقاري، والنزاعات التجارية بأعلى درجات الانضباط المصطلحي والسرية المهنية.',
+      en: 'Legal translation serves as the critical safeguard for contractual rights, litigation standing, and cross-border commercial transactions. At Hermes Certified Translations, we maintain an elite division of specialized legal linguists with proven jurisprudence backgrounds to deliver verifiable, compliant translations of contracts, judicial verdicts, powers of attorney, and corporate disputes with absolute confidentiality.'
     },
     definitionTitle: {
-      ar: 'ما هي الترجمة القانونية؟',
-      en: 'What is Legal Translation?'
+      ar: 'ما هي معايير الترجمة القانونية المعتمدة؟',
+      en: 'Standards of Certified Legal Translation'
     },
     definitionText: {
-      ar: 'الترجمة القانونية هي فرع متخصص من الترجمة يتعامل مع النصوص والمستندات ذات الطابع القانوني. تتطلب فهماً عميقاً للنظامين القانونيين للغة المصدر والهدف، حيث أن الخطأ في ترجمة مصطلح واحد قد يغير الأثر القانوني للمستند أو يبطل الاتفاقية بالكامل.',
-      en: 'Legal translation is a specialized field dealing with texts and documents of a legal nature. It requires a deep understanding of both the source and target legal systems, since a single mistranslated term can alter the legal effect of a document or invalidate an agreement.'
+      ar: 'الترجمة القانونية هي فرع تخصصي بالغ الدقة يُعنى بنقل النصوص التشريعية والتعاقدية والقضائية من نظام قانوني إلى آخر (مثل المقارنة بين القانون المدني Civil Law والقانون العام الأنجلوسكسوني Common Law). تتطلب هذه الخدمة صياغة محكمة خالية من اللبس، حفظ الشروط الإلزامية والجزائية، استيفاء الصياغات التوثيقية المعتمدة من الشهر العقاري والمحاكم، ومهور كل صفحة بختم مكتب ترجمة معتمد وإقرار رسمي بصحة ومطابقة النص للأصل.',
+      en: 'Legal translation is a highly specialized discipline bridging distinct legal jurisdictions (such as Civil Law and Common Law systems). It demands unambiguous contractual precision, faithful preservation of penalty and indemnity clauses, verified notary terminology, and formal authentication by an accredited translation office complete with corporate seals and signed declarations of legal accuracy.'
     },
     needTitle: {
-      ar: 'متى تحتاج الترجمة القانونية؟',
-      en: 'When Do You Need It?'
+      ar: 'متى تحتاج إلى الترجمة القانونية المعتمدة؟',
+      en: 'When Do You Require Certified Legal Translation?'
     },
     needText: {
-      ar: 'تحتاجها عند الدخول في تقاضٍ دولي، أو تنفيذ الأحكام الأجنبية داخل مصر، أو تأسيس الشركات المشتركة، أو إبرام التعاقدات والاتفاقيات التجارية العابرة للحدود، وكذلك عند تقديم مستندات قانونية للسفارات والجهات الرسمية الخارجية.',
-      en: 'You need it when involved in international litigation, executing foreign judgments in Egypt, forming joint venture corporations, executing cross-border commercial agreements, or submitting legal files to foreign embassies and authorities.'
+      ar: 'تعد الترجمة القانونية ضرورة لا غنى عنها في حالات متعددة: (1) الترافع وتقديم المستندات الأجنبية أمام المحاكم المصرية بدرجاتها وهيئات التحكيم (CRCICA)، (2) إبرام اتفاقيات الشراكة والاندماج والاستحواذ مع كيانات دولية، (3) توثيق التوكيلات العامة والخاصة وتوكيلات البنوك والقضايا المتبادلة بين مصر والخارج، (4) إثبات الملكيات وبراءات الاختراع والنزاعات العمالية، و(5) تأسيس الفروع الأجنبية وصياغة اللوائح والاتفاقيات التجارية الإلزامية.',
+      en: 'Certified legal translation is indispensable when: (1) Submitting foreign exhibits before Egyptian courts and international arbitration panels (CRCICA, ICC), (2) Structuring cross-border mergers, acquisitions, and joint venture pacts, (3) Notarizing reciprocal general and special POAs between Egyptian and overseas registries, (4) Prosecuting patent, trademark, and employment disputes, and (5) Incorporating foreign company branches and executing statutory governance policies.'
     },
     documentsSectionTitle: {
-      ar: 'المستندات القانونية التي نغطيها',
-      en: 'Legal Documents We Cover'
+      ar: 'فئات المستندات القانونية التي نترجمها ونعتمدها',
+      en: 'Legal Document Categories We Translate & Certify'
     },
     categories: [
       {
-        title: { ar: 'العقود والاتفاقيات', en: 'Contracts & Agreements' },
+        title: { ar: 'العقود والاتفاقيات التجارية', en: 'Contracts & Commercial Agreements' },
         items: [
-          { ar: 'عقود العمل، عقود الإيجار والبيع والرهن', en: 'Employment, lease, sale, and mortgage contracts' },
-          { ar: 'اتفاقيات الشراكة والتعاون الاستراتيجي', en: 'Partnership and strategic cooperation agreements' },
-          { ar: 'اتفاقيات سرية البيانات وعدم الإفصاح (NDAs)', en: 'Non-disclosure and data confidentiality agreements (NDAs)' },
-          { ar: 'شروط وأحكام الخدمات وسياسات الخصوصية', en: 'Terms of service and privacy policies' }
+          { ar: 'عقود التوريد والخدمات والاتفاقيات الإطارية (SLA / Master Agreements)', en: 'Supply contracts, service agreements, and master frameworks' },
+          { ar: 'اتفاقيات عدم الإفصاح والسرية (NDA) واتفاقيات الشراكة (JV)', en: 'Non-disclosure agreements (NDAs) and joint venture contracts' },
+          { ar: 'عقود البيع والسمسرة والإيجار والوكالات التجارية الحصرية', en: 'Sales, brokerage, lease, and exclusive agency agreements' }
         ]
       },
       {
-        title: { ar: 'مستندات المحاكم والتقاضي', en: 'Court & Litigation Documents' },
+        title: { ar: 'التوكيلات وتوثيقات الشهر العقاري', en: 'Powers of Attorney & Notary Deeds' },
         items: [
-          { ar: 'الأحكام القضائية والقرارات والتحكيم الدولي', en: 'Court rulings, judicial orders, and arbitration awards' },
-          { ar: 'صحف الدعاوى والإنذارات والمذكرات القانونية', en: 'Statements of claim, legal warnings, and briefs' },
-          { ar: 'محاضر جلسات المحاكم وتحقيقات النيابة', en: 'Court hearing minutes and prosecution investigation files' },
-          { ar: 'مستندات الأدلة الثبوتية والشهادات القانونية', en: 'Evidentiary documents and legal affidavits' }
+          { ar: 'التوكيلات الرسمية العامة والخاصة وتوكيلات القضايا الموثقة', en: 'General and special powers of attorney and litigation POAs' },
+          { ar: 'توكيلات البنوك وإدارة الحسابات ورهن العقارات وإثبات التاريخ', en: 'Banking POAs, mortgage contracts, and certified date registries' },
+          { ar: 'إقرارات التنازل والتصالح المعتمدة أمام مكاتب التوثيق', en: 'Official waivers, settlement deeds, and reconciliation instruments' }
         ]
       },
       {
-        title: { ar: 'التوكيلات والوثائق المؤسسية', en: 'Powers of Attorney & Corporate Documents' },
+        title: { ar: 'الأحكام القضائية وأوراق المحاكم', en: 'Judicial Rulings & Court Filings' },
         items: [
-          { ar: 'التوكيلات العامة والتوكيلات الخاصة بالقضايا والبيع', en: 'General and special powers of attorney' },
-          { ar: 'عقود تأسيس الشركات والأنظمة الأساسية لها', en: 'Articles of incorporation and corporate bylaws' },
-          { ar: 'محاضر اجتماعات مجالس الإدارة والجمعيات العمومية', en: 'Board of directors and general assembly minutes' },
-          { ar: 'الإقرارات والتعهدات والشهادات الرسمية', en: 'Official declarations, pledges, and affidavits' }
+          { ar: 'أحكام محاكم الاستئناف والنقض والأحكام الابتدائية بالصيغة التنفيذية', en: 'Enforceable appellate, cassation, and first-instance court judgments' },
+          { ar: 'صحف الدعاوى ومذكرات الدفاع وتقارير الخبراء والطعون', en: 'Statements of claim, defense briefs, expert reports, and appeals' },
+          { ar: 'إعلانات المحضرين وإنذارات على يد محضر وأوامر الأداء القضائية', en: 'Bailiff service notices, formal legal warnings, and payment orders' }
+        ]
+      },
+      {
+        title: { ar: 'التحكيم الدولي والنزاعات التجارية', en: 'Arbitration & Cross-Border Disputes' },
+        items: [
+          { ar: 'مشارطات التحكيم وبنود تسوية النزاعات المتفق عليها', en: 'Arbitration submission agreements and dispute escalation clauses' },
+          { ar: 'مذكرات ومستندات التحكيم لدى مركز القاهرة الإقليمي (CRCICA)', en: 'Arbitration memorials and exhibits before regional and international centers' },
+          { ar: 'قرارات التحكيم النهائية وإجراءات تذييلها بالصيغة التنفيذية', en: 'Final arbitral awards and local judicial enforcement proceedings' }
+        ]
+      },
+      {
+        title: { ar: 'الأحوال الشخصية والتركات والوصايا', en: 'Probate, Wills & Family Law' },
+        items: [
+          { ar: 'إعلامات الوراثة الشرعية وحصر التركات وقسمة الأموال المشاعة', en: 'Islamic probate decrees, estate inventories, and inheritance deeds' },
+          { ar: 'الوصايا الموثقة وأحكام النفقة والحضانة والوصاية على القُصّر', en: 'Notarized wills, alimony rulings, and child guardianship orders' },
+          { ar: 'وثائق ومراسيم الزواج والطلاق المدني وأحكام إثبات النسب', en: 'Civil marriage certificates, divorce decrees, and paternity judgments' }
+        ]
+      },
+      {
+        title: { ar: 'الملكية الفكرية والتنظيمية', en: 'Intellectual Property & Corporate Policies' },
+        items: [
+          { ar: 'شهادات تسجيل العلامات التجارية وبراءات الاختراع والنماذج الصناعية', en: 'Trademark registration certificates, patent filings, and industrial designs' },
+          { ar: 'لوائح حوكمة الشركات ودليل السياسات الداخلية ولوائح العمل', en: 'Corporate governance charters, compliance manuals, and labor bylaws' },
+          { ar: 'تراخيص الاستخدام البرمجي وحقوق الملكية الأدبية والفنية', en: 'Software licensing agreements, copyright transfers, and franchise deeds' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'خلفية قانونية حقيقية — نحرص على التطابق المصطلحي مع القانون المصري والأنظمة القانونية المقارنة، ومراجعة ثنائية لكل مستند قانوني.',
-      en: 'Genuine legal grounding — terminology aligned with Egyptian law and comparative legal systems, with dual review of every legal document.'
+      ar: 'يقوم على ترجمة ملفاتك القانونية مستشارون ومترجمون متخصصون في القانون المقارن وصياغة العقود. نضمن مطابقة المصطلحات اللاتينية والتشريعية المعتمدة، مع صيانة تامة لسرية البيانات بموجب اتفاقيات سرية (NDA) صارمة لكل عميل.',
+      en: 'Our legal division is directed by legal linguists with dedicated comparative jurisprudence backgrounds. We ensure flawless terminology concordance across Civil and Common law traditions, protected by ironclad non-disclosure protocols.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'عقود واتفاقيات قصيرة (حتى 5 صفحات)', en: 'Short Contracts (up to 5 pages)' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '6-8 ساعات', en: '6-8 Hours' }
+        docType: { ar: 'التوكيلات الرسمية وإقرارات الشهر العقاري', en: 'Powers of Attorney & Notarized Declarations' },
+        standard: { ar: '24 ساعة عمل', en: '24 Business Hours' },
+        rush: { ar: '3 - 5 ساعات', en: '3 - 5 Hours' }
       },
       {
-        docType: { ar: 'أحكام قضائية ومذكرات تقاضي معقدة', en: 'Court Rulings & Complex Memoranda' },
-        standard: { ar: '48-72 ساعة', en: '48-72 Hours' },
-        rush: { ar: '24 ساعة', en: '24 Hours' }
+        docType: { ar: 'العقود والاتفاقيات التجارية (حتى 15 صفحة)', en: 'Contracts & Commercial Agreements (Up to 15 pages)' },
+        standard: { ar: '48 ساعة عمل', en: '48 Business Hours' },
+        rush: { ar: 'نفس اليوم (خلال ساعات العمل)', en: 'Same-Day Service' }
       },
       {
-        docType: { ar: 'توكيلات وإقرارات رسمية', en: 'Powers of Attorney & Declarations' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '3-4 ساعات', en: '3-4 Hours' }
+        docType: { ar: 'الأحكام القضائية ومذكرات التحكيم المطولة', en: 'Court Judgments & Extended Arbitration Briefs' },
+        standard: { ar: '3 - 5 أيام عمل', en: '3 - 5 Business Days' },
+        rush: { ar: '48 ساعة عمل', en: '48 Business Hours' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'هل الترجمة القانونية مقبولة أمام المحاكم؟', en: 'Are legal translations accepted by courts?' },
+        q: { ar: 'هل تعتمد المحاكم المصرية والنيابات ترجماتكم القانونية؟', en: 'Are your legal translations accepted by Egyptian courts and prosecutors?' },
         a: {
-          ar: 'نعم، ترجماتنا مختومة بختم اعتماد رسمي وينفذها مترجمون معتمدون من وزارة العدل، وهي مقبولة أمام المحاكم المصرية والجهات الرسمية، وكذلك الجهات الأجنبية عند استيفاء التصديقات المطلوبة.',
-          en: 'Yes, our translations are stamped with an official certification seal and translated by Ministry of Justice-certified translators, making them accepted by Egyptian courts, government authorities, and foreign bodies upon acquiring the necessary attestations.'
+          ar: 'نعم، تصدر ترجماتنا القانونية مطابقة للاشتراطات المعتمدة، وممهورة بالختم الرسمي وإقرار المسؤولية لمكتب الترجمة المعتمد، مما يمنحها الحجية الرسمية أمام المحاكم وخبراء وزارة العدل وهيئات التحكيم.',
+          en: 'Yes. Our legal translations strictly fulfill judicial requirements, carrying accredited bureau seals and declarations of accuracy required by courts, Ministry of Justice panels, and arbitration tribunals.'
         }
       },
       {
-        q: { ar: 'هل تترجمون الأحكام الأجنبية لتنفيذها في مصر؟', en: 'Do you translate foreign judgments for enforcement in Egypt?' },
+        q: { ar: 'كيف تضمنون سرية مستندات العقود وقضايا النزاع الحساسة؟', en: 'How do you guarantee confidentiality for sensitive contracts and disputes?' },
         a: {
-          ar: 'نعم، نترجم الأحكام والقرارات القضائية الأجنبية ترجمة معتمدة تصلح لإجراءات الأمر بالتنفيذ، ونرشدك لخطوات التصديق المطلوبة قبل التقديم.',
-          en: 'Yes, we translate foreign judgments and court orders into certified translation suitable for enforcement proceedings, and we guide you through the required attestation steps before submission.'
+          ar: 'نوقع اتفاقيات سرية معلومات ملزمة (NDA) مع كبار العملاء والشركات ومكاتب المحاماة، وتتم معالجة المستندات عبر بيئة تخزين مشفرة مع حصر الاطلاع على المترجم والمراجع المعنيين فقط.',
+          en: 'We execute binding Non-Disclosure Agreements (NDAs) with corporate clients and law firms, processing all files within encrypted environments accessible strictly by assigned linguists.'
         }
       },
       {
-        q: { ar: 'كيف تضمنون دقة المصطلحات القانونية؟', en: 'How do you guarantee the accuracy of legal terminology?' },
+        q: { ar: 'ما الفرق بين المصطلحات القانونية في القانون المصري والأنظمة الأجنبية؟', en: 'How do you navigate differences between Egyptian law and foreign legal concepts?' },
         a: {
-          ar: 'يتولى الترجمة مترجم قانوني متخصص ثم تُراجع مراجعة ثانية للتحقق المصطلحي، مع الالتزام بالصياغة القانونية المعتمدة في اللغة الهدف.',
-          en: 'Translations are handled by specialized legal translators and then undergo a secondary review for terminology verification, ensuring compliance with the standard legal drafting of the target language.'
-        }
-      },
-      {
-        q: { ar: 'هل تتعاملون مع مكاتب المحاماة والشركات؟', en: 'Do you work with law firms and corporations?' },
-        a: {
-          ar: 'نعم، نخدم مكاتب محاماة وإدارات قانونية بعقود إطارية وأسعار خاصة للتعاملات المستمرة وسرية تعاقدية كاملة.',
-          en: 'Yes, we serve law firms and corporate legal departments under framework agreements with special pricing for ongoing volume and full contractual confidentiality.'
-        }
-      },
-      {
-        q: { ar: 'كم تستغرق ترجمة عقد؟', en: 'How long does it take to translate a contract?' },
-        a: {
-          ar: 'العقود القصيرة خلال 24-48 ساعة، والمستندات الطويلة أو المعقدة 48-72 ساعة، مع خدمة عاجلة عند الحاجة.',
-          en: 'Short contracts take 24-48 hours, while longer or complex documents take 48-72 hours, with same-day express service available if needed.'
-        }
-      },
-      {
-        q: { ar: 'هل تحتاج الترجمة القانونية توثيقاً إضافياً؟', en: 'Does legal translation require additional attestation?' },
-        a: {
-          ar: 'حسب الجهة: بعض الجهات تكتفي بختم الاعتماد الخاص بمكتبنا، وأخرى تطلب تصديق الخارجية أو الشهر العقاري — أخبرنا بالجهة وسنوضح المطلوب.',
-          en: 'It depends on the receiving entity: some accept our office certification stamp, while others require Ministry of Foreign Affairs or Notary Public attestation — tell us who you are submitting to and we will clarify the path.'
+          ar: 'يعتمد فريقنا منهجية القانون المقارن (Comparative Jurisprudence)، حيث يتم اختيار المصطلح الإنجليزي أو الفرنسي المكافئ وظيفياً وقانونياً للنص المصري، مع وضع هوامش توضيحية احترافية عند الضرورة لتفادي أي لبس قضائي.',
+          en: 'Our linguists apply functional comparative legal equivalents between Egyptian civil jurisprudence and Anglo-American common law doctrines, appending scholarly translator footnotes when necessary.'
         }
       }
     ],
-    relatedServices: ['sworn-translation', 'notarization', 'commercial-translation', 'embassy-translation']
+    extendedContent: {
+      legalStandards: {
+        title: {
+          ar: 'المنهجية الفنية للترجمة القانونية المعتمدة',
+          en: 'Methodology of Certified Legal Translation'
+        },
+        body: {
+          ar: 'تخضع كل صفحة قانونية لتدقيق مزدوج صارم يبدأ بتحديد النظام التشريعي الحاكم للعقد أو الحكم، ومراجعة أرقام المواد القانونية والتواريخ وأسماء الأطراف بالهجاء الرسمي، ثم فحص الصياغات الإلزامية (Shall / Must / May) لضمان عدم الإخلال بالالتزامات الأصلية، وتنتهي بالختم والتوقيع الحي المعتمد.',
+          en: 'Every legal document undergoes rigorous dual audit: identifying governing jurisdictions, verifying statutory article references and party names, scrutinizing mandatory versus discretionary modal syntax, and executing official certification.'
+        }
+      },
+      embassiesCompliance: {
+        title: {
+          ar: 'الهيئات والجهات القضائية التي تعتمد ترجماتنا',
+          en: 'Judicial & Arbitral Authorities Recognizing Our Work'
+        },
+        items: [
+          {
+            name: { ar: 'المحاكم المصرية وهيئات قضايا الدولة', en: 'Egyptian Courts & Judicial Bodies' },
+            desc: {
+              ar: 'المحاكم الابتدائية والاستئنافية ومحكمة النقض والمحكمة الاقتصادية ومجلس الدولة.',
+              en: 'First-instance, appellate, economic, cassation courts and the State Council.'
+            }
+          },
+          {
+            name: { ar: 'مراكز التحكيم التجاري الدولي', en: 'International Arbitration Centers' },
+            desc: {
+              ar: 'مركز القاهرة الإقليمي (CRCICA)، ومحكمة لندن للتحكيم (LCIA)، ومحاكم مركز دبي المالي (DIFC).',
+              en: 'CRCICA Cairo, London Court of International Arbitration (LCIA), and DIFC Courts.'
+            }
+          },
+          {
+            name: { ar: 'مكاتب الشهر العقاري والتوثيق', en: 'Notary Public Offices (Shahr El-Aqary)' },
+            desc: {
+              ar: 'مكاتب التوثيق النموذجية وإدارات تصديق التوكيلات والعقود الرسمية في كافة المحافظات.',
+              en: 'Official notary registries and authentication desks across all governorates.'
+            }
+          }
+        ]
+      },
+      prepGuidelines: {
+        title: {
+          ar: 'إرشادات المحامين والشركات قبل إرسال الوثائق القانونية',
+          en: 'Checklist for Legal Counsel & Corporate Legal Departments'
+        },
+        items: [
+          {
+            ar: 'توفير النسخة الأصلية أو صورة واضحة جداً تتضمن كافة الملاحق ومحاضر الاجتماعات والأختام الخلفية.',
+            en: 'Provide complete scans inclusive of all schedules, addenda, and reverse endorsement seals.'
+          },
+          {
+            ar: 'إرفاق مسرد بالمصطلحات الخاصة بالشركة أو ترجمات الأسماء المعتمدة في السجل التجاري إن وجدت.',
+            en: 'Attach corporate glossaries and approved English spellings for shareholders and entities.'
+          },
+          {
+            ar: 'تحديد الجهة المستهدفة بالترجمة لضبط الصياغة بما يتفق مع القوانين الإجرائية المتبعة لديها.',
+            en: 'Identify the target judicial body to calibrate jurisdictional drafting conventions.'
+          }
+        ]
+      }
+    },
+    relatedServices: ['embassy-translation', 'commercial-translation', 'personal-documents', 'sworn-translation']
   },
+
   'personal-documents': {
     slug: 'personal-documents',
     metaTitle: {
-      ar: 'ترجمة معتمدة للوثائق الشخصية | شهادات وفيش جنائي | هيرميس',
-      en: 'Certified Personal Document Translation | Hermes Egypt'
+      ar: 'ترجمة معتمدة للوثائق الشخصية والأحوال المدنية | مصر الجديدة والجيزة | هيرمس',
+      en: 'Certified Personal Documents Translation | Cairo & Giza | Hermes'
     },
     metaDesc: {
-      ar: 'ترجمة معتمدة لشهادات الميلاد والزواج والقيد العائلي والفيش الجنائي وجوازات السفر — مقبولة لدى السفارات والجهات الرسمية. تسليم خلال 24 ساعة.',
-      en: 'Certified translation of birth, marriage, and family record certificates, criminal records, and passports — accepted by embassies and authorities. 24-hour delivery.'
+      ar: 'ترجمة معتمدة لشهادات الميلاد، عقود الزواج، القيد العائلي، الفيش والتشبيه، وشهادات الجيش. مطابقة كاملة لشروط السفارات والخارجية المصرية وتسليم فوري.',
+      en: 'Accredited translation for birth, marriage certificates, family registers, police records & military service documents in Cairo & Giza. Fast delivery.'
     },
     h1: {
-      ar: 'ترجمة معتمدة للوثائق الشخصية والمدنية',
-      en: 'Certified Translation of Personal & Civil Documents'
+      ar: 'الترجمة المعتمدة للوثائق الشخصية والأحوال المدنية في مصر',
+      en: 'Certified Personal Documents & Civil Records Translation Services in Egypt'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة تترجم وثائقك الشخصية — شهادات الميلاد والزواج والطلاق والقيد العائلي والفيش الجنائي وجوازات السفر — ترجمة معتمدة مختومة تقبلها السفارات والجهات الرسمية في مصر والخارج، مع تسليم خلال 24 ساعة في معظم المستندات.',
-      en: 'Hermes Certified Translations translates your personal documents — birth, marriage, and divorce certificates, family records, criminal record certificates, and passports — as stamped certified translations accepted by embassies and official authorities in Egypt and abroad, with 24-hour delivery for most documents.'
+      ar: 'تعتبر الوثائق الشخصية وثائق الثبوتية الأساسية التي يعتمد عليها أي ملف تأشيرة، هجرة، زواج، أو سفر دولي. في هيرمس للترجمة المعتمدة، نولي كل شهادة ميلاد أو وثيقة زواج أو قيد عائلي أقصى درجات العناية والتدقيق، حيث تترجم بمعايير الاعتماد الصارمة المقبولة لدى كافة السفارات الأجنبية، مكاتب تصديقات وزارة الخارجية المصرية، والجهات الحكومية داخل وخارج مصر، مع التسليم السريع من فرعينا بمصر الجديدة والجيزة أو عبر الشحن السريع.',
+      en: 'Personal and vital records form the foundation of every immigration dossier, visa application, overseas civil marriage, or residency request. At Hermes Certified Translations, we handle civil certificates, family records, police clearance papers, and military exemptions with rigorous scrutiny, ensuring verbatim fidelity, passport name correspondence, and official seals accepted across all foreign embassies and Egyptian Ministry of Foreign Affairs attestation bureaus.'
     },
     definitionTitle: {
-      ar: 'ما هي ترجمة الوثائق الشخصية؟',
-      en: 'What is Personal Document Translation?'
+      ar: 'ما هي معايير ترجمة الوثائق الشخصية المعتمدة؟',
+      en: 'Standards of Certified Personal Document Translation'
     },
     definitionText: {
-      ar: 'ترجمة الوثائق الشخصية هي عملية نقل المستندات المدنية والهوية من لغتها الأصلية إلى لغة أخرى ترجمة مطابقة تماماً ومعتمدة رسمياً. تُعنى هذه الخدمة بمطابقة التواريخ، الأرقام التسلسلية، الأسماء الرسمية، وأختام الدولة دون أي تغيير لتكون صالحة للاستخدام القانوني في بلد آخر.',
-      en: 'Personal document translation involves translating civil and identity records from their original language into a target language with exact accuracy and official certification. This service ensures dates, serial numbers, official names, and state seals are translated without alteration to be legally valid abroad.'
+      ar: 'تتطلب ترجمة الوثائق الشخصية المعتمدة مطابقة تامة لهجاء الأسماء الكاملة (الاسم الرباعي أو الخماسي) وفقاً لجواز السفر الدولي، ودقة متناهية في تحويل التواريخ الهجرية والميلادية وأرقام القيد والسجلات المدنية، فضلاً عن ختم الاعتماد الرسمي وإقرار المترجم القانوني بمسؤوليته عن صحة الترجمة ومطابقتها للمستند المصدر.',
+      en: 'Certified personal document translation requires exact transliteration matching the applicant passport, dual validation of Gregorian and Hijri calendar dates, reproduction of civil registry numbers and barcode data, and official authentication stamps accompanied by the translator accuracy declaration.'
     },
     needTitle: {
-      ar: 'متى تحتاج ترجمة الوثائق الشخصية؟',
-      en: 'When Do You Need It?'
+      ar: 'متى تحتاج لترجمة مستنداتك الشخصية؟',
+      en: 'When Do You Require Personal Document Translation?'
     },
     needText: {
-      ar: 'تحتاجها عند استكمال ملفات الهجرة أو تقديم طلبات التأشيرات للسفارات، أو عند إتمام إجراءات الزواج المدني في الخارج، أو لتسجيل المواليد بالخارج، أو لاستخراج رخص القيادة الدولية وتصاريح العمل الدراسية أو المهنية.',
-      en: 'You need it when compiling immigration files, applying for visas at embassies, completing civil marriage procedures abroad, registering births of children born overseas, or issuing international driving licenses and student or work permits.'
+      ar: 'يحتاج الأفراد لترجمة وثائقهم الشخصية عند: (1) التقديم لتأشيرات شنغن والولايات المتحدة والمملكة المتحدة وكندا، (2) إنهاء إجراءات الزواج المدني من أجانب أو توثيق الزواج في الخارج، (3) برامج الهجرة ولمّ الشمل الأسري وإثبات صلة القرابة، (4) استخراج شهادات الميلاد والإقامة للأبناء المولودين بالخارج، و(5) التوظيف الدولي والتعاقدات الخارجية.',
+      en: 'Personal document translation is required when: (1) Applying for Schengen, US, UK, Canadian, or Gulf visas, (2) Registering international civil marriages or foreign consular status, (3) Prosecuting immigration and family sponsorship petitions, (4) Documenting births, citizenships, and dependent residencies abroad, and (5) Securing overseas employment permits.'
     },
     documentsSectionTitle: {
-      ar: 'المستندات الشخصية والمدنية التي نغطيها',
-      en: 'Personal & Civil Documents We Cover'
+      ar: 'قائمة الوثائق الشخصية والأحوال المدنية المشمولة بالخدمة',
+      en: 'Personal & Civil Documents Covered'
     },
     categories: [
       {
-        title: { ar: 'شهادات الأحوال المدنية', en: 'Civil Status Certificates' },
+        title: { ar: 'وثائق الأحوال المدنية والأسرة', en: 'Civil Status & Family Records' },
         items: [
-          { ar: 'شهادات الميلاد وشهادات الوفاة الرسمية', en: 'Official birth certificates and death certificates' },
-          { ar: 'عقود وقسائم الزواج الرسمية والطلاق بجميع أنواعها', en: 'Marriage certificates and divorce decrees' },
-          { ar: 'شهادات القيد العائلي المجمع والقيد الفردي', en: 'Bilingual family records and individual status records' },
-          { ar: 'إثباتات صلة القرابة والنسب والوصاية الشرعية', en: 'Affidavits of kinship, descent, and legal guardianship' }
+          { ar: 'شهادات الميلاد المميكنة (الكمبيوتر) وشهادات الوفاة', en: 'Computerized birth certificates and death records' },
+          { ar: 'وثائق وقسائم الزواج وإشهادات الطلاق والرجعة', en: 'Official marriage deeds and divorce certificates' },
+          { ar: 'القيد العائلي المميكن والقيد الفردي الصادر من مصلحة الأحوال المدنية', en: 'Certified family registration records and individual records' }
         ]
       },
       {
-        title: { ar: 'وثائق الهوية والأمن', en: 'Identity & Security Documents' },
+        title: { ar: 'الهوية الوطنية والجوازات', en: 'Identification & Travel Documents' },
         items: [
-          { ar: 'جوازات السفر وبطاقات الرقم القومي الشخصية', en: 'Passports and national identity cards' },
-          { ar: 'صحيفة الحالة الجنائية (الفيش والتشبيه)', en: 'Police clearance certificates (criminal record checks)' },
-          { ar: 'شهادات التحركات لتوضيح سجل السفر للخارج', en: 'Travel movement records detailing entry and exit logs' },
-          { ar: 'بطاقات التجنيد وشهادات الإعفاء من الخدمة العسكرية', en: 'Military conscription cards and service exemption certificates' }
+          { ar: 'بطاقات الرقم القومي المصرية وترجمة كامل بيانات الوجهين', en: 'National ID cards (full dual-sided translation)' },
+          { ar: 'جوازات السفر وتأشيرات الدخول والخروج والأختام القنصلية', en: 'Passports, entry/exit stamps, and visas' },
+          { ar: 'شهادات التحركات الصادرة من مصلحة الجوازات والهجرة بمجمع التحرير/العباسية', en: 'Travel movement history records issued by passport authorities' }
         ]
       },
       {
-        title: { ar: 'وثائق شخصية أخرى', en: 'Other Personal Documents' },
+        title: { ar: 'المستندات الجنائية والعسكرية', en: 'Criminal Records & Military Service' },
         items: [
-          { ar: 'رخص القيادة المحلية والدولية', en: 'Domestic and international driving licenses' },
-          { ar: 'شهادات التطعيم والشهادات الصحية والطبية الشخصية', en: 'Vaccination cards, health certificates, and medical records' },
-          { ar: 'إيصالات المرافق (كهرباء، مياه، غاز) كإثبات سكن', en: 'Utility bills (electricity, water, gas) for proof of residence' },
-          { ar: 'شهادات الخبرة المهنية والسير الذاتية المعتمدة', en: 'Employment certificates and certified CVs' }
+          { ar: 'صحيفة الحالة الجنائية (الفيش والتشبيه) الموجهة للسفارات', en: 'Police clearance certificates (Criminal Status Records)' },
+          { ar: 'شهادات أداء الخدمة العسكرية أو الإعفاء النهائي أو المؤقت', en: 'Military completion and exemption certificates' },
+          { ar: 'شهادات التجنيد وتصاريح السفر العسكرية', en: 'Conscription records and military travel permits' }
+        ]
+      },
+      {
+        title: { ar: 'رخص القيادة والبيانات المرورية', en: 'Driver Licenses & Traffic Records' },
+        items: [
+          { ar: 'رخص القيادة الخاصة والمهنية الصادرة من إدارات المرور', en: 'Private and commercial driver licenses' },
+          { ar: 'شهادات بيانات رخص القيادة الصادرة للتأكيد القنصلي بالخارج', en: 'Official driver record extracts for foreign endorsement' },
+          { ar: 'رخص تسيير المركبات والسيارات لإثبات الملكية والأصول', en: 'Vehicle registration cards and asset deeds' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'مطابقة الأسماء بالإنجليزية مع جواز السفر حرفياً — أهم سبب لرفض الملفات، ونتحقق منه في كل وثيقة.',
-      en: 'Exact passport-matched name spelling — the top reason files get rejected, verified on every document.'
+      ar: 'نظام فحص حرفي متقدم يضمن تطابق الأسماء مع جوازات السفر بنسبة 100%، وتوفير أختام الاعتماد الرسمية المقبولة لدى مكاتب تصديقات وزارة الخارجية المصرية وكافة السفارات، مع تسليم فوري في نفس اليوم للحالات المستعجلة.',
+      en: 'Rigorous passport-alignment protocols guaranteeing 100% name accuracy, verified stamps recognized by the Egyptian Ministry of Foreign Affairs and foreign embassies, with same-day express turnaround for urgent travel dates.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'شهادات الميلاد والوفاة والزواج والطلاق', en: 'Birth, Death, Marriage & Divorce Certificates' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '2-3 ساعات', en: '2-3 Hours' }
+        docType: { ar: 'شهادات الميلاد والزواج والوفاة والقيد العائلي', en: 'Birth, Marriage, Death & Family Records' },
+        standard: { ar: '24 ساعة عمل', en: '24 Business Hours' },
+        rush: { ar: '2 - 3 ساعات (فوري)', en: '2 - 3 Hours (Express)' }
       },
       {
-        docType: { ar: 'الفيش الجنائي وبطاقات الرقم القومي وجوازات السفر', en: 'Police Clearance, National IDs & Passports' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '2-3 ساعات', en: '2-3 Hours' }
+        docType: { ar: 'الفيش والتشبيه وشهادات الخدمة العسكرية', en: 'Police Records & Military Exemption Papers' },
+        standard: { ar: '24 ساعة عمل', en: '24 Business Hours' },
+        rush: { ar: '3 - 4 ساعات', en: '3 - 4 Hours' }
       },
       {
-        docType: { ar: 'القيد العائلي المجمع وشهادات التحركات الطويلة', en: 'Family Records & Travel Movement Logs' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '6-8 ساعات', en: '6-8 Hours' }
+        docType: { ar: 'شهادات التحركات ورخص القيادة وبطاقات الرقم القومي', en: 'Travel Movement Certificates & Driver Licenses' },
+        standard: { ar: '24 - 48 ساعة عمل', en: '24 - 48 Business Hours' },
+        rush: { ar: 'نفس اليوم', en: 'Same-Day Service' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'كم تستغرق ترجمة شهادة ميلاد أو فيش جنائي؟', en: 'How long does it take to translate a birth certificate or police clearance?' },
+        q: { ar: 'هل تشترط السفارات تاريخ إصدار حديث للوثائق الشخصية المترجمة؟', en: 'Do embassies mandate recent issuance dates for personal records?' },
         a: {
-          ar: 'خلال 24 ساعة في المعتاد، ومتاح التسليم في نفس اليوم عند وجود موعد سفارة قريب أو في الحالات العاجلة خلال ساعات معدودة.',
-          en: 'Usually within 24 hours. Same-day delivery is available for urgent cases and near embassy appointments, completed in just a few hours.'
+          ar: 'نعم، تشترط معظم السفارات ألا يتجاوز تاريخ إصدار القيد العائلي أو صحيفة الحالة الجنائية أو شهادات الميلاد المميكنة 3 إلى 6 أشهر كحد أقصى وقت التقديم، لذا ننصح باستخراج شهادات حديثة قبل الترجمة.',
+          en: 'Yes, most consular authorities require police records and family certificates to be issued within the last 3-6 months. We recommend acquiring recent civil printouts prior to certified translation.'
         }
       },
       {
-        q: { ar: 'كيف تُكتب الأسماء في الترجمة؟', en: 'How are names written in the translation?' },
+        q: { ar: 'هل يجب تصديق الوثيقة الشخصية من الخارجية قبل الترجمة أم بعدها؟', en: 'Must personal documents be stamped by the MFA before or after translation?' },
         a: {
-          ar: 'نطابق كتابة الأسماء حرفياً مع جواز السفر أو أي مستند رسمي سابق بالإنجليزية تزودنا به، لضمان اتساق ملفك بالكامل وتفادي الرفض.',
-          en: 'We match the spelling of names letter-for-letter with your passport or any previous English official documents you provide, ensuring consistency throughout your application.'
-        }
-      },
-      {
-        q: { ar: 'هل تكفي صورة الوثيقة من الموبايل؟', en: 'Is a mobile photo of the document sufficient?' },
-        a: {
-          ar: 'نعم بشرط وضوح كل البيانات والأختام بشكل كامل ودون انعكاس للضوء، وبعض الجهات تطلب الاطلاع على أصل المستند عند التقديم فقط.',
-          en: 'Yes, provided all details and stamps are fully clear and legible. Note that some authorities might request to see the original document during submission.'
-        }
-      },
-      {
-        q: { ar: 'هل الترجمة مقبولة لدى السفارات؟', en: 'Are your translations accepted by embassies?' },
-        a: {
-          ar: 'نعم، مختومة بختم اعتماد رسمي مقبول لدى السفارات والقنصليات، ونجهزها وفق متطلبات كل سفارة محددة.',
-          en: 'Yes, they are stamped with an official certification seal accepted by embassies and consulates, and we format them according to specific embassy rules.'
-        }
-      },
-      {
-        q: { ar: 'هل تترجمون القيد العائلي المجمع؟', en: 'Do you translate joint family records?' },
-        a: {
-          ar: 'نعم، نترجم القيد الفردي والعائلي المجمع بكل تفاصيله وبتنسيق يطابق شكل وتخطيط المستند الأصلي.',
-          en: 'Yes, we translate both individual and collective family records with all detailed entries, maintaining the exact format of the original document.'
-        }
-      },
-      {
-        q: { ar: 'كيف أستلم الترجمة؟', en: 'How do I receive the translation?' },
-        a: {
-          ar: 'نسخة PDF معتمدة فوراً على واتساب أو البريد الإلكتروني، وتتوفر نسخة مطبوعة مختومة يمكنك استلامها من الفرع أو نرسلها لك بالشحن لباب البيت.',
-          en: 'An approved PDF copy will be sent to your WhatsApp or email instantly. Stamped hard copies can be collected from our branch or delivered to your doorstep.'
+          ar: 'يعتمد ذلك على اشتراطات السفارة المستهدفة؛ بعض السفارات تشترط تصديق أصل الوثيقة من الخارجية المصرية أولاً لتترجم أختام الخارجية ضمن الملف، وسفارات أخرى تكتفي بالترجمة المعتمدة المباشرة.',
+          en: 'This depends on target embassy regulations: certain embassies require the original public record to bear MFA authentication stamps first so those stamps are translated into the final dossier.'
         }
       }
     ],
-    relatedServices: ['embassy-translation', 'academic-documents', 'sworn-translation', 'notarization']
+    extendedContent: {
+      legalStandards: {
+        title: {
+          ar: 'ضوابط مطابقة الأسماء والأرقام القومية',
+          en: 'Rules for Identity Transliteration & Civil Codes'
+        },
+        body: {
+          ar: 'يقوم المدقق بمقارنة الاسم الرباعي في الوثيقة حرفاً بحرف مع الصفحة التعريفية في جواز السفر، مع توثيق الأرقام القومية ورمز الباركود وأختام النسر لضمان خلو الملف من أي سبب للرفض الإداري.',
+          en: 'Our senior linguist verifies four-part personal names letter for letter against international travel passports, capturing national IDs, bar codes, and national seals to eliminate administrative rejection risks.'
+        }
+      },
+      embassiesCompliance: {
+        title: {
+          ar: 'سفارات وجهات تقبل ترجمات وثائقنا الشخصية',
+          en: 'Embassies & Consulates Accepting Our Civil Translations'
+        },
+        items: [
+          {
+            name: { ar: 'سفارات دول الاتحاد الأوروبي وشنغن', en: 'EU & Schengen Embassies' },
+            desc: {
+              ar: 'مطابقة تامة لمتطلبات مراكز VFS Global وTLScontact وBLS.',
+              en: 'Full compliance with VFS Global, TLScontact, and BLS submission standards.'
+            }
+          },
+          {
+            name: { ar: 'السفارة الأمريكية ودائرة الهجرة (USCIS)', en: 'US Embassy & USCIS Immigrant Petitions' },
+            desc: {
+              ar: 'إقرار المطابقة باللغة الإنجليزية وتنسيق الصفحات المعتمد رسمياً.',
+              en: 'Official English accuracy declaration and standardized formatting.'
+            }
+          },
+          {
+            name: { ar: 'سفارات دول الخليج والدول العربية', en: 'GCC & Arab Consular Services' },
+            desc: {
+              ar: 'تأشيرات الإقامة العائلية وعقود العمل والملحقيات العمالية.',
+              en: 'Family residency, labor attaché verification, and employment visas.'
+            }
+          }
+        ]
+      },
+      prepGuidelines: {
+        title: {
+          ar: 'نصائح مهمة قبل تصوير وإرسال وثائقك الشخصية',
+          en: 'Checklist Before Uploading Personal Documents'
+        },
+        items: [
+          {
+            ar: 'تأكد من إرسال صورة جواز السفر بوضوح لضمان كتابة الاسم بالإنجليزية بصورة مطابقة.',
+            en: 'Provide a crisp scan of your international passport biodata page.'
+          },
+          {
+            ar: 'تأكد من وضوح ختم النسر أو أختام الأحوال المدنية على الوجه والظهر.',
+            en: 'Ensure all governmental eagle seals on both sides of the certificate are fully legible.'
+          }
+        ]
+      }
+    },
+    relatedServices: ['embassy-translation', 'legal-translation', 'academic-documents', 'sworn-translation']
   },
-  'academic-documents': {
-    slug: 'academic-documents',
-    metaTitle: {
-      ar: 'ترجمة معتمدة للشهادات والوثائق الأكاديمية | هيرميس',
-      en: 'Certified Academic Document & Transcript Translation | Hermes'
-    },
-    metaDesc: {
-      ar: 'ترجمة معتمدة لشهادات التخرج وبيانات الدرجات وخطابات القبول وملفات المنح — مقبولة لدى الجامعات والسفارات وجهات معادلة الشهادات. اطلب عرض سعر.',
-      en: 'Certified translation of graduation certificates, transcripts, admission letters, and scholarship files — accepted by universities, embassies, and credential evaluators like WES. Get a quote.'
-    },
-    h1: {
-      ar: 'ترجمة معتمدة للوثائق الأكاديمية والشهادات الدراسية',
-      en: 'Certified Translation of Academic Documents & Degrees'
-    },
-    opening: {
-      ar: 'هيرميس للترجمة المعتمدة تترجم وثائقك الأكاديمية — شهادات التخرج وبيانات الدرجات وخطابات القبول وملفات المنح — ترجمة معتمدة تقبلها الجامعات الأجنبية والسفارات وجهات معادلة الشهادات مثل WES وأنابين، مع دقة كاملة في المقررات والتقديرات والساعات المعتمدة.',
-      en: 'Hermes Certified Translations translates your academic documents — graduation certificates, transcripts, admission letters, and scholarship files — as certified translations accepted by foreign universities, embassies, and credential evaluators such as WES and Anabin, with full accuracy in course names, grades, and credit hours.'
-    },
-    definitionTitle: {
-      ar: 'ما هي ترجمة الوثائق الأكاديمية؟',
-      en: 'What is Academic Document Translation?'
-    },
-    definitionText: {
-      ar: 'ترجمة الوثائق الأكاديمية هي عملية نقل الشهادات والدرجات والمستندات التعليمية من لغة الدراسة إلى لغة أخرى. تتطلب الترجمة دقة متناهية في مطابقة المسميات الأكاديمية للمقررات، وسياق التقديرات الدراسية، وحساب الساعات المعتمدة لتلائم نظام التعليم في الدولة الهدف.',
-      en: 'Academic document translation is the process of translating certificates, transcripts, and educational records. It requires extreme precision in matching academic subject names, grade descriptions, and credit hours to fit the educational system of the destination country.'
-    },
-    needTitle: {
-      ar: 'متى تحتاج ترجمة الوثائق الأكاديمية؟',
-      en: 'When Do You Need It?'
-    },
-    needText: {
-      ar: 'تحتاجها للتقديم على المنح الدراسية الدولية (مثل تشيفنينج، فولبرايت، DAAD)، أو استكمال القبول في الجامعات الأجنبية، أو إجراءات معادلة الشهادات لدى الهيئات الدولية (مثل WES في أمريكا وكندا، أو Anabin في ألمانيا)، أو كجزء من ملف تأشيرة الدراسة والسفر.',
-      en: 'You need it when applying for international scholarships (such as Chevening, Fulbright, DAAD), securing foreign university admissions, pursuing credential evaluation (like WES in the US/Canada, or Anabin in Germany), or as part of student visa applications.'
-    },
-    documentsSectionTitle: {
-      ar: 'الشهادات والوثائق الأكاديمية التي نترجمها',
-      en: 'Academic Degrees & Documents We Translate'
-    },
-    categories: [
-      {
-        title: { ar: 'الشهادات والوثائق الأساسية', en: 'Degrees & Core Certificates' },
-        items: [
-          { ar: 'شهادات التخرج الجامعية والمؤهلات العليا (بكالوريوس، ليسانس)', en: 'University graduation certificates and undergraduate degrees' },
-          { ar: 'شهادات الماجستير والدكتوراه والدراسات العليا', en: 'Master’s degrees, PhD diplomas, and postgraduate certificates' },
-          { ar: 'شهادات الثانوية العامة والدبلومات الفنية والمعاهد', en: 'High school certificates, vocational diplomas, and institutes' },
-          { ar: 'شهادات إتمام الدورات التدريبية والكورسات المهنية', en: 'Training course certificates and professional certifications' }
-        ]
-      },
-      {
-        title: { ar: 'بيانات التقدير والدرجات', en: 'Transcripts & Grade Records' },
-        items: [
-          { ar: 'بيانات وبيانات الدرجات التفصيلية (Transcripts)', en: 'Detailed transcripts and academic grade reports' },
-          { ar: 'توصيف المقررات الدراسية والمناهج للسنوات الكاملة', en: 'Course descriptions and complete syllabus profiles' },
-          { ar: 'شهادات الساعات المعتمدة ونسب الحضور', en: 'Credit hour summaries and attendance records' },
-          { ar: 'شهادات التقدير الشرفي والتخرج بتميز', en: 'Certificates of honor and academic excellence' }
-        ]
-      },
-      {
-        title: { ar: 'خطابات القبول والمنح والدافع', en: 'Scholarship & Admission Files' },
-        items: [
-          { ar: 'خطابات القبول المبدئي والنهائي من الجامعات', en: 'Conditional and unconditional university acceptance letters' },
-          { ar: 'خطابات التوصية الأكاديمية من الأساتذة (Recommendation Letters)', en: 'Academic recommendation letters from professors' },
-          { ar: 'خطابات الدافع والخطابات الشخصية للتقديم (Motivation Letters)', en: 'Motivation letters and personal statements' },
-          { ar: 'وثائق ومراسلات المنح الدراسية وملفات المعادلة', en: 'Scholarship applications, correspondences, and evaluation folders' }
-        ]
-      }
-    ],
-    specialistWhyPoint: {
-      ar: 'خبرة بمتطلبات جهات المعادلة الدولية وأنظمة التقديرات المختلفة (GPA، النسبة المئوية، التقديرات اللفظية) وتحويلها بشكل صحيح.',
-      en: 'Expertise in international evaluators’ requirements and grading systems (GPA, percentage, verbal grades) handled correctly.'
-    },
-    turnaroundTable: [
-      {
-        docType: { ar: 'شهادات التخرج والمؤهلات الأكاديمية (صفحة واحدة)', en: 'Degrees & Graduation Certificates (1 page)' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '3-4 ساعات', en: '3-4 Hours' }
-      },
-      {
-        docType: { ar: 'بيانات درجات وكشوف تقديرات (حتى 3 صفحات)', en: 'Academic Transcripts (up to 3 pages)' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '6-8 ساعات', en: '6-8 Hours' }
-      },
-      {
-        docType: { ar: 'توصيف المقررات والمناهج الدراسية الطويلة', en: 'Detailed Course Descriptions & Syllabus Books' },
-        standard: { ar: '3-5 أيام', en: '3-5 Days' },
-        rush: { ar: '48 ساعة', en: '48 Hours' }
-      }
-    ],
-    faqs: [
-      {
-        q: { ar: 'هل الترجمة مقبولة لدى الجامعات الأجنبية وجهات المعادلة؟', en: 'Are your translations accepted by foreign universities and evaluators?' },
-        a: {
-          ar: 'نعم، ترجماتنا المختومة مقبولة لدى الجامعات والسفارات وجهات المعادلة مثل WES وأنابين، ونجهزها وفق متطلبات الجهة المحددة.',
-          en: 'Yes, our stamped translations are accepted by universities, embassies, and evaluation agencies like WES and Anabin, prepared strictly according to their guidelines.'
-        }
-      },
-      {
-        q: { ar: 'كيف تترجمون التقديرات والدرجات؟', en: 'How do you translate grades and GPA?' },
-        a: {
-          ar: 'ننقل التقديرات والدرجات حرفياً كما هي في الأصل دون تغيير أو معادلة ذاتية (سواء نسبة مئوية أو GPA أو تقدير لفظي)، لأن جهة المعادلة هي الوحيدة المسؤولة عن احتساب المعادلة.',
-          en: 'We translate grades and GPAs exactly as they appear in the original document without performing manual conversions, as the credential evaluation agency handles conversions.'
-        }
-      },
-      {
-        q: { ar: 'هل تترجمون توصيف المقررات الطويل؟', en: 'Do you translate long course descriptions?' },
-        a: {
-          ar: 'نعم، نترجم توصيف المقررات والمناهج الكامل مهما كان حجمه، وهو مطلوب بكثرة في معادلات تخصصات الهندسة، الطب، والصيدلة بالخارج.',
-          en: 'Yes, we translate full course descriptions and syllabi of any volume, which is frequently required for engineering, medicine, and pharmacy credentials evaluation.'
-        }
-      },
-      {
-        q: { ar: 'كم تستغرق ترجمة بيان درجات؟', en: 'How long does a transcript translation take?' },
-        a: {
-          ar: 'بيان الدرجات المعتاد يستغرق 24-48 ساعة، بينما كشوف الدرجات الطويلة أو توصيف المقررات الضخمة تستغرق 3-5 أيام عمل حسب عدد الكلمات.',
-          en: 'A standard transcript takes 24-48 hours. Comprehensive multi-page transcripts or large syllabus books take 3-5 working days depending on word count.'
-        }
-      },
-      {
-        q: { ar: 'هل أحتاج ختم الجامعة قبل الترجمة؟', en: 'Do I need to stamp my documents from the university before translation?' },
-        a: {
-          ar: 'يفضل أن تكون وثائقك مختومة من الجامعة أولاً أو موثقة حسب شروط الجهة الموجه إليها، وسنرشدك للترتيب المطلوب بناءً على وجهتك.',
-          en: 'It is highly recommended to have your documents stamped by your university or legalized as requested by the destination. We will guide you on the proper order.'
-        }
-      },
-      {
-        q: { ar: 'هل تجهزون الملف كاملاً لمنحة أو جامعة؟', en: 'Do you prepare the complete file for a university or scholarship application?' },
-        a: {
-          ar: 'نعم، نترجم الملف كاملاً (شهادات + بيان درجات + خطابات التوصية والدافع) بتنسيق أكاديمي موحد وأسعار مخفضة للباقات التعليمية المتكاملة.',
-          en: 'Yes, we translate the entire package (diplomas, transcripts, recommendation letters, and motivation letters) in a unified format with package discounts.'
-        }
-      }
-    ],
-    relatedServices: ['embassy-translation', 'personal-documents', 'sworn-translation']
-  },
+
   'commercial-translation': {
     slug: 'commercial-translation',
     metaTitle: {
-      ar: 'ترجمة تجارية معتمدة للشركات | سجلات وعقود وميزانيات | هيرميس',
-      en: 'Certified Commercial & Business Translation | Hermes Egypt'
+      ar: 'ترجمة تجارية معتمدة للشركات ورجال الأعمال في مصر | هيرمس',
+      en: 'Certified Commercial & Corporate Translation Egypt | Hermes'
     },
     metaDesc: {
-      ar: 'ترجمة تجارية معتمدة للسجلات التجارية وعقود الشركات والميزانيات والقوائم المالية ومراسلات الأعمال — دقة مالية وقانونية وسرية تعاقدية. اطلب عرض سعر.',
-      en: 'Certified commercial translation of trade registers, corporate contracts, balance sheets, financial statements, and business correspondence — financial and legal precision with full confidentiality.'
+      ar: 'ترجمة تجارية معتمدة للسجلات التجارية، البطاقات الضريبية، القوائم المالية، الميزانيات، وعقود التأسيس. دعم كامل للشركات والمستثمرين في القاهرة والجيزة.',
+      en: 'Accredited commercial translation in Egypt for trade registers, tax cards, audited financial statements, by-laws & tender bids. Fast corporate turnaround.'
     },
     h1: {
-      ar: 'ترجمة تجارية معتمدة للشركات والأعمال',
-      en: 'Certified Commercial Translation for Companies & Business'
+      ar: 'الترجمة التجارية المعتمدة للشركات ورجال الأعمال في مصر | سجلات وميزانيات',
+      en: 'Certified Commercial & Corporate Translation Services in Egypt | Trade Registers & Financials'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة تقدم ترجمة تجارية معتمدة للسجلات التجارية وعقود الشركات والميزانيات والقوائم المالية ومستندات المناقصات، بدقة مالية وقانونية وسرية تعاقدية كاملة. نخدم الشركات المصرية المتوسعة خارجياً والشركات الأجنبية العاملة في مصر.',
-      en: 'Hermes Certified Translations provides certified commercial translation of trade registers, corporate contracts, balance sheets, financial statements, and tender documents, with financial and legal precision and full contractual confidentiality. We serve Egyptian companies expanding abroad and foreign companies operating in Egypt.'
+      ar: 'تتطلب المعاملات التجارية العابرة للحدود، تأسيس الفروع الدولية، فتح الحسابات المصرفية الخارجية، والتقديم لتأشيرات رجال الأعمال والمستثمرين ترجمة تجارية معتمدة تتسم بالدقة المحاسبية والقانونية المطلقة. في مكتب هيرمس للترجمة المعتمدة، نخدم مئات الشركات المحلية والشركات متعددة الجنسيات ورواد الأعمال عبر ترجمة معتمدة وموثوقة للسجلات التجارية، البطاقات الضريبية، القوائم المالية المدققة، وعقود التأسيس، مع مراعاة المعايير الدولية لإعداد التقارير المالية (IFRS).',
+      en: 'Cross-border commerce, international subsidiary setup, foreign corporate banking, and investor visa applications demand certified commercial translations characterized by uncompromising financial and legal rigor. At Hermes Certified Translations, we support hundreds of domestic corporations, multinationals, and entrepreneurs with accredited translations of Commercial Registers, Tax Cards, audited financial balance sheets, and Articles of Association.'
     },
     definitionTitle: {
-      ar: 'ما هي الترجمة التجارية؟',
-      en: 'What is Commercial Translation?'
+      ar: 'ما هي معايير الترجمة التجارية المعتمدة؟',
+      en: 'Standards of Certified Corporate & Financial Translation'
     },
     definitionText: {
-      ar: 'الترجمة التجارية هي ترجمة المستندات المالية، القانونية، والإدارية الخاصة بالشركات والمؤسسات. تتطلب معرفة بمصطلحات المحاسبة وإدارة الأعمال وأنظمة الضرائب الدولية، بالإضافة للالتزام الكامل بنقل البيانات المالية والأرقام بدقة بالغة دون أي خطأ.',
-      en: 'Commercial translation covers financial, legal, and administrative documents for businesses and corporations. It requires expertise in accounting, business administration, and international tax terms, alongside an absolute commitment to copying financial data and figures without errors.'
+      ar: 'الترجمة التجارية المعتمدة هي ترجمة رسمية تجمع بين الفهم الدقيق لقوانين الشركات المعمول بها (مثل قانون الاستثمار وقانون الشركات المصري) والمعايير المحاسبية المعتمدة (IFRS / GAAP). تشمل الوثائق أختام وتوقيعات مكتب الترجمة المعتمد، إقرار المطابقة القانوني، وأرقام السجل والملف الضريبي، لضمان قبولها الفوري أمام البنوك، الغرف التجارية، الهيئات الاستثمارية، والسفارات الأجنبية.',
+      en: 'Certified commercial translation blends comprehensive knowledge of corporate legislation (such as Egyptian Investment Law and Corporate Codes) with international accounting frameworks (IFRS/GAAP). Documents feature official bureau authentication seals, legal accuracy statements, and commercial registration numbers, guaranteeing immediate acceptance by banks, commercial registries, and embassies.'
     },
     needTitle: {
-      ar: 'متى تحتاج الترجمة التجارية؟',
-      en: 'When Do You Need It?'
+      ar: 'متى تحتاج شركتك إلى الترجمة التجارية المعتمدة؟',
+      en: 'When Does Your Business Require Certified Commercial Translation?'
     },
     needText: {
-      ar: 'تحتاجها شركتك لفتح حسابات بنكية دولية، أو الدخول في مناقصات عالمية، أو تأسيس فروع وشركات تابعة خارج مصر، أو تقديم الميزانيات السنوية لمصلحة الضرائب أو الشركاء الأجانب والمراجعين الدوليين.',
-      en: 'Your company needs it to open international bank accounts, participate in global tenders, establish subsidiaries and branches abroad, or submit annual financials to tax authorities, foreign partners, and international auditors.'
+      ar: 'تحتاج الشركات ورجال الأعمال لخدماتنا عند: (1) التقديم لتأشيرات السياحة ورجال الأعمال بالسفارات (مثل إثبات الملاءة التجارية لفيزا شنغن وأمريكا)، (2) فتح حسابات بنكية تجارية للشركات داخل مصر أو في بنوك دولية (الإمارات، أوروبا، أمريكا)، (3) تأسيس فروع أجنبية وقيد الشركات بالخارج، (4) المشاركة في المناقصات والعطاءات الدولية، و(5) التنسيق مع مراجعي الحسابات والشركاء والمستثمرين الأجانب.',
+      en: 'Corporate entities require certified commercial translation when: (1) Filing business visa applications with foreign consulates, (2) Opening corporate bank accounts with domestic or international banks, (3) Incorporating overseas branch entities and establishing foreign holding vehicles, (4) Submitting bids for international procurement tenders, and (5) Disclosing audited figures to cross-border investors.'
     },
     documentsSectionTitle: {
-      ar: 'المستندات التجارية والمالية التي نغطيها',
-      en: 'Commercial & Financial Documents We Cover'
+      ar: 'الوثائق التجارية والمالية المشمولة بالخدمة',
+      en: 'Commercial & Financial Documents Covered'
     },
     categories: [
       {
-        title: { ar: 'وثائق تأسيس وتراخيص الشركات', en: 'Incorporation & Licensing Documents' },
+        title: { ar: 'مستندات تأسيس وقيد الشركات', en: 'Corporate Incorporation & Registration' },
         items: [
-          { ar: 'السجلات التجارية للشركات والشركاء الموصين', en: 'Trade registers and commercial certificates' },
-          { ar: 'البطاقات الضريبية والشهادات والتسجيل في القيمة المضافة', en: 'Tax cards, registrations, and VAT certificates' },
-          { ar: 'عقود تأسيس الشركات وعقود تعديل الشركاء', en: 'Articles of incorporation and partnership amendment deeds' },
-          { ar: 'الأنظمة الأساسية للشركات واللوائح الداخلية للعمل', en: 'Corporate bylaws and internal labor regulations' }
+          { ar: 'السجل التجاري الحديث الصادر من الغرفة التجارية ومصلحة السجل التجاري', en: 'Official Commercial Register extracts issued by registry authorities' },
+          { ar: 'البطاقة الضريبية وشهادات التسجيل في ضريبة القيمة المضافة (VAT)', en: 'Tax cards and Value Added Tax (VAT) registration certificates' },
+          { ar: 'عقود التأسيس والنظم الأساسية للشركات المساهمة وذات المسؤولية المحدودة', en: 'Articles of Association, company statutes, and bylaws' }
         ]
       },
       {
-        title: { ar: 'التقارير المالية والميزانيات', en: 'Financial Reports & Balance Sheets' },
+        title: { ar: 'القوائم المالية والتقارير المصرفية', en: 'Audited Financials & Bank Reports' },
         items: [
-          { ar: 'الميزانيات العمومية السنوية والدورية وقوائم المركز المالي', en: 'Annual and periodic balance sheets and statements of financial position' },
-          { ar: 'قوائم الدخل وقوائم التدفقات النقدية والأرباح والخسائر', en: 'Income statements, cash flow statements, and profit & loss sheets' },
-          { ar: 'تقارير مراقبي الحسابات والمراجعين الماليين الخارجيين', en: 'Auditors’ reports and external financial audits' },
-          { ar: 'الإقرارات الضريبية والتقارير المالية للبنوك', en: 'Tax returns and financial disclosures for banks' }
+          { ar: 'الميزانيات العمومية وقوائم الدخل والتدفقات النقدية المدققة', en: 'Audited balance sheets, income statements, and cash flow reports' },
+          { ar: 'تقارير مراقبي الحسابات القانونيين وشهادات الملاءة المالية', en: 'Statutory auditor reports and letters of financial standing' },
+          { ar: 'كشوف الحسابات البنكية الاستثمارية وحركات الاعتمادات المستندية (LC)', en: 'Corporate bank statements, credit facilities, and Letters of Credit' }
         ]
       },
       {
-        title: { ar: 'عقود ومراسلات الأعمال', en: 'Corporate Contracts & Correspondence' },
+        title: { ar: 'محاضر الاجتماعات وقرارات الإدارة', en: 'Board Minutes & Corporate Resolutions' },
         items: [
-          { ar: 'عقود التوريد والإنتاج والتوزيع والوكالات التجارية', en: 'Supply, manufacturing, distribution, and commercial agency contracts' },
-          { ar: 'كراسات الشروط والمواصفات ومستندات المناقصات', en: 'Tender books, specifications, and bidding documents' },
-          { ar: 'الملفات التعريفية بالشركات والعروض المالية (Profiles)', en: 'Company profiles and commercial/financial proposals' },
-          { ar: 'مراسلات مجلس الإدارة والمراسلات التجارية الرسمية', en: 'Board resolutions and formal business correspondence' }
+          { ar: 'محاضر اجتماعات الجمعيات العامة العادية وغير العادية المعتمدة من الاستثمار', en: 'General assembly minutes approved by GAFI investment authority' },
+          { ar: 'قرارات مجالس الإدارة وتفويضات التوقيع والتمثيل البنكي والقانوني', en: 'Board resolutions, signing authorities, and corporate powers of attorney' },
+          { ar: 'اتفاقيات التنازل عن الحصص وتعديل هياكل الملكية والشركاء', en: 'Share transfer deeds and ownership restructuring agreements' }
+        ]
+      },
+      {
+        title: { ar: 'المناقصات والعقود التجارية الدولية', en: 'Tenders & International Trade Records' },
+        items: [
+          { ar: 'كراسات الشروط والعطاءات والمواصفات الفنية للمناقصات', en: 'Tender dossiers, terms of reference, and project technical specifications' },
+          { ar: 'عقود الوكالات التجارية، التوزيع، والامتياز التجاري (Franchise)', en: 'Commercial agency, distribution, and international franchise pacts' },
+          { ar: 'الفواتير الجمركية المعتمدة، بوالص الشحن، وشهادات المنشأ', en: 'Certified customs invoices, bills of lading, and certificates of origin' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'تدقيق مزدوج للأرقام والجداول المالية، والحفاظ على تنسيق القوائم المالية كما في الأصل — وخبرة سابقة في ترجمة قوائم مالية ولوائح اتحادات.',
-      en: 'Double verification of figures and financial tables, original formatting preserved — with proven experience translating financial statements and federation regulations.'
+      ar: 'فريق متخصص يجمع بين المحاسبين القانونيين والمترجمين المعتمدين لضمان التطابق الدقيق للأرقام والمصطلحات المحاسبية الدولية (IFRS)، مع تقديم باقات تسعير تفضيلية وعقود سنوية للشركات مع سرية تامة لاتفاقيات الأعمال.',
+      en: 'A dedicated commercial linguistics desk delivering precise terminology concordance aligned with international IFRS standards, offering specialized corporate service level agreements (SLAs) and strict data protection.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'سجل تجاري وبطاقة ضريبية (2-4 صفحات)', en: 'Trade Register & Tax Card (2-4 pages)' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '6-8 ساعات', en: '6-8 Hours' }
+        docType: { ar: 'السجل التجاري والبطاقة الضريبية', en: 'Commercial Register & Tax Card' },
+        standard: { ar: '24 ساعة عمل', en: '24 Business Hours' },
+        rush: { ar: '4 - 6 ساعات', en: '4 - 6 Hours' }
       },
       {
-        docType: { ar: 'قوائم مالية وميزانيات بجداول معقدة', en: 'Financial Statements & Complex Balance Sheets' },
-        standard: { ar: '48-72 ساعة', en: '48-72 Hours' },
-        rush: { ar: '24 ساعة', en: '24 Hours' }
+        docType: { ar: 'القوائم المالية والميزانيات (حتى 20 صفحة)', en: 'Audited Financial Statements (Up to 20 pages)' },
+        standard: { ar: '48 ساعة عمل', en: '48 Business Hours' },
+        rush: { ar: '24 ساعة عمل', en: '24 Business Hours' }
       },
       {
-        docType: { ar: 'عقود تأسيس وكتيبات لوائح داخلية', en: 'Articles of Association & Internal Regulations' },
-        standard: { ar: '3-5 أيام', en: '3-5 Days' },
-        rush: { ar: '48 ساعة', en: '48 Hours' }
+        docType: { ar: 'عقود التأسيس ومحاضر الجمعيات العمومية', en: 'Articles of Association & Board Minutes' },
+        standard: { ar: '48 - 72 ساعة عمل', en: '48 - 72 Business Hours' },
+        rush: { ar: '24 ساعة عمل', en: '24 Business Hours' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'هل الترجمة مقبولة لدى البنوك والجهات الرسمية؟', en: 'Are commercial translations accepted by banks and official bodies?' },
+        q: { ar: 'هل تقبل البنوك الأجنبية في الخارج ترجماتكم التجارية لفتح الحسابات؟', en: 'Do overseas banks accept your commercial translations for corporate accounts?' },
         a: {
-          ar: 'نعم، ترجماتنا المختومة مقبولة لدى كافة البنوك والوزارات وهيئة الاستثمار والسفارات والجهات الرسمية في مصر والخارج لتسهيل كافة المعاملات.',
-          en: 'Yes, our certified translations are recognized by banks, ministries, GAFI, embassies, and regulatory authorities in Egypt and abroad.'
+          ar: 'نعم، ترجماتنا معتمدة وممهورة بالأختام الرسمية المعترف بها دولياً، ومطابقة لمتطلبات التحقق والامتثال (KYC / Due Diligence) لدى البنوك في الإمارات وأوروبا وأمريكا.',
+          en: 'Yes. Our certified commercial translations are universally recognized by foreign corporate banking compliance and KYC desks across the GCC, Europe, and North America.'
         }
       },
       {
-        q: { ar: 'كيف تضمنون سرية مستندات الشركة؟', en: 'How do you guarantee the confidentiality of company documents?' },
+        q: { ar: 'كيف تتعاملون مع الأرقام والجداول المحاسبية المعقدة؟', en: 'How do you handle complex accounting ledger tables and balances?' },
         a: {
-          ar: 'نلتزم بسرية تعاقدية كاملة ونظام حماية صارم، ويمكننا توقيع اتفاقية عدم إفصاح (NDA) متبادلة مع شركتك قبل استلام أو البدء في أي مستندات.',
-          en: 'We maintain strict security and confidentiality protocols. We can sign a non-disclosure agreement (NDA) with your company before receiving or translating any files.'
-        }
-      },
-      {
-        q: { ar: 'هل تترجمون القوائم المالية بجداولها؟', en: 'Do you translate financial statements with their tables?' },
-        a: {
-          ar: 'نعم، نترجم القوائم المالية والميزانيات بجداولها كاملة مع الحفاظ على التخطيط والتنسيق والتدقيق المزدوج لكافة الأرقام.',
-          en: 'Yes, we translate financial statements and balance sheets with their layout and tabular format completely preserved, alongside double verification of all figures.'
-        }
-      },
-      {
-        q: { ar: 'هل تقدمون أسعاراً خاصة للشركات؟', en: 'Do you offer special corporate rates?' },
-        a: {
-          ar: 'نعم، نقدم عقوداً إطارية وأسعاراً تفضيلية مخصصة للشركات ذات التعامل المستمر ومكاتب المحاماة والمكاتب المحاسبية والاستشارية.',
-          en: 'Yes, we offer custom framework contracts and volume discounts for corporate accounts, law firms, accounting agencies, and consultancies.'
-        }
-      },
-      {
-        q: { ar: 'كم تستغرق ترجمة ملف مناقصة؟', en: 'How long does a tender translation take?' },
-        a: {
-          ar: 'حسب الحجم — الملفات المعتادة تستغرق 3-5 أيام عمل، مع إمكانية تقسيم التسليم على دفعات للمشاريع الضخمة ذات المواعيد الضيقة.',
-          en: 'Depending on volume, standard files take 3-5 business days. We can provide phased delivery for large bids with tight deadlines.'
-        }
-      },
-      {
-        q: { ar: 'هل تترجمون من وإلى لغات غير الإنجليزية؟', en: 'Do you translate to/from languages other than English?' },
-        a: {
-          ar: 'نعم، نغطي لغات متعددة تشمل الألمانية، الفرنسية، الإيطالية، الإسبانية، الصينية، والروسية بما يتلاءم مع طبيعة أسواق شركائك في الخارج.',
-          en: 'Yes, we support multiple languages including German, French, Italian, Spanish, Chinese, and Russian to suit your global target markets.'
+          ar: 'نستخدم نظام تنسيق مطابق للأصل (Mirror Formatting) يعيد بناء الجداول الحسابية سطراً بسطر ورسماً بيانياً، مع تدقيق حسابي مستقل للتأكد من مطابقة جميع الموازين والقوائم.',
+          en: 'We implement mirror formatting methodologies reconstructing ledger tables line by line, backed by independent numerical audit to guarantee 100% financial concordance.'
         }
       }
     ],
-    relatedServices: ['legal-translation', 'technical-translation', 'sworn-translation', 'notarization']
+    extendedContent: {
+      legalStandards: {
+        title: {
+          ar: 'معايير اعتماد وثائق الشركات المصرية دولياً',
+          en: 'International Standards for Egyptian Corporate Documents'
+        },
+        body: {
+          ar: 'يتم نقل البيانات الصادرة من الهيئة العامة للاستثمار (GAFI) ومصلحة السجل التجاري بدقة مصطلحية كاملة، بما في ذلك أسماء المفوضين بالتوقيع ونسب الشركاء ورأس المال المصدر والمدفوع، مع إقرار المطابقة المعتمد.',
+          en: 'Corporate records issued by the General Authority for Investment (GAFI) and registry authorities are translated with rigorous adherence to authorized signatory clauses, capital allocations, and official accuracy statements.'
+        }
+      },
+      embassiesCompliance: {
+        title: {
+          ar: 'الجهات التي تعتمد مستنداتنا التجارية',
+          en: 'Institutions Recognizing Our Commercial Translations'
+        },
+        items: [
+          {
+            name: { ar: 'البنوك والمؤسسات المالية الدولية', en: 'International Banks & Financial Desks' },
+            desc: {
+              ar: 'فتح الحسابات الاستثمارية وتسهيلات الائتمان ومطالبات التدقيق الخارجي.',
+              en: 'Corporate account opening, credit facilities, and statutory international audits.'
+            }
+          },
+          {
+            name: { ar: 'الغرف التجارية والسفارات لتأشيرات الأعمال', en: 'Embassies for Business & Investor Visas' },
+            desc: {
+              ar: 'إثبات الصفة التجارية للشركاء والمديرين لفيزا شنغن وأمريكا وبريطانيا.',
+              en: 'Commercial standing verification for Schengen, US, and UK business visas.'
+            }
+          }
+        ]
+      },
+      prepGuidelines: {
+        title: {
+          ar: 'إرشادات الشركات قبل تسليم الأوراق التجارية',
+          en: 'Checklist for Corporate Officers Prior to Submission'
+        },
+        items: [
+          {
+            ar: 'تأكد من حداثة مستخرج السجل التجاري (يفضل ألا يتجاوز تاريخ إصداره 3 أشهر).',
+            en: 'Verify that Commercial Register extracts are freshly issued within the last 3 months.'
+          },
+          {
+            ar: 'إرفاق التهجئة الإنجليزية المعتمدة للشركة والشركاء لتطابق المعاملات المصرفية.',
+            en: 'Provide official corporate English spelling matching your bank and tax registration records.'
+          }
+        ]
+      }
+    },
+    relatedServices: ['legal-translation', 'embassy-translation', 'personal-documents', 'sworn-translation']
   },
+
+  'academic-documents': {
+    slug: 'academic-documents',
+    metaTitle: {
+      ar: 'ترجمة معتمدة للشهادات والمستندات الأكاديمية | هيرمس',
+      en: 'Certified Academic Translation Egypt | Degrees & Transcripts | Hermes'
+    },
+    metaDesc: {
+      ar: 'ترجمة معتمدة لشهادات التخرج، كشوف الدرجات، وبيان المواد للجامعات والمنح الدولية (WES, DAAD, Chevening). دقة أكاديمية معتمدة وتسليم سريع.',
+      en: 'Certified academic document translation in Cairo & Giza for university admissions, transcripts & credential evaluation (WES, ECFMG, DAAD, Chevening).'
+    },
+    h1: {
+      ar: 'ترجمة الشهادات والمستندات الأكاديمية المعتمدة | القبول الجامعي والمنح الدولية',
+      en: 'Certified Academic Documents & Degree Translation | University Admissions & Scholarships'
+    },
+    opening: {
+      ar: 'يمثل التقديم للجامعات الدولية، المنح الدراسية المرموقة، وبرامج الهجرة المهنية خطوة حاسمة في المسار المستقبلي للطلاب والباحثين. في هيرمس للترجمة المعتمدة، نضمن لك ترجمة أكاديمية معتمدة ومطابقة تماماً لأنظمة التقييم الدولية ومعادلة الشهادات (مثل WES في أمريكا وكندا، وuni-assist في ألمانيا، وECFMG للأطباء)، مع النقل الدقيق للمصطلحات العلمية وأنظمة الساعات المعتمدة وكشوف الدرجات.',
+      en: 'Applying for international universities, prestigious scholarships, or cross-border professional licensures is a transformative milestone for students and scholars. At Hermes Certified Translations, we deliver accredited academic translations fully recognized by global credential evaluators (including WES, uni-assist, and ECFMG), ensuring exact terminology alignment for credit hours, grade point averages, and course syllabi.'
+    },
+    definitionTitle: {
+      ar: 'ما هي معايير ترجمة الشهادات الأكاديمية المعتمدة؟',
+      en: 'Standards of Certified Academic Translation'
+    },
+    definitionText: {
+      ar: 'الترجمة الأكاديمية المعتمدة تتطلب صياغة دقيقة للمسميات العلمية والدرجات الجامعية، مع الحفاظ على التقديرات الأصلية والمعدل التراكمي (GPA) وساعات الاتصال الدراسي دون أي تعديل أو تحريف، ومهر الوثيقة بختم مكتب ترجمة معتمد وإقرار رسمي بالمطابقة يفي بمتطلبات مكاتب القبول الدولي وسفارات الدول المانحة.',
+      en: 'Certified academic translation demands precise conversion of university credentials, exact preservation of cumulative GPA scores and semester credit allocations without subjective alteration, backed by official translation bureau seals and compliance declarations meeting global university admission standards.'
+    },
+    needTitle: {
+      ar: 'متى تحتاج لترجمة مستنداتك الأكاديمية؟',
+      en: 'When Do You Need Academic Document Translation?'
+    },
+    needText: {
+      ar: 'تعد هذه الخدمة ضرورية عند: (1) التقديم للماجستير والدكتوراه والبكالوريوس في الجامعات الأجنبية، (2) المنافسة على المنح الدراسية الدولية (مثل Chevening, DAAD, Fulbright, Erasmus)، (3) معادلة الشهادات الطبية والهندسية واختبارات المعادلة (USMLE, PLAB, NCLEX)، و(4) التقديم لملفات الهجرة بنظام النقاط (WES Evaluation لكندا وأمريكا).',
+      en: 'Academic translation is required when: (1) Applying for undergraduate, Master or PhD programs overseas, (2) Competing for prestigious scholarships (Chevening, DAAD, Fulbright, Erasmus), (3) Prosecuting medical and engineering licensure evaluations (USMLE, PLAB, WES), and (4) Submitting immigration credential assessments.'
+    },
+    documentsSectionTitle: {
+      ar: 'المستندات الأكاديمية والدراسية التي نترجمها',
+      en: 'Academic & Educational Documents Covered'
+    },
+    categories: [
+      {
+        title: { ar: 'الشهادات والمؤهلات الجامعية', en: 'Degrees & Higher Diplomas' },
+        items: [
+          { ar: 'شهادات البكالوريوس والليسانس المؤقتة والجدارية الرسمية', en: 'Bachelor degree certificates, provisional awards, and wall diplomas' },
+          { ar: 'شهادات الماجستير والدكتوراه والدبلومات العليا التخصصية', en: 'Master, Doctorate (PhD), and postgraduate diploma certificates' },
+          { ar: 'شهادات معادلة الدرجات العلمية الصادرة من المجلس الأعلى للجامعات', en: 'Equivalency certificates issued by the Supreme Council of Universities' }
+        ]
+      },
+      {
+        title: { ar: 'كشوف الدرجات والمحتوى العلمي', en: 'Transcripts & Course Descriptions' },
+        items: [
+          { ar: 'كشوف الدرجات التراكمية وسجلات الدرجات للسنوات الدراسية كاملة', en: 'Cumulative academic transcripts and semester grade ledger records' },
+          { ar: 'بيانات الساعات المعتمدة (Credit Hours) والمعدل التراكمي (GPA)', en: 'Credit hour certificates, course load breakdowns, and GPA records' },
+          { ar: 'المحتوى العلمي المفصل للمقررات الدراسية (Course Syllabi / Descriptions)', en: 'Detailed course syllabi and academic curriculum descriptions' }
+        ]
+      },
+      {
+        title: { ar: 'شهادات الثانوية العامة والمدرسية', en: 'Secondary & High School Records' },
+        items: [
+          { ar: 'شهادات إتمام مرحلة الثانوية العامة (المصرية والأزهرية)', en: 'General Secondary Education Certificates (Thanaweya Amma / Azhar)' },
+          { ar: 'شهادات الدبلومة الأمريكية (American Diploma) والـ IGCSE والـ IB', en: 'American High School Diplomas, IGCSE certificates, and IB credentials' },
+          { ar: 'بيانات النجاح والانتقال المدرسي الموثقة من الإدارات التعليمية', en: 'School transcript records and official educational zone certificates' }
+        ]
+      },
+      {
+        title: { ar: 'شهادات التدريب الطبي والامتياز', en: 'Medical Training & Clinical Internship' },
+        items: [
+          { ar: 'شهادات سنة الامتياز للأطباء البشريين وأطباء الأسنان والصيادلة والتمريض', en: 'Medical internship certificates (House Officer / Clinical Training)' },
+          { ar: 'شهادات الخبرة الإكلينيكية وسجلات العمليات والتدريب بالمستشفيات الجامعية', en: 'Clinical logbooks, hospital training certificates, and residency records' },
+          { ar: 'شهادات حسن السير والسلوك الصادرة من النقابات المهنية والجامعات', en: 'Good standing certificates issued by professional syndicates' }
+        ]
+      }
+    ],
+    specialistWhyPoint: {
+      ar: 'دراية تامة باشتراطات مؤسسات تقييم الشهادات الدولية (WES, ECFMG, Josef Silny) وسفارات المنح، مع الحفاظ على سرية المستندات والالتزام الصارم بمواعيد إغلاق التقديم الجامعي.',
+      en: 'Comprehensive familiarity with international credential evaluation criteria (WES, ECFMG, uni-assist), ensuring exact terminology fidelity and prompt delivery aligned with university deadlines.'
+    },
+    turnaroundTable: [
+      {
+        docType: { ar: 'شهادات التخرج والثانوية العامة وبيانات النجاح', en: 'Graduation Certificates & High School Records' },
+        standard: { ar: '24 ساعة عمل', en: '24 Business Hours' },
+        rush: { ar: '3 - 4 ساعات', en: '3 - 4 Hours' }
+      },
+      {
+        docType: { ar: 'كشوف الدرجات وسجلات الدرجات (حتى 6 فصول دراسية)', en: 'Academic Transcripts (Up to 6 semesters)' },
+        standard: { ar: '24 - 48 ساعة عمل', en: '24 - 48 Business Hours' },
+        rush: { ar: 'نفس اليوم', en: 'Same-Day Delivery' }
+      },
+      {
+        docType: { ar: 'المحتوى العلمي وسجلات التدريب الطبي المطولة', en: 'Course Syllabi & Extended Medical Logbooks' },
+        standard: { ar: '3 - 5 أيام عمل', en: '3 - 5 Business Days' },
+        rush: { ar: '48 ساعة عمل', en: '48 Business Hours' }
+      }
+    ],
+    faqs: [
+      {
+        q: { ar: 'هل تقبل مؤسسة WES لتقييم الشهادات ترجماتكم الأكاديمية؟', en: 'Does World Education Services (WES) accept your academic translations?' },
+        a: {
+          ar: 'نعم، تصدر ترجماتنا مستوفية لمتطلبات WES باللغتين الإنجليزية والفرنسية، شاملة إقرار المطابقة والختم الرسمي لكافة الصفحات وكشوف الدرجات.',
+          en: 'Yes. Our translations fully comply with WES formal requirements in English and French, complete with precision transcripts and signed accuracy declarations.'
+        }
+      },
+      {
+        q: { ar: 'كيف تترجمون التقديرات مثل (جيد جداً / امتياز مع مرتبة الشرف)؟', en: 'How do you translate academic honors and Egyptian grade classifications?' },
+        a: {
+          ar: 'نستخدم المصطلحات الأكاديمية الدولية المعيارية (Very Good / Excellent with Honors / Magna Cum Laude) مع كتابة النسبة المئوية أو التقدير العددي الأصلي دون تغيير لضمان الشفافية.',
+          en: 'We apply standardized international academic equivalents while strictly preserving the original numerical marks and percentages to ensure full admission committee transparency.'
+        }
+      }
+    ],
+    extendedContent: {
+      legalStandards: {
+        title: {
+          ar: 'متطلبات توثيق الشهادات قبل التقديم الدولي',
+          en: 'Document Attestation Sequence for Academic Dossiers'
+        },
+        body: {
+          ar: 'يجب أن تتوفر في الشهادة الأصلية أختام الكلية، وأمين عام الجامعة، وتصديق مكتب وزارة الخارجية المصرية (للدول التي تشترطه)، قبل إتمام الترجمة المعتمدة لضمان ظهور كافة الأختام الموثقة في النسخة المترجمة.',
+          en: 'Original degrees should bear authentic faculty seals, University Secretary signatures, and Egyptian Ministry of Foreign Affairs stamps (where required) so all endorsements are mirrored in the certified translation.'
+        }
+      },
+      embassiesCompliance: {
+        title: {
+          ar: 'المنح والجامعات التي تعتمد ترجماتنا الأكاديمية',
+          en: 'Scholarships & Admissions Boards Accepting Our Translations'
+        },
+        items: [
+          {
+            name: { ar: 'المنح الدولية الكبرى (Chevening, DAAD, Fulbright)', en: 'Major International Scholarships' },
+            desc: {
+              ar: 'استيفاء الشروط اللغوية والأكاديمية للملفات التنافسية.',
+              en: 'Full compliance with language benchmarks for prestigious scholarship programs.'
+            }
+          },
+          {
+            name: { ar: 'مؤسسات التقييم المهني والأكاديمي (WES, ECFMG)', en: 'Credential Evaluation Bodies' },
+            desc: {
+              ar: 'ملفات معادلة الشهادات لهجرة كندا وأمريكا والترخيص الطبي.',
+              en: 'Credential assessments for Canadian immigration and US medical licensing.'
+            }
+          }
+        ]
+      },
+      prepGuidelines: {
+        title: {
+          ar: 'إرشادات الطلاب والباحثين قبل إرسال أوراق التخرج',
+          en: 'Checklist for Students and Scholars Before Submission'
+        },
+        items: [
+          {
+            ar: 'تأكد من وضوح كشوف الدرجات بالكامل دون اقتطاع أسماء المواد أو الساعات المعتمدة.',
+            en: 'Provide full-page scans of transcripts ensuring course names and credit hours are unobstructed.'
+          },
+          {
+            ar: 'أرفق صورة جواز السفر لضبط كتابة اسم الطالب والكلية والدرجة العلمية بدقة.',
+            en: 'Attach your travel passport to ensure personal names match across all academic files.'
+          }
+        ]
+      }
+    },
+    relatedServices: ['embassy-translation', 'personal-documents', 'legal-translation', 'technical-translation']
+  },
+
   'medical-translation': {
     slug: 'medical-translation',
     metaTitle: {
-      ar: 'ترجمة طبية معتمدة | تقارير وتحاليل وملفات علاجية | هيرميس',
-      en: 'Certified Medical Translation | Reports, Labs & Treatment Files | Hermes'
+      ar: 'ترجمة طبية معتمدة في مصر | تقارير، تحاليل، وعلاج بالخارج | هيرمس',
+      en: 'Certified Medical Translation Egypt | Clinical Reports & Lab Tests | Hermes'
     },
     metaDesc: {
-      ar: 'ترجمة طبية معتمدة للتقارير والتحاليل والأشعة والملفات العلاجية بمصطلحات طبية دقيقة وسرية كاملة — للعلاج بالخارج والتأمين والسفارات. اطلب عرض سعر.',
-      en: 'Certified medical translation of reports, lab results, imaging, and treatment files with precise medical terminology and full confidentiality — for treatment abroad, insurance, and embassies.'
+      ar: 'مكتب ترجمة طبية معتمد بإشراف أطباء ومترجمين متخصصين. ترجمة التقارير الطبية، ملخصات الخروج، الأشعة، ومطالبات التأمين الدولي. دقة وسرية مطلقة.',
+      en: 'Accredited medical translation in Cairo & Giza directed by medical linguists. Clinical discharge summaries, lab tests, radiology & overseas treatment visas.'
     },
     h1: {
-      ar: 'ترجمة طبية معتمدة في مصر',
-      en: 'Certified Medical Translation in Egypt'
+      ar: 'ترجمة طبية معتمدة للتقارير والتحاليل والعلاج بالخارج في مصر',
+      en: 'Certified Medical Translation Services in Egypt | Clinical Reports & Lab Results'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة تقدم ترجمة طبية معتمدة للتقارير الطبية والتحاليل والأشعة والملفات العلاجية، ينفذها مترجمون متخصصون في المصطلحات الطبية وبسرية كاملة. ترجماتنا مقبولة لدى المستشفيات الدولية وشركات التأمين والسفارات لملفات العلاج بالخارج.',
-      en: 'Hermes Certified Translations provides certified medical translation of medical reports, lab results, imaging, and treatment files, produced by translators specialized in medical terminology under full confidentiality. Our translations are accepted by international hospitals, insurance companies, and embassies for treatment-abroad files.'
+      ar: 'ترتبط الترجمة الطبية ارتباطاً مباشراً بحياة المرضى وصحتهم؛ لذا فإن الخطأ في ترجمة مصطلح تشخيصي أو جرعة علاجية أو قراءة فحص مخبري أمر غير مقبول على الإطلاق. في هيرمس للترجمة المعتمدة، نوفر وحدة ترجمة طبية متخصصة يشرف عليها مترجمون ذوو خلفية صيدلانية وطبية، لترجمة التقارير العلاجية، ملخصات الخروج من المستشفيات، الفحوصات التشخيصية، ومستندات تأشيرات العلاج بالخارج وشركات التأمين الدولية، مع الالتزام التام بالسرية والخصوصية الطبية.',
+      en: 'Medical translation directly intersects with patient well-being, clinical diagnoses, and critical therapy decisions; precision is paramount. At Hermes Certified Translations, we maintain a dedicated medical linguistics unit staffed by professionals with clinical and pharmacological backgrounds. We translate diagnostic reports, hospital discharge summaries, laboratory panels, international medical insurance claims, and medical visa dossiers with uncompromising accuracy and patient confidentiality.'
     },
     definitionTitle: {
-      ar: 'ما هي الترجمة الطبية؟',
-      en: 'What is Medical Translation?'
+      ar: 'ما هي معايير الترجمة الطبية المعتمدة؟',
+      en: 'Standards of Certified Medical Translation'
     },
     definitionText: {
-      ar: 'الترجمة الطبية هي نقل المستندات الصحية والدوائية الحساسة من لغة إلى أخرى بدقة تامة. يتولاها مترجمون ذوو خلفية علمية أو طبية لضمان المطابقة الكاملة للمصطلحات اللاتينية والطبية المعقدة، والجرعات، وتسميات الأمراض والتحاليل.',
-      en: 'Medical translation involves translating highly sensitive healthcare, medical, and pharmaceutical documents. It is handled by translators with scientific or clinical backgrounds to guarantee absolute accuracy in Latin terms, drug dosages, and disease names.'
+      ar: 'الترجمة الطبية المعتمدة هي نقل دقيق للمصطلحات التشخيصية والسريرية وفقاً للتصنيف الدولي للأمراض (ICD-10) والمصطلحات الطبية المعيارية (MedDRA). تتضمن ترجمة الأدوية بأسمائها العلمية الدولية (INN)، توضيح القراءات المخبرية، واعتماد الوثيقة بختم رسمي وإقرار مطابقة يقبله الأطباء الاستشاريون والمستشفيات العالمية في ألمانيا وبريطانيا وأمريكا وسفارات السفر العلاجي.',
+      en: 'Certified medical translation requires exact conversion of diagnostic terminology adhering to the International Classification of Diseases (ICD-10) and MedDRA standards. Medications are mapped to International Nonproprietary Names (INN), laboratory reference ranges are faithfully maintained, and files bear official accreditation seals recognized by international medical centers and consular visa sections.'
     },
     needTitle: {
-      ar: 'متى تحتاج الترجمة الطبية؟',
-      en: 'When Do You Need It?'
+      ar: 'متى تحتاج إلى ترجمة تقاريرك الطبية؟',
+      en: 'When Do You Require Certified Medical Translation?'
     },
     needText: {
-      ar: 'تحتاجها عند ترتيب السفر للعلاج بالخارج، أو الحصول على رأي طبي ثانٍ من استشاري دولي، أو تقديم مطالبات استرداد التكاليف لشركات التأمين الصحي الأجنبية، أو لاستكمال إجراءات السفر والتأشيرات الطبية.',
-      en: 'You need it when organizing treatment overseas, requesting a second medical opinion from international specialists, submitting medical expense claims to foreign insurance agencies, or completing medical visa files.'
+      ar: 'يحتاج المرضى والأطباء لخدماتنا عند: (1) السفر لتلقي العلاج أو إجراء جراحات متقدمة في الخارج (ألمانيا، بريطانيا، سويسرا، أمريكا)، (2) استخراج تأشيرات العلاج الطبي (Medical Treatment Visas) بالسفارات، (3) تقديم مطالبات استرداد النفقات لشركات التأمين الصحي الدولية (Allianz, Bupa, Cigna)، (4) الحصول على رأي طبي ثانٍ (Second Medical Opinion) من مراكز عالمية، و(5) استيراد الأجهزة والمستحضرات الصيدلانية وتسجيلها.',
+      en: 'Patients, physicians, and organizations require certified medical translation when: (1) Traveling for specialized surgical interventions and oncology treatments overseas, (2) Securing medical treatment visas from foreign consulates, (3) Submitting reimbursement claims to international health insurers, (4) Seeking remote second medical opinions from global hospitals, and (5) Registering medical devices and pharmaceuticals.'
     },
     documentsSectionTitle: {
-      ar: 'الوثائق الطبية والصحية التي نغطيها',
-      en: 'Medical & Health Documents We Cover'
+      ar: 'المستندات والتقارير الطبية التي نغطيها',
+      en: 'Medical & Diagnostic Records Covered'
     },
     categories: [
       {
-        title: { ar: 'التقارير والملفات الطبية', en: 'Medical Reports & Files' },
+        title: { ar: 'التقارير السريرية وملخصات الخروج', en: 'Clinical Reports & Discharge Summaries' },
         items: [
-          { ar: 'التقارير الطبية العامة وتقارير الأخصائيين والاستشاريين', en: 'General medical reports, specialist assessments, and doctor reviews' },
-          { ar: 'ملخصات الخروج من المستشفيات وتقارير العمليات الجراحية', en: 'Hospital discharge summaries and surgical reports' },
-          { ar: 'الروشتات والوصفات الطبية وأدلة استخدام الأدوية', en: 'Doctor prescriptions and pharmaceutical instructions' },
-          { ar: 'التاريخ المرضي الشامل وبطاقات المتابعة الصحية', en: 'Complete patient history files and health tracking logs' }
+          { ar: 'ملخصات الخروج من المستشفيات والتقارير السريرية الشاملة', en: 'Hospital discharge summaries and comprehensive clinical reports' },
+          { ar: 'تقارير العمليات الجراحية والتدخلات التداخلية والقسطرة', en: 'Operative reports, surgical notes, and catheterization summaries' },
+          { ar: 'بروتوكولات علاج الأورام وجرعات العلاج الكيماوي والإشعاعي', en: 'Oncology treatment protocols, chemotherapy, and radiotherapy regimens' }
         ]
       },
       {
-        title: { ar: 'الفحوصات والتحاليل المخبرية', en: 'Diagnostics & Lab Results' },
+        title: { ar: 'الفحوصات والأشعة والتحاليل', en: 'Radiology & Laboratory Tests' },
         items: [
-          { ar: 'تقارير التحاليل الطبية المخبرية بكافة تصنيفاتها', en: 'All categories of clinical laboratory test results' },
-          { ar: 'تقارير الأشعة السينية (X-Ray)، الرنين المغناطيسي (MRI)، والمقطعية (CT)', en: 'Radiology reports including X-ray, MRI, and CT scan logs' },
-          { ar: 'تقارير الموجات فوق الصوتية (Ultrasound) وتخطيط القلب (ECG)', en: 'Ultrasound summaries and electrocardiogram (ECG) readouts' },
-          { ar: 'تقارير فحص الأنسجة والخزعات الطبية', en: 'Biopsy and histopathology diagnostic reports' }
+          { ar: 'تقارير الأشعة المقطعية (CT) والرنين المغناطيسي (MRI) والموجات الصوتية', en: 'CT scans, MRI imaging, ultrasound, and PET-scan reports' },
+          { ar: 'نتائج تحاليل الدم الشاملة، الهرمونات، والمؤشرات الحيوية', en: 'Comprehensive blood panels, metabolic profiles, and hormonal markers' },
+          { ar: 'تقارير فحص الأنسجة والباثولوجي (Biopsy & Histopathology)', en: 'Histopathology, biopsy, and cytogenetic laboratory evaluations' }
         ]
       },
       {
-        title: { ar: 'وثائق السفر والتأمين الطبي', en: 'Medical Travel & Insurance' },
+        title: { ar: 'التأمين الطبي والوصفات الدوائية', en: 'Medical Insurance & Prescriptions' },
         items: [
-          { ar: 'الشهادات الصحية العامة وشهادات اللياقة البدنية للسفر والعمل', en: 'General health clearance certificates and physical fitness reports' },
-          { ar: 'تقارير اللجان الطبية الرسمية للمطالبات والتأمينات', en: 'Official medical board reports for insurance and disability claims' },
-          { ar: 'فواتير العلاج بالمستشفيات للمطالبات المالية', en: 'Hospital bills and medical expense invoices' },
-          { ar: 'كروت ووثائق التأمين الصحي الدولي ورسائل الضغط المالي', en: 'International health insurance certificates and letters of guarantee' }
+          { ar: 'مطالبات شركات التأمين الصحي الدولية وفواتير العلاج بالمستشفيات', en: 'International health insurance claims and hospital invoices' },
+          { ar: 'الروشتات والوصفات الطبية المعتمدة للجرعات الدوائية المقيدة', en: 'Certified prescriptions and physician orders for travel clearance' },
+          { ar: 'التقارير الطبية الخاصة باللياقة الصحية للعمل والإقامة والسفر', en: 'Medical fitness certificates for overseas employment and residency' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'مترجم طبي معتمد بخبرة في التقارير الصادرة من المستشفيات المصرية والمصطلحات المستخدمة فيها، وأولوية قصوى للسرية في البيانات الصحية.',
-      en: 'Certified medical translators experienced with Egyptian hospital reports and their terminology, with top-priority confidentiality for health data.'
+      ar: 'إشراف مباشر من أطباء وصيادلة متخصصين في الترجمة الطبية، صرامة تامة في الحفاظ على خصوصية وسرية التاريخ الطبي للمرضى، وإنجاز سريع للتقارير العاجلة لدعم خطط السفر العلاجي.',
+      en: 'Direct oversight by healthcare linguists with clinical and pharmacological backgrounds, strict adherence to patient medical privacy, and rapid turnaround for emergency medical travel.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'تقارير طبية وروشتات (صفحة إلى صفحتين)', en: 'Medical Reports & Prescriptions (1-2 pages)' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '2-3 ساعات', en: '2-3 Hours' }
+        docType: { ar: 'تقارير الأشعة والتحاليل المخبرية الدورية', en: 'Radiology Reports & Standard Lab Panels' },
+        standard: { ar: '24 ساعة عمل', en: '24 Business Hours' },
+        rush: { ar: '2 - 3 ساعات (فوري)', en: '2 - 3 Hours (Urgent)' }
       },
       {
-        docType: { ar: 'تقارير تحاليل وأشعة معقدة المصطلحات', en: 'Lab Results & Complex Imaging Reports' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '4-6 ساعات', en: '4-6 Hours' }
+        docType: { ar: 'ملخصات الخروج والتقارير الجراحية (حتى 5 صفحات)', en: 'Discharge Summaries & Surgical Reports' },
+        standard: { ar: '24 - 48 ساعة عمل', en: '24 - 48 Business Hours' },
+        rush: { ar: 'نفس اليوم', en: 'Same-Day Service' }
       },
       {
-        docType: { ar: 'ملفات علاجية كاملة وتقارير جراحات طويلة', en: 'Complete Treatment Files & Surgical Summaries' },
-        standard: { ar: '48-72 ساعة', en: '48-72 Hours' },
-        rush: { ar: '24 ساعة', en: '24 Hours' }
+        docType: { ar: 'الملفات الطبية الشاملة وسجلات الأورام المطولة', en: 'Comprehensive Medical Dossiers & Oncology Charts' },
+        standard: { ar: '48 - 72 ساعة عمل', en: '48 - 72 Business Hours' },
+        rush: { ar: '24 - 36 ساعة عمل', en: '24 - 36 Business Hours' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'هل الترجمة مقبولة لدى المستشفيات الأجنبية وشركات التأمين؟', en: 'Are your translations accepted by foreign hospitals and insurance companies?' },
+        q: { ar: 'هل تقبل المستشفيات في ألمانيا وأوروبا ترجمتكم الطبية؟', en: 'Do European and German hospitals accept your medical translations?' },
         a: {
-          ar: 'نعم، ترجماتنا المختومة مقبولة لدى المستشفيات الدولية وشركات التأمين والسفارات لملفات العلاج بالخارج والمطالبات المالية.',
-          en: 'Yes, our certified translations are accepted by international hospitals, insurance agencies, and embassies for overseas treatment and financial claims.'
+          ar: 'نعم، تعتمد ترجماتنا باللغات الإنجليزية والألمانية والفرنسية، وتستخدم الأسماء العلمية الدولية المعترف بها في المشافي الجامعية والمراكز التخصصية بالخارج.',
+          en: 'Yes. Our medical translations in English, German, and French utilize internationally standardized terminology recognized across European university hospitals.'
         }
       },
       {
-        q: { ar: 'من يترجم التقارير الطبية؟', en: 'Who translates the medical reports?' },
+        q: { ar: 'كيف تضمنون دقة كتابة أسماء الأدوية والجرعات؟', en: 'How do you guarantee the precision of pharmaceutical names and dosages?' },
         a: {
-          ar: 'مترجمون متخصصون في الترجمة الطبية بمرجعية مصطلحية معتمدة وخلفية علمية، مع مراجعة ثانية لكل تقرير قبل الختم.',
-          en: 'Specialized medical translators with clinical terminology resources and scientific backgrounds, followed by a secondary review before stamping.'
-        }
-      },
-      {
-        q: { ar: 'هل بياناتي الصحية سرية؟', en: 'Is my health data kept confidential?' },
-        a: {
-          ar: 'سرية تامة — الملفات الطبية تُعامل بأعلى مستوى خصوصية ولا يطلع عليها سوى فريق الترجمة المسؤول ولا يتم مشاركتها مطلقاً.',
-          en: '100% confidential. Medical files are treated with the highest degree of privacy, restricted only to the translation team, and never shared.'
-        }
-      },
-      {
-        q: { ar: 'كم تستغرق ترجمة تقرير طبي؟', en: 'How long does a medical report translation take?' },
-        a: {
-          ar: 'التقارير المعتادة 24-48 ساعة، والملفات العلاجية الكاملة 2-4 أيام، مع خدمة عاجلة لحالات السفر العلاجي القريب.',
-          en: 'Standard reports take 24-48 hours. Comprehensive medical histories take 2-4 days. Urgent same-day services are available for sudden medical travel.'
-        }
-      },
-      {
-        q: { ar: 'هل تترجمون خط اليد في الروشتات والتقارير؟', en: 'Do you translate handwritten prescriptions and reports?' },
-        a: {
-          ar: 'نعم عندما يكون خط اليد مقروءاً، وإذا تعذرت قراءة جزء نحدده بوضوح ونطلب توضيحه من جهة الإصدار لضمان الدقة وتفادي التخمين.',
-          en: 'Yes, if it is legible. If any part is unreadable, we label it clearly and ask you to clarify it with the issuing doctor to avoid guessing.'
-        }
-      },
-      {
-        q: { ar: 'هل تجهزون الملف الطبي كاملاً للعلاج بالخارج؟', en: 'Do you prepare the complete medical file for treatment abroad?' },
-        a: {
-          ar: 'نعم، نترجم الملف كاملاً (تقارير + تحاليل + أشعة) بتنسيق موحد جاهز للإرسال للمستشفى، وبسعر أفضل للملف الكامل.',
-          en: 'Yes, we translate the entire package (reports, labs, scan records) in a unified format ready to send to your target clinic, with package discounts.'
+          ar: 'نترجم أسماء الأدوية وفقاً لاسم المادة الفعالة الدولي (Generic INN Name) مع ذكر الاسم التجاري الأصلي ونظام الجرعات بدقة بالغة تحت تدقيق صيدلي معتمد.',
+          en: 'Medications are mapped to International Nonproprietary Names (INN) alongside brand names and exact dosage regimens audited by clinical pharmacists.'
         }
       }
     ],
-    relatedServices: ['personal-documents', 'embassy-translation', 'sworn-translation']
+    extendedContent: {
+      legalStandards: {
+        title: {
+          ar: 'معايير الأمان والسرية في الترجمة الطبية',
+          en: 'Patient Privacy & Clinical Accuracy Benchmarks'
+        },
+        body: {
+          ar: 'تخضع الملفات الطبية لإجراءات أمان صارمة تعامل البيانات الصحية للمريض بسرية مطلقة، وتضمن النقل المعياري لقراءات التحاليل مع كتابة القيم المرجعية الطبيعية كما وردت في الأصل.',
+          en: 'Medical files are processed under strict clinical confidentiality guidelines, ensuring exact preservation of laboratory values, reference ranges, and diagnostic notes.'
+        }
+      },
+      embassiesCompliance: {
+        title: {
+          ar: 'تأشيرات العلاج الطبي والمراكز الصحية الدولية',
+          en: 'Medical Visa Clearances & Global Healthcare Centers'
+        },
+        items: [
+          {
+            name: { ar: 'سفارات شنغن وبريطانيا وأمريكا لتأشيرات العلاج', en: 'Embassies for Medical Treatment Visas' },
+            desc: {
+              ar: 'استيفاء شروط القبول القنصلي للتقارير الطبية وخطابات المستشفيات.',
+              en: 'Full compliance with visa guidelines for medical travel and hospital invites.'
+            }
+          },
+          {
+            name: { ar: 'شركات التأمين الصحي الدولي (Bupa, Allianz)', en: 'International Healthcare Insurers' },
+            desc: {
+              ar: 'ترجمة معتمدة معترف بها لمطالبات التعويض والموافقات المسبقة.',
+              en: 'Certified translation for claims, prior authorizations, and reimbursements.'
+            }
+          }
+        ]
+      },
+      prepGuidelines: {
+        title: {
+          ar: 'إرشادات المرضى قبل إرسال التقارير الطبية',
+          en: 'Patient Checklist Prior to Report Submission'
+        },
+        items: [
+          {
+            ar: 'تأكد من وضوح ختم الطبيب واسم المستشفى وتاريخ التقرير وأرقام التحاليل.',
+            en: 'Verify that the physician signature, hospital seal, and dates are clearly legible.'
+          },
+          {
+            ar: 'أرفق جواز سفر المريض لضمان كتابة اسمه بالهجاء الرسمي المعتمد في السفر.',
+            en: 'Provide patient passport biodata to match personal names accurately on medical charts.'
+          }
+        ]
+      }
+    },
+    relatedServices: ['embassy-translation', 'personal-documents', 'technical-translation', 'sworn-translation']
   },
+
   'technical-translation': {
     slug: 'technical-translation',
     metaTitle: {
-      ar: 'ترجمة تقنية وهندسية معتمدة | كتالوجات ومواصفات | هيرميس',
-      en: 'Certified Technical & Engineering Translation | Hermes Egypt'
+      ar: 'ترجمة تقنية وهندسية معتمدة في مصر | هيرمس',
+      en: 'Certified Technical & Engineering Translation Egypt | Hermes'
     },
     metaDesc: {
-      ar: 'ترجمة تقنية معتمدة للكتالوجات والمواصفات الفنية والمستندات الهندسية وأدلة التشغيل بمصطلحات هندسية دقيقة — للمصانع وشركات المقاولات والاستيراد. اطلب عرض سعر.',
-      en: 'Certified technical translation of catalogs, specifications, engineering documents, and operation manuals with precise engineering terminology — for factories, contractors, and importers.'
+      ar: 'مكتب ترجمة تقنية وهندسية معتمد لكتالوجات المعدات، مواصفات المشاريع، كراسات الشروط، وبراءات الاختراع. دقة صناعية متناهية في القاهرة والجيزة.',
+      en: 'Accredited technical and engineering translation in Egypt. Operating manuals, technical specs, patents & industrial tenders with rigorous engineering terminology.'
     },
     h1: {
-      ar: 'ترجمة تقنية وهندسية معتمدة',
-      en: 'Certified Technical & Engineering Translation'
+      ar: 'ترجمة تقنية وهندسية معتمدة في مصر | كتالوجات ومواصفات المشاريع الكبرى',
+      en: 'Certified Technical & Engineering Translation | Manuals, Specifications & Patents'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة تقدم ترجمة تقنية معتمدة للكتالوجات والمواصفات الفنية والمستندات الهندسية وأدلة التشغيل، بمصطلحات هندسية دقيقة ومسارد مصطلحات ثابتة لكل مشروع. نخدم المصانع وشركات المقاولات والاستيراد والتصدير والطاقة.',
-      en: 'Hermes Certified Translations provides certified technical translation of catalogs, technical specifications, engineering documents, and operation manuals, with precise engineering terminology and a consistent project glossary. We serve factories, contracting companies, importers/exporters, and the energy sector.'
+      ar: 'تتطلب الترجمة التقنية والهندسية فهماً عميقاً للعلوم التطبيقية، المعايير الصناعية الدولية (ISO / IEEE)، ومصطلحات التشغيل والميكانيكا والكهرباء والبرمجيات. في هيرمس للترجمة المعتمدة، نضع مشاريعك الهندسية بين أيدي مترجمين ومهندسين متخصصين، لترجمة كتالوجات الصيانة والتشغيل، كراسات شروط المشاريع الكبرى، براءات الاختراع، وأدلة السلامة والصحة المهنية (OSHA)، بأعلى درجات الدقة الفنية.',
+      en: 'Technical and engineering translation demands rigorous command of applied sciences, international industrial standards (ISO/IEEE), and mechanical, electrical, and software terminology. At Hermes Certified Translations, your technical dossiers are managed by specialized engineers and technical linguists handling operational manuals, mega-project tender specifications, engineering patents, and industrial safety guidelines.'
     },
     definitionTitle: {
-      ar: 'ما هي الترجمة التقنية؟',
-      en: 'What is Technical Translation?'
+      ar: 'ما هي معايير الترجمة التقنية والهندسية المعتمدة؟',
+      en: 'Standards of Certified Technical Translation'
     },
     definitionText: {
-      ar: 'الترجمة التقنية هي نقل النصوص ذات المحتوى العلمي أو التكنولوجي أو الهندسي المتخصص. تتطلب مترجمين على دراية بالأنظمة الهندسية ومفاهيم التصنيع، لضمان الصياغة الصحيحة لمصطلحات الآلات والدوائر الإلكترونية ومواصفات الخامات دون أي تحريف.',
-      en: 'Technical translation is the translation of scientific, technological, and engineering texts. It requires linguists with engineering knowledge and industrial terminology to accurately convey parameters for machinery, electronics, and materials.'
+      ar: 'الترجمة التقنية هي نقل متخصص يلتزم بالدقة الحرفية للمصطلحات الصناعية والهندسية، المحافظة على الرسومات التوضيحية والمخططات والأبعاد القياسية، وضمان خلو أدلة التشغيل من أي لبس قد يؤدي لأعطال تشغيلية أو مخاطر مهنية، مع توفير الختم المعتمد اللازم لجهات الاعتماد الصناعية والرقابية.',
+      en: 'Technical translation requires absolute terminological precision matching industrial standards, faithful preservation of engineering diagrams, blueprints, and metrics, ensuring user manuals prevent operational failures or safety hazards, complete with official certification.'
     },
     needTitle: {
-      ar: 'متى تحتاج الترجمة التقنية؟',
-      en: 'When Do You Need It?'
+      ar: 'متى تحتاج إلى الترجمة الهندسية والتقنية؟',
+      en: 'When Do You Require Technical Translation?'
     },
     needText: {
-      ar: 'تحتاجها عند استيراد خطوط الإنتاج والآلات الجديدة لتزويد الفنيين بأدلة تشغيل بلغتهم، أو عند التقدم لمناقصات المقاولات والإنشاءات الكبرى، أو لتسجيل براءات الاختراع الهندسية والحصول على شهادات الجودة الدولية (ISO).',
-      en: 'You need it when importing new machinery and production lines to provide manuals for technicians, bidding on civil construction tenders, registering technical patents, or securing international quality marks (ISO).'
+      ar: 'تحتاج المصانع وشركات المقاولات والتكنولوجيا لخدماتنا عند: (1) استيراد خطوط الإنتاج والآلات وتشغيلها في المصانع، (2) التقديم للمناقصات والمشاريع القومية والعطاءات الحكومية، (3) تسجيل براءات الاختراع والحلول البرمجية دولياً، و(4) استيفاء متطلبات السلامة والبيئة ومطابقة معايير الآيزو.',
+      en: 'Manufacturing plants, EPC contractors, and technology firms require technical translation when: (1) Commissioning imported production lines and industrial machinery, (2) Submitting bids for governmental infrastructure tenders, (3) Prosecuting engineering patents globally, and (4) Complying with ISO and environmental safety audits.'
     },
     documentsSectionTitle: {
-      ar: 'المستندات الهندسية والتقنية التي نغطيها',
-      en: 'Engineering & Technical Documents We Cover'
+      ar: 'الوثائق التقنية والهندسية التي نترجمها',
+      en: 'Technical Documents & Engineering Dossiers'
     },
     categories: [
       {
-        title: { ar: 'أدلة التشغيل والصيانة', en: 'Operation & Maintenance Manuals' },
+        title: { ar: 'أدلة التشغيل والكتالوجات الصناعية', en: 'Operation & Maintenance Manuals' },
         items: [
-          { ar: 'أدلة تشغيل الماكينات والمعدات الصناعية والطبية', en: 'Operation manuals for industrial, clinical, and heavy machinery' },
-          { ar: 'كتالوجات الاستخدام وكتيبات الصيانة الدورية', en: 'User catalogs and routine maintenance handbooks' },
-          { ar: 'إرشادات السلامة والوقاية المهنية في مواقع العمل', en: 'Safety guidelines and occupational hazard protocols' },
-          { ar: 'وثائق التركيب والربط الكهربائي والميكانيكي', en: 'Installation manuals and electrical/mechanical layouts' }
+          { ar: 'كتالوجات تشغيل الآلات والمعدات الثقيلة وخطوط الإنتاج', en: 'Heavy machinery, plant equipment, and assembly line manuals' },
+          { ar: 'أدلة الصيانة الوقائية واستكشاف الأعطال وإصلاحها (Troubleshooting)', en: 'Preventive maintenance guides and troubleshooting handbooks' },
+          { ar: 'نشرات الأمان الكيميائي (MSDS / SDS) وأدلة السلامة المهنية', en: 'Material Safety Data Sheets (MSDS/SDS) and OSHA manuals' }
         ]
       },
       {
-        title: { ar: 'المواصفات الفنية والمخططات', en: 'Specifications & Blueprints' },
+        title: { ar: 'مواصفات المشاريع والمناقصات الهندسية', en: 'Project Specifications & Engineering Tenders' },
         items: [
-          { ar: 'جداول الكميات ومواصفات خامات التشييد والمناقصات', en: 'Bills of quantities (BOQs) and construction specifications' },
-          { ar: 'الرسومات الهندسية وتسميات مخططات CAD والدوائر الكهربية', en: 'Engineering drawings and labels on CAD and circuit blueprints' },
-          { ar: 'تقارير دراسات الجدوى الفنية وتقارير فحص المواقع', en: 'Technical feasibility studies and site inspection reports' },
-          { ar: 'مستندات المقارنات والتحليلات الفنية للمعدات', en: 'Technical analysis and equipment evaluation reports' }
-        ]
-      },
-      {
-        title: { ar: 'الجودة والشهادات القياسية', en: 'Quality & Standardization' },
-        items: [
-          { ar: 'شهادات المنشأ وفواتير الشحن الخارجي للمعدات', en: 'Certificates of origin and customs invoices for machinery' },
-          { ar: 'شهادات الجودة والمطابقة الدولية (ISO, CE, UL)', en: 'Quality assurance (ISO) and conformity (CE, UL) certificates' },
-          { ar: 'تقارير فحص ومعايرة الأجهزة وتدقيق الجودة', en: 'Calibration audits and quality control inspection reports' },
-          { ar: 'براءات الاختراع الفنية وكتيبات الملكية الفكرية', en: 'Technical patent applications and IP documentation' }
+          { ar: 'كراسات الشروط والمواصفات الفنية للمشاريع المعمارية والمدنية', en: 'Bills of quantities, terms of reference, and civil engineering specs' },
+          { ar: 'المخططات الهندسية والرسومات الفنية وتوصيفات الأنظمة الكهروميكانيكية', en: 'Engineering blueprints, architectural drawings, and MEP specifications' },
+          { ar: 'تقارير فحص الجودة ومطابقة معايير الآيزو (ISO Standards)', en: 'Quality inspection reports and ISO certification compliance dossiers' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'مسرد مصطلحات خاص بكل عميل + الحفاظ على تنسيق الجداول والرسومات كما في الأصل.',
-      en: 'Client-specific glossary + original formatting of tables and drawings preserved.'
+      ar: 'يقوم على ترجمة ملفاتك مهندسون ومترجمون تقنيون ذوو خبرة ميدانية في المصطلحات الصناعية الدقيقة، مع استخدام أحدث أدوات التوحيد المصطلحي لضمان التناسق التام في المشاريع الضخمة.',
+      en: 'Executed by technical linguists with industrial backgrounds, utilizing advanced translation memory glossaries to guarantee perfect terminology consistency across thousands of pages.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'شهادات جودة ومنشأ ومطابقة', en: 'Quality & Origin Certificates' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '3-4 ساعات', en: '3-4 Hours' }
+        docType: { ar: 'كتالوجات التشغيل والمواصفات الفنية القصيرة', en: 'Short Operating Manuals & Technical Specs' },
+        standard: { ar: '48 ساعة عمل', en: '48 Business Hours' },
+        rush: { ar: '24 ساعة عمل', en: '24 Business Hours' }
       },
       {
-        docType: { ar: 'جداول كميات ومواصفات فنية مناقصة', en: 'Tender BOQs & Tech Specifications' },
-        standard: { ar: '48-72 ساعة', en: '48-72 Hours' },
-        rush: { ar: '24 ساعة', en: '24 Hours' }
-      },
-      {
-        docType: { ar: 'أدلة صيانة وتشغيل ماكينات ضخمة', en: 'Heavy Machinery O&M Manuals' },
-        standard: { ar: '4-7 أيام', en: '4-7 Days' },
-        rush: { ar: '48-72 ساعة', en: '48-72 Hours' }
+        docType: { ar: 'كراسات الشروط والمشاريع الهندسية الكبرى', en: 'Major Engineering Tenders & Detailed Specs' },
+        standard: { ar: '3 - 7 أيام عمل', en: '3 - 7 Business Days' },
+        rush: { ar: '48 - 72 ساعة عمل', en: '48 - 72 Business Hours' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'ما المجالات التقنية التي تغطونها؟', en: 'What technical fields do you cover?' },
+        q: { ar: 'كيف تحافظون على الرسومات الهندسية والمخططات في الملف المترجم؟', en: 'How do you preserve engineering drawings and blueprints during translation?' },
         a: {
-          ar: 'الهندسة المدنية والميكانيكية والكهربائية، الطاقة، البترول، التصنيع، تكنولوجيا المعلومات، والمعدات الطبية، وغيرها حسب احتياج المشروع.',
-          en: 'Civil, mechanical, electrical, and energy engineering, petroleum, manufacturing, IT, and medical devices, tailored to your project.'
-        }
-      },
-      {
-        q: { ar: 'كيف تضمنون اتساق المصطلحات في المستندات الكبيرة؟', en: 'How do you ensure terminology consistency in large documents?' },
-        a: {
-          ar: 'نبني مسرد مصطلحات معتمداً من العميل في بداية المشروع ونلتزم به عبر كل الملفات والدفعات لضمان الاتساق الكامل للمشروع.',
-          en: 'We build an approved glossary in collaboration with the client at the project’s start, enforcing it across all files and batches.'
-        }
-      },
-      {
-        q: { ar: 'هل تحافظون على تنسيق الجداول والرسومات؟', en: 'Do you preserve the formatting of tables and drawings?' },
-        a: {
-          ar: 'نعم، نسلم الترجمة بنفس تنسيق الأصل تماماً — جداول كميات، مواصفات، ومخططات بتسمياتها مع الحفاظ على التصميم العام.',
-          en: 'Yes, we deliver the translation in the exact layout of the original — BOQs, specifications, and drawings with corresponding labels.'
-        }
-      },
-      {
-        q: { ar: 'هل تترجمون ملفات المناقصات الفنية الكبيرة؟', en: 'Do you translate large technical tender packages?' },
-        a: {
-          ar: 'نعم، مع إمكانية تقسيم التسليم على دفعات متفق عليها وفريق موسع للمواعيد الضيقة لضمان تسليم العرض الفني في وقته.',
-          en: 'Yes, utilizing split deliveries and dedicated translator teams for tight deadlines to ensure your bid is ready on time.'
-        }
-      },
-      {
-        q: { ar: 'كم تستغرق ترجمة كتالوج أو دليل تشغيل؟', en: 'How long does it take to translate a catalog or user manual?' },
-        a: {
-          ar: 'حسب الحجم — المستندات المعتادة تستغرق 2-4 أيام، والمشاريع الكبيرة بجدول زمني متفق عليه مسبقاً بما يناسب خطة العمل.',
-          en: 'Depending on volume, standard files take 2-4 days. Large-scale manuals are scheduled according to pre-agreed timelines.'
-        }
-      },
-      {
-        q: { ar: 'هل الترجمة التقنية معتمدة أيضاً؟', en: 'Is technical translation certified as well?' },
-        a: {
-          ar: 'نعم عند الحاجة — نختمها بختم الاعتماد لتقديمها للجهات الرسمية والمناقصات الحكومية والهيئات الرقابية للحصول على التراخيص.',
-          en: 'Yes, if required. We stamp technical translations with our official seal for governmental tenders, state authorities, and regulatory boards.'
+          ar: 'يمتلك فريقنا برامج متقدمة لمعالجة النصوص داخل الرسومات الهندسية والمخططات (DTP) لإعادة إنتاج الكتالوج بتنسيقه الأصلي مع تعريب أو ترجمة المصطلحات بدقة متناهية.',
+          en: 'Our desktop publishing (DTP) unit extracts and replaces text directly within blueprints and schematics, delivering an exact visual replica in the target language.'
         }
       }
     ],
-    relatedServices: ['commercial-translation', 'legal-translation', 'sworn-translation']
+    extendedContent: {
+      legalStandards: {
+        title: {
+          ar: 'معايير الدقة والسلامة في الترجمة الهندسية',
+          en: 'Safety & Industrial Precision Benchmarks'
+        },
+        body: {
+          ar: 'تخضع كل ترجمة تقنية لتدقيق هندسي يضمن النقل الصحيح لوحدات القياس والأرقام وإرشادات التحذير من المخاطر لحماية المنشآت والمعدات.',
+          en: 'Technical dossiers undergo engineering audits ensuring accurate conversion of metric units, electrical tolerances, and hazardous warning protocols.'
+        }
+      }
+    },
+    relatedServices: ['commercial-translation', 'legal-translation', 'academic-documents', 'medical-translation']
   },
+
   'sworn-translation': {
     slug: 'sworn-translation',
     metaTitle: {
-      ar: 'ترجمة محلفة معتمدة في مصر | هيرميس للترجمة المعتمدة',
-      en: 'Sworn Translation in Egypt | Hermes Certified Translations'
+      ar: 'الترجمة المحلفة في مصر | ضوابط الاعتماد القنصلي | هيرمس',
+      en: 'Sworn Translation Services in Egypt | Legal Framework | Hermes'
     },
     metaDesc: {
-      ar: 'ترجمة محلفة موثوقة للجهات التي تشترط مترجماً محلفاً أو معتمداً — للمحاكم والسفارات والجهات الأجنبية. مترجمون معتمدون من وزارة العدل. اطلب عرض سعر.',
-      en: 'Reliable sworn translation for authorities that require a sworn or certified translator — for courts, embassies, and foreign authorities. Ministry of Justice certified translators.'
+      ar: 'دليلك للترجمة المحلفة في مصر. متى تحتاجها وكيف تستوفي شروط السفارات الأوروبية (ألمانيا، إسبانيا، فرنسا، إيطاليا) عبر مكاتب الترجمة المعتمدة الرسمية.',
+      en: 'Comprehensive guide to sworn translation in Egypt. Fulfill requirements of European consulates (Germany, Spain, France, Italy) via certified translation bureaus.'
     },
     h1: {
-      ar: 'الترجمة المحلفة في مصر — متى تحتاجها وكيف نقدمها',
-      en: 'Sworn Translation in Egypt — When You Need It & How We Deliver It'
+      ar: 'الترجمة المحلفة في مصر | ضوابط الاعتماد القنصلي والجهات الأوروبية',
+      en: 'Sworn Translation Services in Egypt | Legal Framework & Consular Attestation'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة توفر ترجمة محلفة موثوقة للجهات التي تشترط مترجماً محلفاً أو معتمداً، بمترجمين معتمدين من وزارة العدل المصرية وإقرار رسمي بصحة الترجمة. نجهز ترجمتك بالصيغة التي تقبلها المحاكم والسفارات والجهات الأجنبية التي تطلب Sworn Translation.',
-      en: 'Hermes Certified Translations provides reliable sworn translation for authorities that require a sworn or certified translator, delivered by translators certified by the Egyptian Ministry of Justice with a formal declaration of accuracy. We prepare your translation in the exact format accepted by courts, embassies, and foreign authorities requesting a sworn translation.'
+      ar: 'يواجه الكثير من المواطنين الراغبين في السفر أو العمل أو الزواج في أوروبا مصطلح "الترجمة المحلفة" (Sworn Translation / Traduction Assermentée / Beglaubigte Übersetzung)، ويتساءلون عن كيفية استيفائها في مصر. في هيرمس للترجمة المعتمدة، نوضح لك الفروق القانونية بدقة ونوفر الترجمات المعتمدة المستوفية لكافة الضوابط التي تطلبها سفارات دول الاتحاد الأوروبي في القاهرة، بالتعاون مع المترجمين المعتمدين وتصديقات الخارجية والقنصليات.',
+      en: 'Applicants pursuing employment, civil marriage, or academic programs in Europe frequently encounter requests for Sworn Translation (Traduction Assermentée / Beglaubigte Übersetzung). At Hermes Certified Translations, we demystify this civil-law concept and provide accredited translations fulfilling the rigorous standards mandated by European diplomatic missions in Cairo.'
     },
     definitionTitle: {
-      ar: 'ما هي الترجمة المحلفة؟',
-      en: 'What is Sworn Translation?'
+      ar: 'ما هي الترجمة المحلفة؟ وكيف تطبق في النظام القانوني المصري؟',
+      en: 'What is Sworn Translation and How Does it Apply in Egypt?'
     },
     definitionText: {
-      ar: 'الترجمة المحلفة (Sworn Translation) هي ترجمة معترف بها رسمياً يؤديها مترجم أقسم اليمين القانونية أمام جهة قضائية معتمدة في بعض البلدان. في مصر، يقوم مقامها المترجم المعتمد من وزارة العدل مع ختم مكتب الترجمة المعتمد وتوقيع إقرار الصحة الرسمي (Translator’s Declaration) ومطابقتها للمستندات الأصلية.',
-      en: 'Sworn translation is a legally recognized translation completed by a translator who has taken an official oath before a judicial body. In Egypt, the equivalent is translation by a Ministry of Justice-certified translator, bound with the accredited office seal and a signed Declaration of Accuracy.'
+      ar: 'في دول القانون المدني الأوروبي (مثل فرنسا وإسبانيا وألمانيا)، يُعد المترجم المحلف خبيراً قضائياً يؤدي اليمين القانونية أمام المحكمة. أما في جمهورية مصر العربية، فلا يوجد نظام للمترجم المحلف القضائي المماثل؛ وعوضاً عن ذلك، تقبل السفارات الأوروبية الترجمة الصادرة عن مكاتب الترجمة المعتمدة والمطابقة لإرشاداتها، أو المصدق عليها من وزارة الخارجية المصرية، وفي بعض الحالات قوائم المترجمين المعتمدين المنشورة لدى السفارة.',
+      en: 'In European civil-law jurisdictions, a sworn translator is an official appointed by a court. In Egypt, no direct equivalent public notary translator registry exists; instead, European embassies accept certified translations issued by accredited translation bureaus adhering to their published consular criteria and supported by Ministry of Foreign Affairs attestations.'
     },
     needTitle: {
-      ar: 'متى تحتاج الترجمة المحلفة؟',
-      en: 'When Do You Need It?'
+      ar: 'متى يطلب منك تقديم ترجمة محلفة؟',
+      en: 'When Are You Required to Present Sworn Translations?'
     },
     needText: {
-      ar: 'تحتاجها عند التعامل مع المحاكم الأجنبية مباشرة، أو تقديم وثائق لبلدان تتبع نظام المترجم المحلف حصرياً مثل فرنسا وإسبانيا وإيطاليا وألمانيا، أو لإتمام معاملات الزواج المدني وتأسيس العقارات والمعاملات الرسمية بالخارج.',
-      en: 'You need it when dealing directly with foreign courts, presenting records to European countries operating strict sworn systems (e.g. France, Spain, Italy, Germany), or for overseas civil marriages and property registrations.'
+      ar: 'يطلب منك هذا الإجراء عند: (1) الزواج المدني في إسبانيا أو فرنسا أو ألمانيا أو إيطاليا، (2) معادلة الشهادات الجامعية والمهنية أمام الوزارات الأوروبية، (3) الترافع وتقديم قضايا الميراث والوصاية أمام المحاكم الأوروبية، و(4) طلبات الجنسية الأوروبية ولمّ الشمل العائلي الدائم.',
+      en: 'Sworn translations are requested for: (1) Overseas civil marriages in Spain, France, Germany, or Italy, (2) Educational credential recognitions before European ministries, (3) Court litigation and probate proceedings abroad, and (4) European citizenship and long-term family reunification petitions.'
     },
     documentsSectionTitle: {
-      ar: 'متى وكيف تُطلب الترجمة المحلفة؟',
-      en: 'When and How is Sworn Translation Handled?'
+      ar: 'الوثائق التي يكثر طلب الترجمة المحلفة لها',
+      en: 'Documents Commonly Requiring Sworn Certification'
     },
     categories: [
       {
-        title: { ar: 'متى تُطلب الترجمة المحلفة؟', en: 'When is Sworn Translation Required?' },
+        title: { ar: 'وثائق الحالة المدنية والزواج', en: 'Civil Status & Marriage Deeds' },
         items: [
-          { ar: 'المحاكم القضائية وهيئات التحكيم الأجنبية بالخارج', en: 'Foreign courts and international arbitration panels' },
-          { ar: 'سفارات وقنصليات دول معينة في أوروبا (ألمانيا، إسبانيا، إيطاليا)', en: 'Embassies of specific European countries (Germany, Spain, Italy)' },
-          { ar: 'إجراءات الزواج المدني والإقامة في الخارج لدى البلديات', en: 'Civil marriages and residence registrations at foreign municipalities' },
-          { ar: 'الجهات التعليمية والهيئات الأكاديمية للحصول على تراخيص المهن', en: 'Educational bodies and professional licensing boards abroad' }
+          { ar: 'شهادات الميلاد والوفاة ووثائق وقسائم الزواج وإشهادات الطلاق', en: 'Birth, death, marriage, and divorce deeds' },
+          { ar: 'شهادات العزوبية وعدم وجود مانع من الزواج (شهادة الأهلية للزواج)', en: 'Certificates of celibacy and non-impediment to marriage' },
+          { ar: 'القيد العائلي المميكن المصدق من وزارة الخارجية المصرية', en: 'Family registration records attested by the Egyptian MFA' }
         ]
       },
       {
-        title: { ar: 'الفرق بين المحلفة والمعتمدة والموثقة', en: 'Sworn vs. Certified vs. Notarized' },
+        title: { ar: 'المستندات الجنائية والقضائية', en: 'Criminal Records & Court Filings' },
         items: [
-          { ar: 'الترجمة المعتمدة: يختمها مكتب معتمد بموجب ترخيص رسمي وإقرار صحة', en: 'Certified: Stamped by an accredited translation office with an accuracy statement' },
-          { ar: 'الترجمة المحلفة: ينفذها مترجم محلف مسجل ومؤدي لليمن أمام المحاكم', en: 'Sworn: Executed by a registered sworn translator who took a judicial oath' },
-          { ar: 'الترجمة الموثقة: تتطلب تصديق الشهر العقاري والخارجية على الأختام', en: 'Notarized: Requires Notary Public or Foreign Ministry authentication of stamps' }
-        ]
-      },
-      {
-        title: { ar: 'كيف نجهز الترجمة بصيغة مقبولة لدى جهتك؟', en: 'How We Format Your Sworn File' },
-        items: [
-          { ar: 'صياغة إقرار المترجم (Translator’s Declaration) بلغة الجهة المستقبلة', en: 'Formulating the Translator’s Declaration in the receiver’s language' },
-          { ar: 'مقارنة الأسماء والأرقام والتواريخ وضبطها بمطابقة كاملة للنسخ الأصلية', en: 'Verifying names, numbers, and dates to strictly match original copies' },
-          { ar: 'التواصل المباشر لإرشادك في حال الحاجة لتصديق الخارجية أو السفارة', en: 'Direct guidance if Ministry of Foreign Affairs or embassy legalization is required' }
+          { ar: 'صحيفة الحالة الجنائية (الفيش والتشبيه) المصدقة للخارج', en: 'Police clearance certificates attested for foreign use' },
+          { ar: 'التوكيلات القضائية العامة والخاصة وأحكام إثبات النسب والطلاق', en: 'Judicial powers of attorney and civil status court rulings' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'معرفة دقيقة بمتطلبات كل دولة — نجهز صيغة الإقرار حسب الجهة المستقبلة بدل صيغة واحدة للجميع.',
-      en: 'Precise knowledge of each country’s requirements — we tailor the declaration to the receiving authority rather than using one generic format.'
+      ar: 'دراية تامة بمتطلبات السفارات الأوروبية وتفادي أخطاء رد الملفات، مع تقديم التوجيه الإجرائي الكامل لترتيب التصديقات الحكومية والقنصلية.',
+      en: 'Deep expertise in European consular mandates, preventing administrative rejections while guiding clients through complete governmental attestation workflows.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'أحكام قضائية وتوكيلات للمحاكم', en: 'Court Rulings & Powers of Attorney' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '6-8 ساعات', en: '6-8 Hours' }
-      },
-      {
-        docType: { ar: 'شهادات أحوال مدنية للزواج بالخارج', en: 'Civil Certificates for Marriage Abroad' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '2-3 ساعات', en: '2-3 Hours' }
-      },
-      {
-        docType: { ar: 'مستندات تأسيس وسجلات تجارية مترجمة', en: 'Company Bylaws & Trade Registers' },
-        standard: { ar: '48 ساعة', en: '48 Hours' },
-        rush: { ar: 'يوم واحد', en: 'Same Day' }
+        docType: { ar: 'الوثائق الشخصية والمدنية المعتمدة للسفارات الأوروبية', en: 'Civil Records for European Consular Use' },
+        standard: { ar: '24 - 48 ساعة عمل', en: '24 - 48 Business Hours' },
+        rush: { ar: 'نفس اليوم (خدمة عاجلة)', en: 'Same-Day Express Service' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'ما الفرق بين الترجمة المحلفة والمعتمدة؟', en: 'What is the difference between sworn and certified translation?' },
+        q: { ar: 'هل ترجمات هيرمس تقبلها السفارة الألمانية والفرنسية والإسبانية؟', en: 'Do German, French, and Spanish embassies accept Hermes translations?' },
         a: {
-          ar: 'المحلفة ينفذها مترجم أدى يميناً أمام جهة قضائية (نظام معمول به في دول أوروبية)، والمعتمدة يختمها مكتب معتمد ومترجمون معتمدون من وزارة العدل — وفي مصر تقوم المعتمدة مقام المحلفة لدى أغلب الجهات.',
-          en: 'Sworn translation is done by a translator who took a judicial oath (European system), while certified translation is stamped by an accredited office and Ministry of Justice-certified translators. In Egypt, certified translation serves as the equivalent for most overseas bodies.'
-        }
-      },
-      {
-        q: { ar: 'هل الترجمة المعتمدة في مصر تُقبل كترجمة محلفة بالخارج؟', en: 'Are certified translations from Egypt accepted as sworn translations abroad?' },
-        a: {
-          ar: 'في كثير من الحالات نعم مع التصديقات المناسبة (الخارجية/الأبوستيل حسب الدولة)، وبعض الجهات تشترط مترجماً محلفاً محلياً في بلدها — نوضح لك الموقف حسب جهتك قبل البدء.',
-          en: 'In many cases, yes, given the proper attestations (MFA/Apostille). However, some foreign authorities require a locally registered sworn translator in their country — we will clarify the status for you before starting.'
-        }
-      },
-      {
-        q: { ar: 'ما التصديقات المطلوبة بعد الترجمة؟', en: 'What attestations are required after translation?' },
-        a: {
-          ar: 'حسب الدولة المستهدفة: تصديق وزارة الخارجية المصرية، وأحياناً تصديق سفارة الدولة المستقبلة — نرشدك للمسار كاملاً لتفادي ارتباك الإجراءات.',
-          en: 'Depends on the destination: Egyptian Ministry of Foreign Affairs attestation, and sometimes attestation by the destination country’s embassy. We guide you through the entire path.'
-        }
-      },
-      {
-        q: { ar: 'هل تجهزون إقرار المترجم بصيغة الجهة الأجنبية؟', en: 'Do you prepare the translator’s declaration in the foreign authority’s format?' },
-        a: {
-          ar: 'نعم، نصيغ إقرار الصحة (Translator’s Declaration) بالشكل القانوني والصياغة اللغوية التي تشترطها الجهة المستقبلة.',
-          en: 'Yes, we draft the formal Translator’s Declaration in the exact legal format and language required by the receiving authority.'
-        }
-      },
-      {
-        q: { ar: 'كم تستغرق الترجمة المحلفة؟', en: 'How long does sworn translation take?' },
-        a: {
-          ar: 'نفس مدد الترجمة المعتمدة (24-72 ساعة حسب المستند وحجمه)، ويضاف إليها وقت إنهاء التصديقات الحكومية إن طُلبت.',
-          en: 'The same timeframe as certified translations (24-72 hours depending on document length), plus the time needed to finalize government attestations if requested.'
-        }
-      },
-      {
-        q: { ar: 'ما المستندات الأكثر طلباً للترجمة المحلفة؟', en: 'What are the most requested documents for sworn translation?' },
-        a: {
-          ar: 'الأحكام القضائية والقرارات، شهادات الأحوال المدنية للزواج والإقامة بالخارج، التوكيلات القانونية، ومستندات المحاكم الأجنبية.',
-          en: 'Court rulings, civil status records for foreign marriage/residency, legal powers of attorney, and litigation files.'
+          ar: 'نعم، تصدر ترجماتنا وفقاً لأحدث الإرشادات المنشورة على مواقع هذه السفارات ومراكز التأشيرات المعتمدة، مع توجيه العميل لأي تصديق مطلوب على أصل الوثيقة قبل التقديم.',
+          en: 'Yes. Our translations adhere strictly to updated embassy criteria and visa processing centers, with advisory support on required pre-attestation steps.'
         }
       }
     ],
-    relatedServices: ['legal-translation', 'notarization', 'embassy-translation', 'personal-documents']
+    relatedServices: ['embassy-translation', 'legal-translation', 'personal-documents', 'notarization']
   },
+
   'notarization': {
     slug: 'notarization',
     metaTitle: {
-      ar: 'التوثيق والتصديق والأبوستيل في مصر | إرشاد كامل | هيرميس',
-      en: 'Document Legalization, Notarization & Apostille in Egypt | Hermes'
+      ar: 'خدمات التوثيق والتصديق والأبوستيل في مصر | هيرمس',
+      en: 'Document Legalization, MFA Attestation & Apostille Egypt | Hermes'
     },
     metaDesc: {
-      ar: 'إرشاد ومساعدة كاملة في توثيق وتصديق المستندات: الخارجية المصرية، الشهر العقاري، تصديقات السفارات، والأبوستيل — مع ترجمتك المعتمدة في مكان واحد.',
-      en: 'Comprehensive guidance and assistance for document legalization: Ministry of Foreign Affairs, Notary Public, embassy attestations, and Apostille — all alongside your certified translation.'
+      ar: 'دليلك ومساعدك في تصديق المستندات من وزارة الخارجية المصرية، الشهر العقاري، والسفارات. استشارات الأبوستيل (Apostille) وتجهيز الأوراق للسفر والعمل.',
+      en: 'Guidance and advisory for Ministry of Foreign Affairs (MFA) attestation, Notary legalization & Hague Apostille compliance for Egyptian documents abroad.'
     },
     h1: {
-      ar: 'التوثيق والتصديق والأبوستيل — دليلك ومساعدك خطوة بخطوة',
-      en: 'Document Legalization, Notarization & Apostille in Egypt'
+      ar: 'خدمات المساعدة في التوثيق والتصديق والأبوستيل في مصر | دليلك خطوة بخطوة',
+      en: 'Document Legalization, MFA Attestation & Apostille Services in Egypt'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة ترشدك وتساعدك في مسار توثيق وتصديق مستنداتك بالكامل — من الشهر العقاري إلى وزارة الخارجية المصرية إلى تصديق سفارة الدولة المستقبلة — حتى يصلك مستندك مترجماً ومصدقاً جاهزاً للاستخدام في الخارج دون دوران بين الجهات.',
-      en: 'Hermes Certified Translations guides and assists you through the entire document legalization process — from the Notary Public and Egyptian Ministry of Foreign Affairs to foreign embassy attestations — ensuring your translated and legalized documents are ready for international use without hassle.'
+      ar: 'يعد مسار تصديق وتوثيق المستندات الرسمية أمام الجهات الحكومية المصرية والسفارات الأجنبية مساراً إجرائياً معقداً يتطلب تسلسلاً إدارياً دقيقاً (من الجهة المصدرة للمستند، مروراً بالوزارة المعنية، ثم مكاتب تصديقات وزارة الخارجية المصرية، وصولاً للتصديق القنصلي أو متطلبات الأبوستيل). في مكتب هيرمس للترجمة المعتمدة، نقدم لعملائنا الدعم الإرشادي والخدمي المتكامل لتجهيز وترجمة وتنسيق ملفاتهم الرسمية لتكون جاهزة ومعتمدة 100% دون إهدار للوقت أو الجهد.',
+      en: 'Navigating governmental document authentication, Ministry of Foreign Affairs attestations, and consular legalizations in Egypt is an intricate procedural chain requiring strict sequential compliance. At Hermes Certified Translations, we provide comprehensive advisory and document preparation services ensuring your personal, academic, and corporate dossiers achieve flawless official recognition without wasted time or procedural friction.'
     },
     definitionTitle: {
-      ar: 'ما هو التوثيق والتصديق؟',
-      en: 'What is Document Legalization?'
+      ar: 'ما هو الفرق بين التصديق والتوثيق والأبوستيل؟',
+      en: 'Understanding Attestation, Legalization & Apostille'
     },
     definitionText: {
-      ar: 'التوثيق والتصديق هو سلسلة من الإجراءات الإدارية والقانونية التي تصادق بها السلطات الرسمية على صحة الختم والتوقيع الموجودين على المستند الأصلي أو ترجمته. يضمن هذا الإجراء اعتراف حكومة دولة أخرى بالمستند كوثيقة رسمية صحيحة وصادرة عن جهة مخولة.',
-      en: 'Legalization/attestation is a series of administrative and legal steps by which official authorities verify the authenticity of a seal and signature on an original document or its translation. This process ensures foreign governments recognize it as a valid official document.'
+      ar: 'التوثيق (Notarization) هو إثبات صحة المحرر أو التوقيع لدى مكاتب الشهر العقاري والتوثيق. التصديق (Attestation / Legalization) هو شهادة تضعها وزارة الخارجية المصرية للتأكيد على صحة توقيع وخاتم الموظف الحكومي على المستند. أما الأبوستيل (Apostille) فهو شهادة تصديق موحدة تطبق بين الدول الموقعة على اتفاقية لاهاي لعام 1961؛ وبالنسبة لمصر، تخضع المستندات لمسار التصديق الدبلوماسي المتبادل (الخارجية المصرية ثم سفارة الدولة المعنية).',
+      en: 'Notarization verifies signatures before notary offices (Shahr El-Aqary). Attestation/Legalization is a formal endorsement by the Egyptian Ministry of Foreign Affairs certifying the authenticity of governmental officers signatures. An Apostille is a streamlined certificate established under the 1961 Hague Convention; for non-member flows, documents follow traditional consular legalization (MFA stamp followed by foreign embassy attestation).'
     },
     needTitle: {
-      ar: 'متى تحتاج التصديق والتوثيق؟',
-      en: 'When Do You Need It?'
+      ar: 'متى تحتاج لمساعدة في التصديق والتوثيق؟',
+      en: 'When Do You Require Document Attestation Support?'
     },
     needText: {
-      ar: 'تحتاجها عندما تطلب منك الجهة الأجنبية أو السفارة أن يكون المستند "مصدقاً من الخارجية" أو "مختوماً من القنصلية" كشرط أساسي لقبول التأشيرات، المنح، العمل، أو تسجيل المعاملات التجارية وتأسيس فروع الشركات الدولية.',
-      en: 'You need it when a foreign body or embassy requires your documents to be "legalized by the Ministry of Foreign Affairs" or "attested by the consulate" as a prerequisite for accepting visas, scholarships, employment, or registering corporate branches.'
+      ar: 'تحتاج هذه الخدمة عند: (1) توثيق الشهادات الجامعية والمدرسية للسفر للعمل بدول الخليج، (2) تصديق التوكيلات والعقود التجارية والشركات لتقديمها للمحاكم أو البنوك بالخارج، (3) تصديق شهادات الميلاد والزواج والوفاة لاستخراج الإقامات العائلية، و(4) تجهيز أوراق الهجرة وتأشيرات السفر للسفارات الأجنبية.',
+      en: 'Attestation support is required when: (1) Certifying university degrees for Gulf employment visas, (2) Legalizing corporate contracts and POAs for foreign courts and registries, (3) Authenticating vital records for overseas family residencies, and (4) Preparing immigration dossiers for foreign consular validation.'
     },
     documentsSectionTitle: {
-      ar: 'مراحل ومسارات توثيق المستندات في مصر',
-      en: 'Document Legalization Processes in Egypt'
+      ar: 'أنواع المستندات التي نساعد في مسار توثيقها وترجمتها',
+      en: 'Document Categories Coordinated for Attestation'
     },
     categories: [
       {
-        title: { ar: 'مسار التصديق في مصر خطوة بخطوة', en: 'Step-by-Step Legalization in Egypt' },
+        title: { ar: 'الشهادات والمستندات التعليمية', en: 'Educational & University Credentials' },
         items: [
-          { ar: '1. استخراج المستند من جهة الإصدار الرسمية وختمه بختمها الدائري', en: '1. Issuing the document from the official body and stamping it' },
-          { ar: '2. توثيق المستند من الشهر العقاري أو الإدارة العامة التابع لها إن لزم', en: '2. Notarizing the document at the Notary Public or its directorate if needed' },
-          { ar: '3. التصديق الرسمي عليه من أحد مكاتب تصديقات وزارة الخارجية المصرية', en: '3. Attestation at one of the Egyptian Ministry of Foreign Affairs offices' },
-          { ar: '4. تصديق القسم القنصلي بسفارة الدولة الأجنبية المستهدفة بالتقديم', en: '4. Legalization at the consular section of the target foreign embassy' }
+          { ar: 'توثيق شهادات التخرج وكشوف الدرجات من أمين عام الجامعة ووزارة التعليم العالي', en: 'University degree attestation from university registries and Ministry of Higher Education' },
+          { ar: 'توثيق شهادات الثانوية العامة والمدرسية من الإدارات والمديريات التعليمية', en: 'High school diplomas authenticated through Ministry of Education directorates' }
         ]
       },
       {
-        title: { ar: 'ماذا عن الأبوستيل (Apostille) في مصر؟', en: 'What About the Apostille in Egypt?' },
+        title: { ar: 'مستندات الأحوال المدنية والشخصية', en: 'Civil Status & Vital Certificates' },
         items: [
-          { ar: 'الأبوستيل هو ختم تصديق دولي مبسط ومعتمد لدى الدول الموقعة على اتفاقية لاهاي', en: 'The Apostille is a simplified international stamp for member states of the Hague Convention' },
-          { ar: 'جمهورية مصر العربية ليست عضواً في اتفاقية الأبوستيل حتى الآن', en: 'The Arab Republic of Egypt is not a member of the Apostille Convention yet' },
-          { ar: 'البديل في مصر هو مسار التصديق التقليدي متعدد المراحل (الخارجية ثم السفارة)', en: 'The alternative in Egypt is the traditional multi-stage attestation (Foreign Ministry then Embassy)' },
-          { ar: 'نوفر إقرار مطابقة لتبسيط متطلبات الجهات الأجنبية بالخارج', en: 'We provide declarations of conformity to simplify foreign requirements abroad' }
+          { ar: 'شهادات الميلاد والزواج والطلاق والقيد العائلي الصادرة من مصلحة الأحوال المدنية', en: 'Civil registry records certified from Ministry of Interior Civil Status bureaus' },
+          { ar: 'تصديق صحيفة الحالة الجنائية (الفيش والتشبيه) من الإدارة العامة للأدلة الجنائية', en: 'Police clearance records authenticated through Criminal Evidence Directorate' }
         ]
       },
       {
-        title: { ar: 'الترجمة أولاً أم التصديق أولاً؟', en: 'Translation First or Legalization First?' },
+        title: { ar: 'مستندات الشركات والتوكيلات القانونية', en: 'Corporate Deeds & Powers of Attorney' },
         items: [
-          { ar: 'الترتيب يعتمد كلياً على الجهة المستقبلة وشروطها الخاصة بالمعاملة', en: 'The order depends entirely on the receiving body and their transaction rules' },
-          { ar: 'المسار الشائع: تصديق الأصل من الخارجية المصرية أولاً ثم ترجمته مع الأختام', en: 'Common path: Attest the original at the MFA first, then translate it with all stamps' },
-          { ar: 'بعض الجهات تطلب ترجمة المستند المعتمد وتصديق الترجمة نفسها لاحقاً', en: 'Some bodies require translating the certified file and attesting the translation itself later' }
+          { ar: 'تصديق السجلات التجارية من الغرفة التجارية ومصلحة السجل التجاري', en: 'Commercial registers attested by Chamber of Commerce and registry desks' },
+          { ar: 'توثيق التوكيلات والعقود الرسمية من مكاتب الشهر العقاري والتوثيق النموذجية', en: 'Official POAs and deeds legalized by Notary Public registries' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'معرفة دقيقة ومحدثة بمتطلبات التصديقات بوزارة الخارجية وسفارات الدول المختلفة، لتوجيهك للمسار الأسرع والأصح.',
-      en: 'Up-to-date knowledge of Foreign Ministry attestation queues and embassy rules in Egypt, guiding you to the fastest and correct path.'
+      ar: 'إرشاد قانوني دقيق يرتب لك مسار المعاملة الحكومية خطوة بخطوة، لضمان استيفاء الأختام الرسمية الصحيحة قبل وبعد الترجمة المعتمدة وتفادي مشقة الطوابير ورفض المعاملات.',
+      en: 'Strategic procedural advisory mapping out the exact governmental certification path, guaranteeing proper sequence before and after certified translation.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'تصديق شهادات مدنية (خارجية مصرية)', en: 'Civil Certificates Legalization (MFA)' },
-        standard: { ar: 'يوم عمل واحد', en: '1 Business Day' },
-        rush: { ar: 'نفس اليوم', en: 'Same Day' }
-      },
-      {
-        docType: { ar: 'تصديقات السفارات والملحقيات الثقافية', en: 'Embassy & Cultural Attestations' },
-        standard: { ar: '3-5 أيام عمل', en: '3-5 Business Days' },
-        rush: { ar: '48 ساعة', en: '48 Hours' }
-      },
-      {
-        docType: { ar: 'ترجمات معتمدة متضمنة أختام التصديق', en: 'Certified Translations Stamped with Attestations' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '6-8 ساعات', en: '6-8 Hours' }
+        docType: { ar: 'الاستشارة والترجمة المعتمدة المصاحبة لملفات التصديق', en: 'Certified Translation & Attestation Preparation' },
+        standard: { ar: '24 - 48 ساعة عمل', en: '24 - 48 Business Hours' },
+        rush: { ar: 'نفس اليوم', en: 'Same-Day Service' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'ما هو تصديق وزارة الخارجية المصرية؟', en: 'What is Egyptian Foreign Ministry attestation?' },
+        q: { ar: 'أين تقع مكاتب تصديقات وزارة الخارجية المصرية في القاهرة والجيزة؟', en: 'Where are Egyptian MFA attestation offices located in Cairo and Giza?' },
         a: {
-          ar: 'هو إجراء تصادق فيه الوزارة عبر مكاتب التصديقات التابعة لها على صحة ختم وتوقيع الجهات الحكومية أو الشهر العقاري على المستند الأصلي ليصبح معترفاً به بالخارج.',
-          en: 'It is a process where the Ministry, via its attestation offices, verifies the authenticity of governmental or Notary Public signatures on your original document.'
-        }
-      },
-      {
-        q: { ar: 'ما هي اتفاقية الأبوستيل ولماذا لا تُطبق في مصر؟', en: 'What is an Apostille and why is it not applied in Egypt?' },
-        a: {
-          ar: 'الأبوستيل هو ختم تصديق دولي موحد يلغي الحاجة لتصديقات متعددة بين الدول الأعضاء باتفاقية لاهاي، وبما أن مصر ليست عضواً، فيجب المرور بمسار التصديق التقليدي.',
-          en: 'The Apostille is a unified international stamp simplifying legalization between Hague Convention members. As Egypt is not a member, you must follow the traditional path.'
-        }
-      },
-      {
-        q: { ar: 'هل تقومون بإنهاء إجراءات التوثيق نيابة عني؟', en: 'Do you complete the legalization process on my behalf?' },
-        a: {
-          ar: 'نحن نوفر إرشاداً ومساعدة كاملة في توثيق المستندات، ونوضح لك الخطوات التفصيلية ومواقع المكاتب والسفارات لتوفير وقتك وجهدك.',
-          en: 'We provide complete guidance and support services, detailing the exact steps, fees, and office/embassy locations to streamline the process for you.'
-        }
-      },
-      {
-        q: { ar: 'هل تترجمون الوثيقة أولاً أم نوثقها أولاً؟', en: 'Should I translate the document first or legalize it first?' },
-        a: {
-          ar: 'المسار المعتاد هو تصديق المستند الأصلي من الخارجية أولاً، ثم نقوم بالترجمة المعتمدة للمستند الأصلي مضافاً إليه كافة أختام وتواقيع التصديق لتوثيق الملف بالكامل.',
-          en: 'Usually, you legalize the original document first. Then, we translate the entire page including all legalization stamps and sign-offs in our certified translation.'
-        }
-      },
-      {
-        q: { ar: 'كم يستغرق التوثيق والتصديق؟', en: 'How long does legalization take?' },
-        a: {
-          ar: 'مكاتب تصديقات الخارجية المصرية تنهي العمل في نفس اليوم (عادة في غضون دقائق)، بينما تتراوح تصديقات السفارات والقنصليات من يومين إلى أسبوع عمل.',
-          en: 'Egyptian MFA offices finalize attestations on the spot (same day), while foreign embassies and consulates require between 2 and 7 business days.'
-        }
-      },
-      {
-        q: { ar: 'هل شهادة التخرج تحتاج تصديقاً من وزارة الخارجية؟', en: 'Does a graduation certificate require Foreign Ministry attestation?' },
-        a: {
-          ar: 'نعم، إذا كانت مقدمة لجهة دراسة أو عمل بالخارج تشترط ذلك، ويجب ختمها أولاً من الجامعة أو وزارة التعليم العالي قبل الذهاب للخارجية.',
-          en: 'Yes, if requested by a foreign university or employer. It must first be stamped by the issuing university or Higher Education Ministry before Foreign Ministry attestation.'
+          ar: 'تنتشر مكاتب تصديقات الخارجية في مقرات متعددة، منها: مكتب تصديقات أحمد عرابي بالمهندسين، مكتب تصديقات الميرلاند بمصر الجديدة، ومكتب تصديقات المعادي والقاهرة الجديدة، وفريقنا يوجهك لأقرب مكتب مناسب لنوع مستندك.',
+          en: 'MFA attestation desks operate across key hubs: Ahmed Orabi in Mohandessin, Merryland in Heliopolis, Maadi, and New Cairo. Our team guides you to the nearest appropriate desk.'
         }
       }
     ],
-    relatedServices: ['legal-translation', 'sworn-translation', 'embassy-translation', 'personal-documents']
+    relatedServices: ['embassy-translation', 'legal-translation', 'sworn-translation', 'personal-documents']
   }
 };
