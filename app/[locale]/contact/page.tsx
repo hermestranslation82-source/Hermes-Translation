@@ -1,5 +1,5 @@
 import { ContactForm } from '@/components/shared/ContactForm';
-import { type Locale } from '@/data/site';
+import type { Locale } from '@/data/site';
 import { createMetadata } from '@/lib/seo';
 import { getSiteSettings } from '@/lib/cms';
 import { MapPin, Phone, Mail, MessageCircle, Clock, Building2 } from 'lucide-react';
@@ -11,8 +11,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     path: '/contact', 
     title: locale === 'ar' ? 'تواصل معنا | هيرميس للترجمة المعتمدة' : 'Contact Us | Hermes Certified Translations', 
     description: locale === 'ar' 
-      ? 'تواصل مع هيرميس للترجمة المعتمدة - فرع الجيزة: 1 شارع جامعة القاهرة، ميدان الجيزة. هاتف وواتساب: +201501591531'
-      : 'Contact Hermes Certified Translations - Giza branch: 1 Cairo University St., Giza Square. Phone & WhatsApp: +201501591531' 
+      ? 'تواصل مع هيرميس للترجمة المعتمدة - فرع الجيزة: ميدان الجيزة، عمارة عمر أفندي، الدور الثامن، شقة 33. فرع مصر الجديدة: عمارات العبور، عمارة 31، الدور 14، شقة 163. هاتف وواتساب: \u200E+20 150 159 1531'
+      : 'Contact Hermes Certified Translations - Giza branch: Omar Effendi Bldg, 8th Floor, Apt 33 | Heliopolis: El-Obour Bldgs 31, 14th Floor, Apt 163. Phone & WhatsApp: +20 150 159 1531' 
   });
 }
 
@@ -54,7 +54,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 <div>
                   <div className="text-xs font-semibold text-zinc-500">{isRtl ? 'اتصال مباشر' : 'Direct Call'}</div>
                   <div className="text-base font-bold text-zinc-900">
-                    <bdi dir="ltr">{siteSettings.phone}</bdi>
+                    <span dir="ltr" className="inline-block font-mono tracking-wider">{siteSettings.phone}</span>
                   </div>
                 </div>
               </a>
@@ -71,7 +71,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 <div>
                   <div className="text-xs font-semibold text-emerald-700">{isRtl ? 'محادثة واتساب' : 'WhatsApp Chat'}</div>
                   <div className="text-base font-bold text-zinc-900">
-                    <bdi dir="ltr">{siteSettings.phone}</bdi>
+                    <span dir="ltr" className="inline-block font-mono tracking-wider">{siteSettings.phone}</span>
                   </div>
                 </div>
               </a>
@@ -98,8 +98,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                   <MapPin size={18} className="mt-1 text-brand-red shrink-0" />
                   <p className="font-semibold leading-relaxed">
                     {isRtl 
-                      ? '1 شارع جامعة القاهرة، ميدان الجيزة، الدور الثامن، مكتب 30' 
-                      : '1 Cairo University St., Giza Square, 8th Floor, Office 30'}
+                      ? 'ميدان الجيزة، عمارة عمر أفندي، الدور الثامن، شقة 33' 
+                      : 'Omar Effendi Building, Giza Square, 8th Floor, Apt 33'}
                   </p>
                 </div>
                 <div className="flex items-center gap-3 text-zinc-500">
@@ -120,22 +120,34 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             </div>
 
             {/* Heliopolis Branch Card */}
-            <div className="rounded-xl border border-zinc-200 bg-white p-5 shadow-sm">
-              <div className="flex items-center gap-3 mb-2">
-                <span className="grid h-9 w-9 place-items-center rounded-lg bg-zinc-100 text-zinc-700">
-                  <Building2 size={18} />
+            <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="grid h-10 w-10 place-items-center rounded-lg bg-zinc-100 text-zinc-700">
+                  <Building2 size={20} />
                 </span>
-                <h3 className="text-lg font-bold text-zinc-900">
-                  {isRtl ? 'فرع مصر الجديدة' : 'Heliopolis Branch'}
-                </h3>
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-zinc-500">
+                    {isRtl ? 'فرع القاهرة' : 'Cairo Branch'}
+                  </span>
+                  <h3 className="text-xl font-black text-zinc-900">
+                    {isRtl ? 'فرع مصر الجديدة' : 'Heliopolis Branch'}
+                  </h3>
+                </div>
               </div>
-              <div className="flex items-start gap-3 text-sm text-zinc-600 mt-2">
-                <MapPin size={16} className="mt-1 text-zinc-400 shrink-0" />
-                <p>
-                  {isRtl 
-                    ? 'عمارات العبور، صلاح سالم، عمارة 31، الدور 14، شقة 3' 
-                    : 'El-Obour Buildings, Salah Salem, Bldg 31, 14th Floor, Apt 3'}
-                </p>
+              
+              <div className="space-y-3 text-sm text-zinc-700">
+                <div className="flex items-start gap-3">
+                  <MapPin size={18} className="mt-1 text-brand-red shrink-0" />
+                  <p className="font-semibold leading-relaxed">
+                    {isRtl 
+                      ? 'عمارات العبور، عمارة 31، الدور 14، شقة 163 (بجوار مترو أرض المعارض)' 
+                      : 'El-Obour Buildings, Bldg 31, 14th Floor, Apt 163 (Next to Fair Zone Metro)'}
+                  </p>
+                </div>
+                <div className="flex items-center gap-3 text-zinc-500">
+                  <Clock size={16} className="shrink-0" />
+                  <span>{isRtl ? 'مواعيد العمل: يومياً من 9:00 صباحاً حتى 9:00 مساءً' : 'Working Hours: Daily 9:00 AM - 9:00 PM'}</span>
+                </div>
               </div>
             </div>
           </div>

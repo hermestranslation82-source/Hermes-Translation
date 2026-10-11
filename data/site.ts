@@ -68,25 +68,25 @@ export const company = {
     ar: 'ترجمة معتمدة للسفارات والجهات الحكومية',
     en: 'Certified translation for embassies and government bodies'
   },
-  phone: '+201501591531',
+  phone: '+20 150 159 1531',
   email: 'info@hermes-certified.com',
   whatsapp: '201501591531',
   address: {
-    ar: '1 شارع جامعة القاهرة، ميدان الجيزة، الدور الثامن، مكتب 30',
-    en: '1 Cairo University St., Giza Square, 8th Floor, Office 30'
+    ar: 'ميدان الجيزة، عمارة عمر أفندي، الدور الثامن، شقة 33',
+    en: 'Omar Effendi Building, Giza Square, 8th Floor, Apt 33'
   },
   branches: [
     {
       id: 'giza',
       name: {
-        ar: 'فرع الجيزة',
-        en: 'Giza Branch'
+        ar: 'فرع الجيزة (الرئيسي)',
+        en: 'Giza Branch (Main)'
       },
       address: {
-        ar: '1 شارع جامعة القاهرة، ميدان الجيزة، الدور الثامن، مكتب 30',
-        en: '1 Cairo University St., Giza Square, 8th Floor, Office 30'
+        ar: 'ميدان الجيزة، عمارة عمر أفندي، الدور الثامن، شقة 33',
+        en: 'Omar Effendi Building, Giza Square, 8th Floor, Apt 33'
       },
-      phone: '+201501591531',
+      phone: '+20 150 159 1531',
       whatsapp: '201501591531'
     },
     {
@@ -96,10 +96,10 @@ export const company = {
         en: 'Heliopolis Branch'
       },
       address: {
-        ar: 'عمارات العبور، صلاح سالم، عمارة 31، الدور 14، شقة 3',
-        en: 'El-Obour Buildings, Salah Salem, Bldg 31, 14th Floor, Apt 3'
+        ar: 'عمارات العبور، عمارة 31، الدور 14، شقة 163 (بجوار مترو أرض المعارض)',
+        en: 'El-Obour Buildings, Bldg 31, 14th Floor, Apt 163 (Next to Fair Zone Metro)'
       },
-      phone: '+201501591531',
+      phone: '+20 150 159 1531',
       whatsapp: '201501591531'
     }
   ]

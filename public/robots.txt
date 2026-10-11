@@ -23,7 +23,7 @@ User-agent: Bingbot
 Allow: /
 
 # Host
-Host: https://hermes-certified.com
+Host: http://localhost:3000
 
 # Sitemaps
-Sitemap: https://hermes-certified.com/sitemap.xml
+Sitemap: http://localhost:3000/sitemap.xml

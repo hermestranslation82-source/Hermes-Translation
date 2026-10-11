@@ -10,52 +10,64 @@ export function Footer({ locale, settings }: { locale: Locale; settings?: any })
 
   return (
     <footer className="brand-gradient text-white">
-      <div className="container-padded grid gap-10 py-14 md:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
+      <div className="container-padded grid gap-10 py-14 md:grid-cols-[1.2fr_0.8fr_1fr_1fr]">
         <div className="space-y-5">
           <Logo locale={locale} inverted />
           <p className="max-w-sm text-sm leading-7 text-white/80">{companyInfo.tagline[locale]}</p>
           <div className="flex gap-3">
             {[Facebook, Linkedin, Youtube].map((Icon, index) => (
-              <a key={index} href="#" className="rounded-md bg-white/10 p-2 hover:bg-white hover:text-brand-red" aria-label="Social link">
+              <a key={index} href="#" className="rounded-md bg-white/10 p-2 hover:bg-white hover:text-brand-red transition-colors" aria-label="Social link">
                 <Icon size={18} />
               </a>
             ))}
           </div>
         </div>
+
         <div>
           <h2 className="mb-4 font-bold">{locale === 'ar' ? 'روابط سريعة' : 'Quick Links'}</h2>
           <div className="grid gap-3 text-sm text-white/80">
             {navItems.slice(1).map((item) => (
-              <Link key={item.href} href={`/${locale}${item.href}`} className="hover:text-white">{item.label[locale]}</Link>
+              <Link key={item.href} href={`/${locale}${item.href}`} className="hover:text-white transition-colors">{item.label[locale]}</Link>
             ))}
           </div>
         </div>
+
         <div>
           <h2 className="mb-4 font-bold">{locale === 'ar' ? 'تواصل معنا' : 'Contact Us'}</h2>
           <div className="grid gap-3 text-sm text-white/80">
             <a href={`tel:${companyInfo.phone.replace(/\s+/g, '')}`} className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone size={16} className="text-brand-gold shrink-0" />
-              <bdi dir="ltr">{companyInfo.phone}</bdi>
+              <span dir="ltr" className="inline-block font-mono tracking-wider font-semibold">{companyInfo.phone}</span>
             </a>
             <a href={`https://wa.me/${(companyInfo.whatsapp || '201501591531').replace(/[^\d]/g, '')}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
-              <span className="inline-block h-2 w-2 rounded-full bg-green-400 shrink-0"></span>
-              <span>WhatsApp: <bdi dir="ltr">{companyInfo.phone}</bdi></span>
+              <span className="inline-block h-2.5 w-2.5 rounded-full bg-emerald-400 shrink-0 animate-pulse"></span>
+              <span>WhatsApp: <span dir="ltr" className="inline-block font-mono font-semibold">{companyInfo.phone}</span></span>
             </a>
             <a href={`mailto:${companyInfo.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
               <Mail size={16} className="text-brand-gold shrink-0" />
-              <span>{companyInfo.email}</span>
+              <span className="font-mono text-xs sm:text-sm">{companyInfo.email}</span>
             </a>
-            <div className="mt-2 border-t border-white/10 pt-2">
+
+            <div className="mt-3 border-t border-white/10 pt-3 space-y-3">
               <div className="flex items-start gap-2">
                 <MapPin size={16} className="mt-1 text-brand-gold shrink-0" />
                 <div>
-                  <span className="block font-bold text-white">{locale === 'ar' ? 'فرع الجيزة (الرئيسي):' : 'Giza Branch (Main):'}</span>
-                  <span className="text-xs leading-5 text-white/80">{locale === 'ar' ? '1 شارع جامعة القاهرة، ميدان الجيزة، الدور الثامن، مكتب 30' : '1 Cairo University St., Giza Square, 8th Floor, Office 30'}</span>
+                  <span className="block font-bold text-white text-xs">{locale === 'ar' ? 'فرع الجيزة (الرئيسي):' : 'Giza Branch (Main):'}</span>
+                  <span className="text-xs leading-5 text-white/80">{locale === 'ar' ? 'ميدان الجيزة، عمارة عمر أفندي، الدور الثامن، شقة 33' : 'Omar Effendi Bldg, Giza Square, 8th Floor, Apt 33'}</span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2">
+                <MapPin size={16} className="mt-1 text-brand-gold shrink-0" />
+                <div>
+                  <span className="block font-bold text-white text-xs">{locale === 'ar' ? 'فرع مصر الجديدة:' : 'Heliopolis Branch:'}</span>
+                  <span className="text-xs leading-5 text-white/80">{locale === 'ar' ? 'عمارات العبور، عمارة 31، الدور 14، شقة 163 (بجوار مترو أرض المعارض)' : 'El-Obour Bldgs, Bldg 31, 14th Floor, Apt 163 (Fair Zone Metro)'}</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div>
           <h2 className="mb-4 font-bold">{locale === 'ar' ? 'النشرة ومقرنا' : 'Newsletter & Location'}</h2>
           <NewsletterForm locale={locale} />
