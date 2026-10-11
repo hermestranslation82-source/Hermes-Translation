@@ -30,121 +30,252 @@ export interface ServiceContent {
   turnaroundTable: TurnaroundItem[];
   faqs: ServiceFAQ[];
   relatedServices: string[];
+  extendedContent?: {
+    legalStandards?: { title: { ar: string; en: string }; body: { ar: string; en: string } };
+    embassiesCompliance?: { title: { ar: string; en: string }; items: { name: { ar: string; en: string }; desc: { ar: string; en: string } }[] };
+    prepGuidelines?: { title: { ar: string; en: string }; items: { ar: string; en: string }[] };
+  };
 }
 
 export const servicesContent: Record<string, ServiceContent> = {
   'embassy-translation': {
     slug: 'embassy-translation',
     metaTitle: {
-      ar: 'ترجمة معتمدة للسفارات والهجرة | القاهرة والجيزة | هيرميس',
-      en: 'Embassy Certified Translation Services | Cairo & Giza'
+      ar: 'ترجمة معتمدة للسفارات والجهات الحكومية في مصر | هيرمس',
+      en: 'Certified Embassy Translation Services Cairo & Giza | Hermes'
     },
     metaDesc: {
-      ar: 'ترجمة معتمدة ومقبولة لدى جميع السفارات (الأمريكية، البريطانية، الكندية، شنغن) والهيئات الحكومية. تسليم سريع ودقة متناهية. اطلب عرض سعر الآن.',
-      en: 'Accredited translations accepted by all embassies (US, UK, Canada, Schengen) and governmental bodies. Fast delivery and high accuracy. Get a free quote.'
+      ar: 'مكتب ترجمة معتمد للسفارات (شنغن، أمريكا، بريطانيا، كندا). دقة قانونية معتمدة، مطابقة لشروط القنصليات، وتسليم فوري بمصر الجديدة والجيزة. اطلب عرض سعرك الآن.',
+      en: 'Accredited certified translation for US, UK, Canada & Schengen embassies in Cairo & Giza. 100% consular compliance, fast turnaround & verified accuracy. Get a quote.'
     },
     h1: {
-      ar: 'الترجمة المعتمدة للسفارات والجهات الحكومية',
-      en: 'Certified Translation for Embassies & Governments'
+      ar: 'الترجمة المعتمدة للسفارات والجهات الحكومية في مصر | معايير الاعتماد والقبول الدولي',
+      en: 'Certified Translation Services for Embassies and Consulates in Egypt | Official Acceptance & Legal Compliance'
     },
     opening: {
-      ar: 'هيرميس للترجمة المعتمدة تقدم خدمات الترجمة المعتمدة المقبولة لدى جميع السفارات والقنصليات والجهات الحكومية والخاصة داخل مصر وخارجها، بدقة متناهية ومطابقة تامة للمستندات الأصلية وبأعلى معايير الجودة والسرية.',
-      en: 'Hermes Certified Translations provides certified translation services accepted by all embassies, consulates, and government or private bodies inside and outside Egypt, with absolute accuracy, full compliance with original documents, and the highest standards of quality and confidentiality.'
+      ar: 'تُعد مرحلة تقديم المستندات الرسمية إلى السفارات والقنصليات الأجنبية والجهات الحكومية الدولية الخطوة المحورية في معاملات التأشيرات، الهجرة، لمّ الشمل، العمل، والدراسة بالخارج. في مكتب هيرمس للترجمة المعتمدة (Hermes Certified Translations)، ندرك أن ورقة واحدة مترجمة بشكل غير دقيق أو غير مستوفية للمعايير الشكلية والقانونية قد تؤدي إلى رفض المعاملة القنصلية، تعطيل السفر، أو تكبيد صاحب الشأن أعباء مالية وإدارية إضافية. نقدم في فرعينا بمصر الجديدة وميدان الجيزة، وكذلك عبر منصتنا الرقمية المباشرة، خدمة ترجمة معتمدة شاملة تغطي كافة متطلبات الهيئات الدبلوماسية المعتمدة في جمهورية مصر العربية، مع الالتزام الحرفي بالدقة اللغوية، الصياغة القانونية الرصينة، والسرية التامة للبيانات الشخصية والمؤسسية.',
+      en: 'Submitting official records, personal certificates, and commercial documentation to foreign embassies, consulates, and international regulatory authorities is the most critical milestone in your visa application, migration process, academic enrollment, or cross-border business expansion. At Hermes Certified Translations, we recognize that a minor typographical discrepancy, unverified legal terminology, or an improperly formatted translator declaration can lead to consular delays, administrative rejections, or unexpected procedural expenses. Operating from our primary offices in Heliopolis and Giza Square, Hermes delivers accredited, professional, and audit-compliant certified translations accepted across diplomatic missions, ministries, and judicial authorities in Cairo and internationally.'
     },
     definitionTitle: {
-      ar: 'ما هي الترجمة المعتمدة؟',
-      en: 'What is Certified Translation?'
+      ar: 'ما هي الترجمة المعتمدة للسفارات؟ وما الفرق بينها وبين الترجمة العادية والمحلفة؟',
+      en: 'What is Certified Translation? Standards, Legal Declarations, and Consular Recognition'
     },
     definitionText: {
-      ar: 'الترجمة المعتمدة هي ترجمة مطابقة تماماً للمستند الأصلي، ومختومة بختم مكتب ترجمة معتمد، وتتضمن إقراراً رسمياً من المترجم بمسؤوليته عن صحة الترجمة ومطابقتها للأصل، مع كتابة تاريخ الترجمة وبيانات الاتصال بالمكتب لتسهيل التحقق منها.',
-      en: 'Certified translation is an exact translation of the original document, stamped with the seal of an accredited translation office. It includes a formal declaration of accuracy signed by the translator, along with the date and office contact details for verification.'
+      ar: 'تختلف الترجمة المعتمدة (Certified Translation) جوهرياً عن الترجمة التحريرية العادية أو الترجمات التجارية غير الرسمية؛ فالترجمة المعتمدة وثيقة قانونية ذات حجية رسمية أمام البعثات الدبلوماسية والجهات القضائية، وتستلزم عناصر شكلية وموضوعية محددة: (1) مطابقة تامة ودقيقة للنص الأصلي بما في ذلك الأرقام والهوامش والأختام والتوقيعات، (2) إقرار رسمي بصحة ومطابقة الترجمة (Statement of Accuracy) موقع من المترجم المعتمد، (3) الختم الرسمي وتوقيع مكتب الترجمة المعتمد ببياناته وسجله التجاري والضريبي، و(4) تاريخ الترجمة ورقم مرجعي للملف لتسهيل الاستعلام والتحقق القنصلي.',
+      en: 'A Certified Translation is fundamentally distinct from standard commercial or literary translation. It is an official legal record bearing legal accountability before consular officers, visa processing centres, and government bodies. An official translation must fulfill distinct structural and formal criteria: (1) Verbatim and faithful reproduction of all original content including stamps, seals, marginal notes, and signatures, (2) A formal Statement of Accuracy executed on official letterhead by a qualified translator, (3) The official seal, commercial registration details, and tax identification code of the accredited bureau, and (4) A traceable reference number and date of issuance for seamless consular verification.'
     },
     needTitle: {
-      ar: 'متى تحتاج الترجمة المعتمدة؟',
-      en: 'When Do You Need It?'
+      ar: 'متى تحتاج إلى خدمة الترجمة المعتمدة للسفارات؟',
+      en: 'When Do You Require Embassy-Certified Translations?'
     },
     needText: {
-      ar: 'تحتاج هذه الخدمة عند تقديم مستندات رسمية صادرة بلغة غير لغة الجهة المستقبلة، مثل تقديم طلبات التأشيرات والهجرة لدى السفارات، أو التقديم للجامعات الأجنبية، أو توثيق الزواج المدني وتأسيس الشركات وفروعها بالخارج.',
-      en: 'You need this service when presenting official documents issued in a language other than that of the receiving authority, such as visa and immigration applications at embassies, foreign university admissions, civil marriages, or setting up foreign company branches.'
+      ar: 'يحتاج المواطنون والمقيمون في مصر إلى الترجمة المعتمدة عند مخاطبة أية جهة رسمية تتحدث لغة مختلفة عن لغة المستند، وأبرز هذه الحالات: (1) طلبات تأشيرات السفر والسياحة والزيارة وخاصة تأشيرات دول منطقة شنغن (Schengen Visa)، والمملكة المتحدة (UKVI)، والولايات المتحدة الأمريكية (B1/B2)، وكندا وأستراليا، (2) معاملات الهجرة والإقامة الدائمة مثل Express Entry لكندا وبرامج USCIS لأمريكا، (3) التقديم للمنح والجامعات الدولية ومعادلة الشهادات (WES, uni-assist)، (4) عقود العمل وتأشيرات التوظيف الدولي وخطابات الموارد البشرية (HR Letters)، و(5) توثيق العلاقات الأسرية والأحوال الشخصية كالزواج المدني في الخارج ولمّ الشمل.',
+      en: 'Expatriates, international travelers, Egyptian citizens, and corporate entities require certified translations whenever engaging with foreign jurisdictions. Primary use cases include: (1) Schengen and European visa submissions via VFS Global, TLScontact, and BLS International, (2) Immigration, citizenship, and permanent residency dossiers for Canada (IRCC), USA (USCIS), and Australia, (3) International higher education admissions and academic credentials evaluation (WES, ECFMG, uni-assist), (4) Cross-border employment agreements, HR letters, and corporate transfers, and (5) Civil status, family reunification, foreign marriage registration, and inheritance procedures.'
     },
     documentsSectionTitle: {
-      ar: 'المستندات التي نغطيها للجهات الرسمية',
-      en: 'Documents We Cover for Official Bodies'
+      ar: 'الوثائق والمستندات التي نترجمها للسفارات والهيئات الرسمية',
+      en: 'Document Categories Covered for Official Embassies and Public Bodies'
     },
     categories: [
       {
-        title: { ar: 'وثائق السفارات الأوروبية (شنغن)', en: 'European (Schengen) Embassy Documents' },
+        title: { ar: 'وثائق الأحوال المدنية والشخصية', en: 'Civil Status & Vital Records' },
         items: [
-          { ar: 'شهادات الميلاد والوفاة وقسيمة الزواج والطلاق', en: 'Birth, death, marriage, and divorce certificates' },
-          { ar: 'كشوف الحسابات البنكية للحركة المالية والقيد المالي', en: 'Bank statements showing financial movement and status' },
-          { ar: 'خطابات العمل والموارد البشرية (HR Letters)', en: 'HR letters and employment verification documents' },
-          { ar: 'السجل التجاري والبطاقة الضريبية لأصحاب الأعمال', en: 'Commercial registers and tax cards for business owners' }
+          { ar: 'شهادات الميلاد والوفاة وقيد الزواج وإشهاد الطلاق', en: 'Birth, death, marriage, and divorce certificates' },
+          { ar: 'القيد العائلي المميكن والقيد الفردي الصادر من مصلحة الأحوال المدنية', en: 'Official family registration records and individual civil records' },
+          { ar: 'بطاقات الرقم القومي المصرية وجوازات السفر وإثباتات الهوية', en: 'National identity cards, passports, and civil identification records' }
         ]
       },
       {
-        title: { ar: 'وثائق السفارة الأمريكية والكندية', en: 'US & Canadian Embassy Documents' },
+        title: { ar: 'المستندات الجنائية والخدمة العسكرية', en: 'Criminal & Military Records' },
         items: [
-          { ar: 'عقود الملكية للأراضي والعقارات والسيارات', en: 'Property, land, and vehicle deeds' },
-          { ar: 'شهادات الخدمة العسكرية وإثبات الموقف التجنيدي', en: 'Military service certificates and enlistment status' },
-          { ar: 'الفيش الجنائي المترجم (صحيفة الحالة الجنائية)', en: 'Translated police clearance certificates (criminal records)' },
-          { ar: 'شهادات التخرج وكشوف الدرجات الدراسية الموثقة', en: 'Degrees, diplomas, and official academic transcripts' }
+          { ar: 'صحيفة الحالة الجنائية (الفيش والتشبيه) المميكنة للسفارات', en: 'Police clearance certificates (Criminal Status Records)' },
+          { ar: 'شهادات إنهاء الخدمة العسكرية أو الإعفاء النهائي أو المؤقت', en: 'Military service completion and exemption certificates' },
+          { ar: 'شهادات التحركات الصادرة من الإدارة العامة للجوازات والهجرة', en: 'Travel movement certificates issued by passport authorities' }
         ]
       },
       {
-        title: { ar: 'وثائق سفارة بريطانيا والدول الناطقة بالإنجليزية', en: 'UK & English-Speaking Embassy Documents' },
+        title: { ar: 'المستندات المالية والبنكية', en: 'Financial & Banking Records' },
         items: [
-          { ar: 'جوازات السفر وبطاقات الرقم القومي', en: 'Passports and national identity cards' },
-          { ar: 'شهادات التحركات الصادرة من الجوازات والهجرة', en: 'Travel movement certificates issued by passport authorities' },
-          { ar: 'عقود التأسيس للشركات واللوائح الداخلية', en: 'Articles of association and corporate bylaws' },
-          { ar: 'كافة الأوراق الثبوتية والمدنية المترجمة', en: 'All other translated civil and identification records' }
+          { ar: 'كشوف الحسابات البنكية لآخر 3-6 أشهر لحركة الأموال والودائع', en: 'Bank statements (3-6 months) showing transactions and balances' },
+          { ar: 'خطابات الملاءة المالية والودائع والأوعية الادخارية والشهادات الاستثمارية', en: 'Bank solvency letters, certificates of deposit, and asset confirmations' },
+          { ar: 'عقود الملكية للأراضي والعقارات ورخص السيارات', en: 'Real estate title deeds, property ownership contracts, and vehicle licenses' }
+        ]
+      },
+      {
+        title: { ar: 'المستندات المهنية وخطابات العمل', en: 'Employment & Corporate Records' },
+        items: [
+          { ar: 'خطابات العمل والموارد البشرية (HR Letters) وبيانات مفردات المرتب', en: 'HR employment verification letters and salary certificates' },
+          { ar: 'عقود العمل الفردية وبرنت التأمينات الاجتماعية المعتمد', en: 'Employment contracts and official social insurance printouts' },
+          { ar: 'السجلات التجارية والبطاقات الضريبية المعتمدة لرجال الأعمال والشركات', en: 'Commercial registers, tax cards, and corporate licenses' }
+        ]
+      },
+      {
+        title: { ar: 'المستندات الأكاديمية والجامعية', en: 'Academic & University Credentials' },
+        items: [
+          { ar: 'شهادات التخرج الجامعية والمؤهلات الدراسية والدبلومات', en: 'University graduation certificates, degrees, and diplomas' },
+          { ar: 'بيانات الدرجات وكشوف العلامات الأكاديمية والمحتوى العلمي', en: 'Official academic transcripts, grade reports, and course descriptions' },
+          { ar: 'شهادات الثانوية العامة وما يعادلها والشهادات المدرسية', en: 'General Secondary Education Certificates (Thanaweya Amma) and school diplomas' }
+        ]
+      },
+      {
+        title: { ar: 'المستندات القضائية والتوكيلات القانونية', en: 'Judicial & Notary Records' },
+        items: [
+          { ar: 'التوكيلات الرسمية العامة والخاصة وتوكيلات القضايا وتوكيلات البنوك', en: 'General and special powers of attorney (POAs) and notary deeds' },
+          { ar: 'أحكام المحاكم وإعلامات الوراثة والدعاوى القضائية المشهرة', en: 'Court rulings, probate distribution deeds, and judicial claims' },
+          { ar: 'عقود الشركات والنظم الأساسية ومحاضر الجمعيات العمومية', en: 'Articles of incorporation, company statutes, and board minutes' }
         ]
       }
     ],
     specialistWhyPoint: {
-      ar: 'خبرة تزيد عن 10 سنوات في التعامل مع متطلبات كافة السفارات وتحديثاتها المستمرة، لضمان قبول ملفاتك من المرة الأولى دون تأخير.',
-      en: 'Over 10 years of experience aligning translations with the specific guidelines of foreign embassies to guarantee file acceptance on the first submission.'
+      ar: 'خبرة تراكمية متخصصة في الاشتراطات القنصلية المعمول بها في القاهرة والجيزة. يلتزم فريقنا بنظام تدقيق ثنائي صارم (Dual-Proofreading) يضمن مطابقة الأسماء حرفياً لجوازات السفر، مع توفير ختم الاعتماد الرسمي وإقرار المسؤولية القانونية المقبول لدى كافة السفارات والجهات الدولية دون تأخير أو ارتداد.',
+      en: 'Decades of combined consular translation expertise in Cairo and Giza. Our multi-tiered quality control enforces dual-linguist proofreading, verbatim passport name matching, and official certification endorsements trusted by all diplomatic missions and global authorities with zero margin for consular rejection.'
     },
     turnaroundTable: [
       {
-        docType: { ar: 'شهادات أحوال مدنية (ميلاد/زواج)', en: 'Civil Certificates (Birth/Marriage)' },
-        standard: { ar: '24 ساعة', en: '24 Hours' },
-        rush: { ar: '3-4 ساعات', en: '3-4 Hours' }
+        docType: { ar: 'شهادات الأحوال المدنية (ميلاد / زواج / قيد عائلي / فيش)', en: 'Civil Certificates (Birth / Marriage / Family Registry / Police Record)' },
+        standard: { ar: '24 ساعة عمل', en: '24 Business Hours' },
+        rush: { ar: '3 - 4 ساعات (خدمة فورية عاجلة)', en: '3 - 4 Hours (Express Rush)' }
       },
       {
-        docType: { ar: 'كشوف حسابات بنكية وخطابات عمل', en: 'Bank Statements & HR Letters' },
-        standard: { ar: '24-48 ساعة', en: '24-48 Hours' },
-        rush: { ar: '6-8 ساعات', en: '6-8 Hours' }
+        docType: { ar: 'كشوف الحسابات البنكية وخطابات الموارد البشرية (HR Letter)', en: 'Bank Statements & Employment Letters (HR Letters)' },
+        standard: { ar: '24 - 48 ساعة عمل', en: '24 - 48 Business Hours' },
+        rush: { ar: 'نفس اليوم (خلال ساعات الدوام)', en: 'Same-Day Delivery' }
       },
       {
-        docType: { ar: 'مستندات شركات (سجل تجاري وبطاقة ضريبية)', en: 'Corporate Documents (Trade Register & Tax Card)' },
-        standard: { ar: '48 ساعة', en: '48 Hours' },
-        rush: { ar: 'يوم واحد', en: 'Same Day' }
+        docType: { ar: 'مستندات الشركات (سجل تجاري / بطاقة ضريبية / عقود تأسيس)', en: 'Corporate Documents (Commercial Register / Tax Card / By-Laws)' },
+        standard: { ar: '48 ساعة عمل', en: '48 Business Hours' },
+        rush: { ar: '24 ساعة عمل', en: '24 Business Hours' }
+      },
+      {
+        docType: { ar: 'الشهادات والبيانات الأكاديمية وقضايا المحاكم والتوكيلات', en: 'Academic Transcripts, Judicial Rulings & Powers of Attorney' },
+        standard: { ar: '48 - 72 ساعة عمل', en: '48 - 72 Business Hours' },
+        rush: { ar: '24 - 36 ساعة عمل', en: '24 - 36 Business Hours' }
       }
     ],
     faqs: [
       {
-        q: { ar: 'هل الترجمة مقبولة لدى كل السفارات؟', en: 'Are your translations accepted by all embassies?' },
+        q: { ar: 'هل الترجمة الصادرة من هيرمس مقبولة لدى سفارات شنغن والسفارة الأمريكية والبريطانية؟', en: 'Are Hermes certified translations accepted by Schengen, US, UK, and Canadian embassies?' },
         a: {
-          ar: 'نعم، نحن مكتب ترجمة معتمد تقبل ترجماته كافة السفارات والقنصليات والممثليات الدبلوماسية والجهات الحكومية داخل مصر وخارجها.',
-          en: 'Yes, we are an accredited translation office whose stamped translations are recognized by all embassies, consulates, and governmental bodies inside and outside Egypt.'
+          ar: 'نعم بكل تأكيد. تصدر ترجماتنا مستوفية لكافة المعايير الشكلية والموضوعية المنشورة من قبل سفارات دول منطقة شنغن، وسفارة الولايات المتحدة (USCIS)، والمملكة المتحدة (UKVI)، وكندا، وكافة البعثات الدبلوماسية المعتمدة في جمهورية مصر العربية، شاملة إقرار المطابقة والختم الرسمي ورقم الملف المرجعي.',
+          en: 'Yes, absolutely. Our translations strictly adhere to published formal and legal guidelines of all Schengen embassies, the US Embassy (USCIS), UKVI (UK Home Office), IRCC (Canada), and all accredited diplomatic missions in Egypt, complete with statements of accuracy, official seals, and verifiable reference numbers.'
         }
       },
       {
-        q: { ar: 'هل تشترط السفارات ترجمة أوراق معينة؟', en: 'Do embassies require specific documents to be translated?' },
+        q: { ar: 'هل يلزم إحضار أصل المستند إلى المكتب أم تكفي الصورة الضوئية؟', en: 'Do I need to submit the original document at your branch, or is a scanned copy sufficient?' },
         a: {
-          ar: 'نعم، تطلب السفارات ترجمة معتمدة لكافة المستندات المكتوبة بغير لغة بلدها أو لغة الطلب (الإنجليزية في الغالب) لمطابقتها والتأكد من صحتها.',
-          en: 'Yes, embassies require certified translation for any documents written in a language other than their official language or the application language (mostly English).'
+          ar: 'لبدء عملية الترجمة والتدقيق والاعتماد، تكفي تماماً صورة ضوئية (Scan) أو صورة واضحة بكاميرا الهاتف مرسلة عبر واتساب أو نموذج الموقع. وتذكر دائماً أن السفارة ستطلب منك إحضار أصل المستند لمطابقته أثناء مقابلتك الشخصية أو تسليم الملف بمركز التأشيرات.',
+          en: 'For translation execution, quality review, and certification, a high-resolution scan or clear smartphone photograph sent via WhatsApp or our secure online portal is entirely sufficient. However, remember that embassies typically require you to present the original hard-copy document during your visa appointment.'
         }
       },
       {
-        q: { ar: 'ما الفرق بين الترجمة المعتمدة والترجمة العادية؟', en: 'What is the difference between certified and regular translation?' },
+        q: { ar: 'ما الفرق بين الترجمة المعتمدة وتصديق وزارة الخارجية المصرية؟', en: 'What is the difference between a certified translation and Ministry of Foreign Affairs (MFA) attestation?' },
         a: {
-          ar: 'الترجمة المعتمدة تحمل الختم الرسمي وإقرار مطابقة موقع من المترجم، وتلتزم بالصياغة القانونية وتتحمل المسؤولية القانونية عن دقة البيانات المكتوبة.',
-          en: 'Certified translation bears the official stamp and signed declaration of accuracy, adheres to formal legal formats, and carries legal liability for data accuracy.'
+          ar: 'تصديق وزارة الخارجية هو إجراء حكومي يُثبت صحة توقيع وختم الموظف الحكومي المصري على أصل المستند. أما الترجمة المعتمدة فهي نقل محتوى المستند المصدق إلى لغة السفارة مع إقرار قانوني وختم مكتب ترجمة معتمد. بعض السفارات تشترط تصديق الخارجية قبل الترجمة، وفريقنا يوجهك للترتيب الإجرائي الصحيح.',
+          en: 'MFA attestation authenticates the official signature and governmental seal on your original public record. Certified translation renders that authenticated instrument into the target foreign language, accompanied by legal certification endorsements and bureau seals. Certain embassies require MFA attestation prior to translation, and our team provides guidance on exact sequence requirements.'
+        }
+      },
+      {
+        q: { ar: 'كيف تضمنون مطابقة الأسماء لجوازات السفر بدقة تامة؟', en: 'How do you guarantee that personal names match travel passports precisely?' },
+        a: {
+          ar: 'نلزم فريقنا بالحصول على صورة من جواز السفر لكل شخص مذكور في الوثائق قبل البدء في الترجمة؛ ونقوم بتطبيق هجاء الحروف حرفياً كما هو مدون في جواز السفر لتفادي أي خطأ إملائي قد يؤدي لرفض المعاملة القنصلية.',
+          en: 'We mandate the submission of passport biodata pages for all individuals named in the documents. Our linguists duplicate passport transliterations letter for letter, preventing typographical discrepancies that could lead to consular complications.'
+        }
+      },
+      {
+        q: { ar: 'كيف يمكنني استلام أوراقي المترجمة والمعتمدة؟', en: 'How do I receive my completed and stamped certified translations?' },
+        a: {
+          ar: 'يمكنك استلام النسخ الورقية الرسمية المختومة من فرعنا بمصر الجديدة (عمارات العبور بجوار مترو أرض المعارض) أو فرعنا بميدان الجيزة (عمارة عمر أفندي)، أو طلب الشحن السريع للمنازل والشركات بجميع المحافظات، مع إرسال نسخة رقمية عالية الدقة PDF فور الانتهاء.',
+          en: 'You can collect official stamped hard copies directly from our Heliopolis branch (El-Obour Bldgs by Fair Zone Metro) or our Giza branch (Omar Effendi Bldg, Giza Square), or request express courier delivery to any address across Egypt, alongside instant high-res digital PDF delivery.'
+        }
+      },
+      {
+        q: { ar: 'كيف يتم احتساب تكلفة وسعر الترجمة المعتمدة؟', en: 'How is the certified translation cost calculated?' },
+        a: {
+          ar: 'تُحسب التكلفة بشفافية تامة بناءً على عدد الصفحات الرسمية، واللغة المستهدفة، ونوع المستند وتخصصه، وسرعة التسليم المطلوبة (عادية أم عاجلة)، بدون أي مصاريف إدارية مخفية، مع توفير أسعار تفضيلية للملفات الكبيرة وحزم التأشيرات العائلية.',
+          en: 'Pricing is transparently calculated based on official page count, target language, subject-matter complexity, and turnaround speed (standard vs express), with no hidden administrative fees and volume rates available for comprehensive family and corporate visa dossiers.'
         }
       }
     ],
-    relatedServices: ['legal-translation', 'personal-documents', 'academic-documents', 'sworn-translation']
+    extendedContent: {
+      legalStandards: {
+        title: {
+          ar: 'المعايير القانونية والشكلية للترجمة المعتمدة المعترف بها دولياً',
+          en: 'International Consular & Legal Recognition Standards'
+        },
+        body: {
+          ar: 'لكي تكون الترجمة معتمدة رسمياً أمام القنصليات ومراكز التأشيرات المعتمدة (VFS Global, TLScontact, BLS International)، يجب أن تستوفي أربعة معايير لا تقبل التهاون: أولاً، إقرار خطي رسمي من المترجم المعتمد بمسؤوليته القانونية عن صحة الترجمة ومطابقتها التامة للأصل. ثانياً، خاتم مكتب الترجمة المعتمد متضمناً الاسم التجاري والرقم الضريبي ورقم القيد. ثالثاً، إثبات تاريخ الإصدار ورقم مرجعي للملف في الأرشيف لتمكين القنصلية من التحقق الفوري. رابعاً، نقل كامل ودقيق لكافة الحواشي والأختام والتوقيعات المنقوشة على المستند الأصلي دون اجتهاد أو حذف.',
+          en: 'To achieve official recognition by foreign consulates and visa processing contractors (such as VFS Global, TLScontact, and BLS International), certified translations must comply with four inviolable benchmarks: First, an explicit written Declaration of Accuracy holding professional legal liability for verbatim textual equivalence. Second, an official corporate seal bearing commercial registry and tax identification credentials. Third, an issuance date and traceable archival reference number facilitating swift consular audit. Fourth, exhaustive, verbatim reproduction of all marginal endorsements, revenue stamps, circular seals, and signatures with zero unauthorized omissions.'
+        }
+      },
+      embassiesCompliance: {
+        title: {
+          ar: 'تغطية شاملة لاشتراطات البعثات الدبلوماسية الكبرى في مصر',
+          en: 'Comprehensive Compliance with Major Diplomatic Missions in Egypt'
+        },
+        items: [
+          {
+            name: { ar: 'سفارات دول منطقة شنغن الأوروبية', en: 'European Schengen Member States' },
+            desc: {
+              ar: 'تغطية معتمدة للغات الإنجليزية والفرنسية والألمانية والإيطالية والإسبانية والهولندية وفقاً لكتيبات الاشتراطات القنصلية لمراكز التأشيرات (فرنسا، ألمانيا، إيطاليا، إسبانيا، هولندا، سويسرا، السويد، النمسا، اليونان، وغيرها).',
+              en: 'Full compliance in English, French, German, Italian, Spanish, and Dutch aligned with official visa guidelines for France, Germany, Italy, Spain, Netherlands, Switzerland, Sweden, Austria, Greece, and all Schengen missions.'
+            }
+          },
+          {
+            name: { ar: 'سفارة الولايات المتحدة الأمريكية بالقاهرة (US Embassy)', en: 'Embassy of the United States in Cairo' },
+            desc: {
+              ar: 'مطابقة تامة لتعليمات دائرة الهجرة والجنسية الأمريكية (USCIS) ومكتب الشؤون القنصلية، شاملة إقرار الترجمة القانوني باللغة الإنجليزية وتنسيق الصفحات المماثل للأصل.',
+              en: 'Strict compliance with U.S. Citizenship and Immigration Services (USCIS) and Department of State standards, complete with English certification statements and mirror page layouts.'
+            }
+          },
+          {
+            name: { ar: 'سفارة المملكة المتحدة (UKVI - Home Office)', en: 'United Kingdom Visas & Immigration (UKVI)' },
+            desc: {
+              ar: 'استيفاء الشروط الصارمة للحكومة البريطانية: بيان المترجم المعتمد، إثبات المطابقة، بيانات التواصل، والتاريخ الرسمي، المقبولة لدى VFS Global بالقاهرة والإسكندرية.',
+              en: 'Comprehensive alignment with UK Home Office requirements: verified certified translator credentials, contact details, date, and accuracy declaration accepted by VFS Global.'
+            }
+          },
+          {
+            name: { ar: 'سفارة كندا بالقاهرة ودائرة الهجرة (IRCC)', en: 'Embassy of Canada & IRCC Immigration' },
+            desc: {
+              ar: 'اعتماد رسمي للغتي كندا الرسميتين (الإنجليزية والفرنسية) لملفات الهجرة السريعة (Express Entry)، وتأشيرات الدراسة والعمل ولمّ الشمل.',
+              en: 'Official translation in Canada’s dual official languages (English & French) for Express Entry, study permits, work visas, and family sponsorship.'
+            }
+          },
+          {
+            name: { ar: 'سفارات دول الخليج والملحقيات الثقافية والتجارية', en: 'GCC Embassies & Arab Diplomatic Missions' },
+            desc: {
+              ar: 'ترجمة معتمدة مطابقة لاشتراطات سفارات السعودية والإمارات وقطر والكويت وسلطنة عمان، متوافقة مع متطلبات الملحقيات الثقافية والتصديقات التجارية.',
+              en: 'Certified translations aligned with Saudi Arabia, UAE, Qatar, Kuwait, and Oman embassy criteria, catering to cultural attachés, commercial attestations, and employment visas.'
+            }
+          }
+        ]
+      },
+      prepGuidelines: {
+        title: {
+          ar: 'إرشادات هامة يجب مراعاتها قبل تقديم مستنداتك للترجمة المعتمدة',
+          en: 'Essential Preparation Guidelines Before Submitting Records for Translation'
+        },
+        items: [
+          {
+            ar: 'تأكد من وضوح كافة الأختام والتوقيعات: احرص على أن تكون الصورة الضوئية شاملة لكامل حواف الصفحة مع ظهور أختام النسر والتصديقات الخلفية بوضوح تام.',
+            en: 'Ensure complete legibility of all seals and marginal notes: provide full-bleed scans showing circular official seals and reverse-side endorsements.'
+          },
+          {
+            ar: 'مراجعة الحاجة لتصديق الخارجية: تشترط بعض السفارات تصديق المستند الأصلي لدى مكاتب تصديقات وزارة الخارجية المصرية قبل ترجمته؛ يرجى مراجعة فريقنا للتوجيه الصحيح.',
+            en: 'Verify MFA attestation prerequisites: several European embassies require original certificates to bear fresh Egyptian Ministry of Foreign Affairs seals prior to translation.'
+          },
+          {
+            ar: 'إرفاق صورة جواز السفر: أرسل دائماً صورة من الصفحة الأولى لجواز السفر لكل شخص مذكور في الوثائق لضمان تطابق الحروف الإنجليزية بنسبة 100%.',
+            en: 'Always provide passport biodata copies: ensure personal names for all applicants and family members are transliterated identically to international travel documents.'
+          },
+          {
+            ar: 'مراعاة فترة صلاحية المستندات: تنص لوائح العديد من السفارات على ألا تتجاوز مدة إصدار القيد العائلي أو صحيفة الحالة الجنائية 3 إلى 6 أشهر كحد أقصى.',
+            en: 'Monitor document expiration windows: keep in mind that consular regulations frequently mandate that police records and family certificates be issued within the last 3-6 months.'
+          }
+        ]
+      }
+    },
+    relatedServices: ['legal-translation', 'personal-documents', 'commercial-translation', 'academic-documents']
   },
   'legal-translation': {
     slug: 'legal-translation',

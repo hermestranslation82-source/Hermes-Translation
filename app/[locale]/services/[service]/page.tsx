@@ -70,8 +70,8 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
     'Translators certified by the Egyptian Ministry of Justice with full terminology alignment.',
     'Official certification stamp recognized by all embassies and governmental bodies.',
     'Fast 24-48h delivery with same-day express rush service available.',
-    'Heliopolis branch: El-Obour Buildings, Salah Salem, Bldg 31, 14th floor, Apt 3.',
-    'Giza branch: 1 Cairo University St., Giza Square, 8th Floor, Office 30.',
+    'Heliopolis branch: El-Obour Buildings, Salah Salem, Bldg 31, 14th floor, Apt 163 (Near Fair Zone Metro).',
+    'Giza branch: Omar Effendi Bldg, Giza Square, 8th Floor, Apt 33.',
     'Full and absolute confidentiality of all client data and documents.'
   ];
 
@@ -282,6 +282,31 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               </div>
             ))}
           </div>
+
+          {content.extendedContent?.embassiesCompliance && (
+            <div className="mt-16">
+              <div className="text-center max-w-3xl mx-auto mb-10">
+                <h2 className="font-cairo text-3xl font-black text-slate-950">
+                  {content.extendedContent.embassiesCompliance.title[locale]}
+                </h2>
+                <div className="w-24 h-1 bg-brand-red mx-auto mt-4 rounded"></div>
+              </div>
+
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {content.extendedContent.embassiesCompliance.items.map((embassy, eIdx) => (
+                  <div key={eIdx} className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:border-brand-red/40 transition">
+                    <h3 className="font-cairo text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-brand-red"></span>
+                      {embassy.name[locale]}
+                    </h3>
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      {embassy.desc[locale]}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -394,6 +419,27 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               }
             </div>
           </div>
+
+          {content.extendedContent?.prepGuidelines && (
+            <div className="mt-12 bg-slate-50 border border-slate-200 rounded-2xl p-8 max-w-4xl mx-auto">
+              <h3 className="font-cairo text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <FileText className="w-6 h-6 text-brand-red" />
+                {content.extendedContent.prepGuidelines.title[locale]}
+              </h3>
+              <div className="space-y-4">
+                {content.extendedContent.prepGuidelines.items.map((tip, tipIdx) => (
+                  <div key={tipIdx} className="flex items-start gap-3 bg-white p-4 rounded-xl border shadow-xs">
+                    <span className="w-6 h-6 rounded-full bg-brand-gold/30 text-brand-red-dark font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">
+                      {tipIdx + 1}
+                    </span>
+                    <p className="text-sm md:text-base text-slate-700 leading-relaxed font-medium">
+                      {isRtl ? tip.ar : tip.en}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
