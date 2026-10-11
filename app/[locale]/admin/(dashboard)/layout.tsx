@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { 
-  LayoutDashboard, FileText, Briefcase, Landmark, BookOpen, Settings, LogOut, FileCheck, 
+  LayoutDashboard, Megaphone, FileText, Briefcase, Landmark, BookOpen, Settings, LogOut, FileCheck, 
   Users, Image as ImageIcon, BarChart3, Search, Mail, ShieldAlert, Zap, Globe, MessageSquare, Database
 } from 'lucide-react';
 
@@ -39,6 +39,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     { name: 'Media & Files', icon: ImageIcon, href: `/${locale}/admin/media` },
     { name: 'SEO Auto-Auditor', icon: Search, href: `/${locale}/admin/seo` },
     { name: 'Analytics & Traffic', icon: BarChart3, href: `/${locale}/admin/analytics` },
+    { name: 'Google Ads Campaigns', icon: Megaphone, href: `/${locale}/admin/ads` },
     { name: 'Newsletter Hub', icon: Mail, href: `/${locale}/admin/newsletter` },
     { name: 'Auto-Translators API', icon: Zap, href: `/${locale}/admin/translators` },
     { name: 'Geo-Targeting Map', icon: Globe, href: `/${locale}/admin/geo` },
