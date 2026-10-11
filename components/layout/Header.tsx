@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
@@ -7,16 +7,15 @@ import { company, navItems, type Locale } from '@/data/site';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Logo({ locale, inverted = false, companyName }: { locale: Locale; inverted?: boolean; companyName?: { ar: string; en: string } }) {
-  const name = companyName || company.name;
   return (
-    <Link href={`/${locale}`} className="flex items-center gap-3">
-      <span className={`grid h-11 w-11 place-items-center rounded-lg text-xl font-black ${inverted ? 'bg-white text-brand-red' : 'bg-brand-red text-white'}`}>
-        H
-      </span>
-      <span className="leading-tight">
-        <span className={`block font-cairo text-base font-extrabold ${inverted ? 'text-white' : 'text-brand-red'}`}>{name.ar}</span>
-        <span className={`block font-inter text-xs font-semibold ${inverted ? 'text-white/80' : 'text-brand-red/80'}`}>Hermes Certified Translation</span>
-      </span>
+    <Link href={`/${locale}`} className="group flex items-center transition-opacity hover:opacity-90" aria-label="Hermes Certified Translation Home">
+      <img
+        src={inverted ? "/hermes-logo-white.png" : "/hermes-logo.png"}
+        alt="Hermes Certified Translation"
+        width={180}
+        height={50}
+        className="h-10 sm:h-12 w-auto object-contain"
+      />
     </Link>
   );
 }
