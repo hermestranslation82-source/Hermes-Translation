@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://hermes-certified.com').replace(/https?:\/\/91\.108\.113\.135(:3005)?/g, 'https://hermes-certified.com');
-const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || 'AW-18478710783';
+const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || 'AW-18435734497';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

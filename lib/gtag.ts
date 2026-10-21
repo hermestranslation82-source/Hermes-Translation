@@ -1,11 +1,11 @@
-export const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || 'AW-18478710783';
+export const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || 'AW-18435734497';
 
 // Official Google Ads Conversion Labels
 export const CONVERSION_LABELS = {
-  PHONE: 'AW-18478710783/b3dDCMfjp5kdEP__qutE',
-  WHATSAPP: 'AW-18478710783/eegLCMHAqZkdEP__qutE',
-  EMAIL: 'AW-18478710783/jFJyCMTAqZkdEP__qutE',
-  DIRECTIONS: 'AW-18478710783/7siDCOT1qJkdEP__qutE',
+  PHONE: 'AW-18435734497/b3dDCMfjp5kdEP__qutE',
+  WHATSAPP: 'AW-18435734497/eegLCMHAqZkdEP__qutE',
+  EMAIL: 'AW-18435734497/jFJyCMTAqZkdEP__qutE',
+  DIRECTIONS: 'AW-18435734497/7siDCOT1qJkdEP__qutE',
 };
 
 declare global {
