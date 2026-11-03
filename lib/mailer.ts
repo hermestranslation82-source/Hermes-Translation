@@ -53,3 +53,10 @@ export async function sendLeadEmail({
     attachments
   });
 }
+
+// Non-secret reason for a failed send, safe to return to the client for diagnosis
+export function mailErrorCode(error: unknown) {
+  if (!transporter) return 'not_configured';
+  if ((error as { code?: string })?.code === 'EAUTH') return 'auth_failed';
+  return 'send_failed';
+}

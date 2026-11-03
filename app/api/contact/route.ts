@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { insertRecord } from '@/lib/supabase';
-import { sendLeadEmail } from '@/lib/mailer';
+import { sendLeadEmail, mailErrorCode } from '@/lib/mailer';
 
 export async function POST(request: Request) {
   try {
@@ -23,6 +23,7 @@ export async function POST(request: Request) {
     }
 
     let emailed = false;
+    let mailStatus = 'sent';
     try {
       await sendLeadEmail({
         subject: `رسالة تواصل جديدة من الموقع - ${name || phone || email}`,
@@ -32,11 +33,12 @@ export async function POST(request: Request) {
       emailed = true;
     } catch (mailError) {
       console.error('Contact lead email failed:', mailError);
+      mailStatus = mailErrorCode(mailError);
     }
 
     const saved = Boolean(supabaseResult && !('dryRun' in supabaseResult));
     if (!emailed && !saved) {
-      return NextResponse.json({ ok: false, error: 'Lead was not delivered' }, { status: 500 });
+      return NextResponse.json({ ok: false, error: 'Lead was not delivered', mailStatus }, { status: 500 });
     }
 
     return NextResponse.json({ ok: true, emailed, saved });

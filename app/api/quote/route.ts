@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { insertRecord } from '@/lib/supabase';
-import { sendLeadEmail } from '@/lib/mailer';
+import { sendLeadEmail, mailErrorCode } from '@/lib/mailer';
 
 export async function POST(request: Request) {
   try {
@@ -34,6 +34,7 @@ export async function POST(request: Request) {
     }
 
     let emailed = false;
+    let mailStatus = 'sent';
     try {
       const attachments = document instanceof File && document.size > 0
         ? [{ filename: document.name, content: Buffer.from(await document.arrayBuffer()), contentType: document.type || undefined }]
@@ -57,11 +58,12 @@ export async function POST(request: Request) {
       emailed = true;
     } catch (mailError) {
       console.error('Quote lead email failed:', mailError);
+      mailStatus = mailErrorCode(mailError);
     }
 
     const saved = Boolean(supabaseResult && !('dryRun' in supabaseResult));
     if (!emailed && !saved) {
-      return NextResponse.json({ ok: false, error: 'Lead was not delivered' }, { status: 500 });
+      return NextResponse.json({ ok: false, error: 'Lead was not delivered', mailStatus }, { status: 500 });
     }
 
     return NextResponse.json({ ok: true, emailed, saved, whatsapp: 'https://wa.me/201501591531' });
