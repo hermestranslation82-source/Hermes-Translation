@@ -3,9 +3,7 @@
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { trackPageViewAction } from '@/lib/actions';
-import { 
-  trackWhatsAppConversion, 
-  trackPhoneConversion, 
+import {
   trackEmailConversion,
   trackDirectionsConversion
 } from '@/lib/gtag';
@@ -30,11 +28,8 @@ export default function AnalyticsTracker() {
 
       const href = target.getAttribute('href') || '';
 
-      if (href.includes('wa.me') || href.includes('whatsapp.com')) {
-        trackWhatsAppConversion();
-      } else if (href.startsWith('tel:')) {
-        trackPhoneConversion();
-      } else if (href.startsWith('mailto:')) {
+      // Phone & WhatsApp conversions are handled by ConversionTracker
+      if (href.startsWith('mailto:')) {
         trackEmailConversion();
       } else if (href.includes('maps.google') || href.includes('goo.gl/maps') || href.includes('google.com/maps')) {
         trackDirectionsConversion();

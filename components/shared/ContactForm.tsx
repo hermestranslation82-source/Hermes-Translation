@@ -4,6 +4,7 @@ import { useState } from 'react';
 import type { Locale } from '@/data/site';
 import { toast } from 'sonner';
 import { motion } from 'framer-motion';
+import { trackConversion } from '@/lib/gtag-conversions';
 
 export function ContactForm({ locale }: { locale: Locale }) {
   const [loading, setLoading] = useState(false);
@@ -20,6 +21,8 @@ export function ContactForm({ locale }: { locale: Locale }) {
       });
 
       if (!response.ok) throw new Error();
+
+      trackConversion('contact');
 
       toast.success(
         locale === 'ar' 

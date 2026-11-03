@@ -4,7 +4,8 @@ import { useState } from 'react';
 import type { Locale } from '@/data/site';
 import { toast } from 'sonner';
 import { motion } from 'framer-motion';
-import { trackConversion, trackEvent } from '@/lib/gtag';
+import { trackEvent } from '@/lib/gtag';
+import { trackConversion } from '@/lib/gtag-conversions';
 
 export function QuoteForm({ locale }: { locale: Locale }) {
   const [loading, setLoading] = useState(false);
@@ -63,7 +64,7 @@ export function QuoteForm({ locale }: { locale: Locale }) {
 
       const data = await response.json();
       trackEvent('submit_quote_form', 'Leads', 'Quote Form Request');
-      trackConversion();
+      trackConversion('quoteForm');
 
       toast.success(
         locale === 'ar' 

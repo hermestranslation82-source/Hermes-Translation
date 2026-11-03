@@ -11,7 +11,6 @@ export const CONVERSION_LABELS = {
 declare global {
   interface Window {
     dataLayer: any[];
-    gtag: (...args: any[]) => void;
   }
 }
 
