@@ -25,9 +25,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Hermes Certified Translation' }]
   },
-  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION && process.env.NEXT_PUBLIC_GSC_VERIFICATION !== 'your_verification_code' ? {
-    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION
-  } : undefined
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION && process.env.NEXT_PUBLIC_GSC_VERIFICATION !== 'your_verification_code'
+      ? process.env.NEXT_PUBLIC_GSC_VERIFICATION
+      : 'W_RFnMWR2yuskJZCUCeUHoB1KVmsvLt6RvpsNpJJ9Us'
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
